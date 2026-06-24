@@ -783,9 +783,7 @@ document.addEventListener('keydown',e=>{
 });
 lb.addEventListener('click',e=>{if(e.target===lb)closeLB();});
 
-// Scroll al inicio siempre (guardamos hash antes de borrarlo)
-var _initialHash = window.location.hash;
-if(window.location.hash) history.replaceState(null,null,' ');
+// Scroll al inicio siempre
 window.scrollTo(0,0);
 
 // FORM MODAL
@@ -923,7 +921,7 @@ function closeServiceGallery(id) {
 (function(){
   const validGalleries = ['conciertos','ateneo','kawai','juventudes','artista','hoqai','bodas','branding','graduacion'];
   function openFromHash(){
-    const hash = (window.location.hash || _initialHash || '').replace('#','');
+    const hash = window.location.hash.replace('#','');
     if(validGalleries.includes(hash)){
       setTimeout(function(){ openGallery(hash); }, 300);
     }
