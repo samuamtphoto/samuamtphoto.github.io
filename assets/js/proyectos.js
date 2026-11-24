@@ -880,6 +880,21 @@ window.PROYECTOS = [
   },
   "videos": [
    {
+    "yt": "617JpQqS1nA",
+    "t": "Alumnos inspiradores — Estelle Shircore Barker, pianista",
+    "v": false
+   },
+   {
+    "yt": "_DJU9AbxzUA",
+    "t": "Alumnos inspiradores — Jimena Villalba, pianista",
+    "v": false
+   },
+   {
+    "yt": "T-dT6l5TgwE",
+    "t": "Alumnos inspiradores — Enrique Montesdeoca, futuro doctor en Música por Oxford",
+    "v": false
+   },
+   {
     "yt": "bPTx1eVMbaE",
     "t": "Entrevista a alumnos de Escuela Superior de Música",
     "v": true
