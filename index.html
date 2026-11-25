@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=7">
+<link rel="stylesheet" href="assets/css/styles.css?v=8">
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -87,6 +87,8 @@
   </div>
 
   <section class="manifesto">
+    <!-- Vídeo de fondo: sustituir assets/video/manifiesto.mp4 (y su póster .jpg) por el montaje definitivo -->
+    <video class="manifesto-bg" autoplay muted loop playsinline preload="metadata" poster="assets/video/manifiesto.jpg" aria-hidden="true"><source src="assets/video/manifiesto.mp4" type="video/mp4"></video>
     <h2 class="display reveal" data-es="Cada frame <em>tiene una intención.</em>" data-en="Every frame <em>has a purpose.</em>">Cada frame <em>tiene una intención.</em></h2>
     <p class="reveal" data-es="No documento por documentar: construyo narrativas visuales que sirven al artista, al proyecto y al momento." data-en="I don’t document for the sake of it: I build visual narratives that serve the artist, the project and the moment.">No documento por documentar: construyo narrativas visuales que sirven al artista, al proyecto y al momento.</p>
   </section>
@@ -97,13 +99,11 @@
       <p data-es="Elige qué quieres ver y abre cada proyecto para ver sus fotos y vídeos." data-en="Choose what you want to see and open each project for its photos and videos.">Elige qué quieres ver y abre cada proyecto para ver sus fotos y vídeos.</p>
     </div>
     <div class="filters" role="group" aria-label="Filtrar proyectos">
-      <button data-filter="todo" aria-pressed="true"><span data-es="Todo" data-en="All">Todo</span><span class="n">16</span></button>
-      <button data-filter="clasica" aria-pressed="false"><span data-es="Música clásica" data-en="Classical music">Música clásica</span><span class="n">6</span></button>
-      <button data-filter="artistas" aria-pressed="false"><span data-es="Artistas" data-en="Artists">Artistas</span><span class="n">4</span></button>
-      <button data-filter="bodas" aria-pressed="false"><span data-es="Bodas" data-en="Weddings">Bodas</span><span class="n">1</span></button>
-      <button data-filter="marcas" aria-pressed="false"><span data-es="Marcas y eventos" data-en="Brands &amp; events">Marcas y eventos</span><span class="n">2</span></button>
+      <button data-filter="todo" aria-pressed="true"><span data-es="Todo" data-en="All">Todo</span><span class="n">14</span></button>
+      <button data-filter="clasica" aria-pressed="false"><span data-es="Música clásica" data-en="Classical music">Música clásica</span><span class="n">5</span></button>
+      <button data-filter="artistas" aria-pressed="false"><span data-es="Artistas" data-en="Artists">Artistas</span><span class="n">5</span></button>
+      <button data-filter="marcas" aria-pressed="false"><span data-es="Marcas y eventos" data-en="Brands &amp; events">Marcas y eventos</span><span class="n">3</span></button>
       <button data-filter="motion" aria-pressed="false"><span data-es="Motion graphics" data-en="Motion graphics">Motion graphics</span><span class="n">1</span></button>
-      <button data-filter="personal" aria-pressed="false"><span data-es="Personal" data-en="Personal">Personal</span><span class="n">2</span></button>
     </div>
     <div class="grid">
       <button class="card reveal" data-id="scherzo" data-cat="clasica" aria-label="Fundación Scherzo — Grandes Intérpretes">
@@ -111,40 +111,40 @@
         <span class="card-top"><span class="chip" data-es="Música clásica" data-en="Classical music">Música clásica</span><span class="pill foto" data-es="Foto" data-en="Photo">Foto</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span></span>
         <span class="card-bottom"><span><span class="num">01</span><h3 data-es="Fundación Scherzo" data-en="Fundación Scherzo">Fundación Scherzo</h3><span class="card-meta" data-es="Fotos y reels · Auditorio Nacional — Madrid" data-en="Photos &amp; reels · Auditorio Nacional — Madrid">Fotos y reels · Auditorio Nacional — Madrid</span></span><span class="card-count" data-es="12 fotos · 3 reels" data-en="12 photos · 3 reels">12 fotos · 3 reels</span></span>
       </button>
-      <button class="card reveal" data-id="hinves" data-cat="clasica" aria-label="Hinves Pianos — Recital">
-        <img src="assets/img/hinves/min/portada.jpg" alt="Hinves Pianos — Recital" loading="eager" decoding="async">
-        <span class="card-top"><span class="chip" data-es="Música clásica" data-en="Classical music">Música clásica</span><span class="pill foto" data-es="Foto" data-en="Photo">Foto</span></span>
-        <span class="card-bottom"><span><span class="num">02</span><h3 data-es="Hinves Pianos" data-en="Hinves Pianos">Hinves Pianos</h3><span class="card-meta" data-es="Recital de piano · Sala Hinves — Madrid" data-en="Piano recital · Hinves showroom — Madrid">Recital de piano · Sala Hinves — Madrid</span></span><span class="card-count" data-es="7 fotos" data-en="7 photos">7 fotos</span></span>
-      </button>
       <button class="card reveal" data-id="conciertos" data-cat="clasica" aria-label="Auditorio Nacional de Música">
         <img src="assets/img/portadas/min/01.jpg" alt="Auditorio Nacional de Música" loading="eager" decoding="async">
         <span class="card-top"><span class="chip" data-es="Música clásica" data-en="Classical music">Música clásica</span><span class="pill foto" data-es="Foto" data-en="Photo">Foto</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span></span>
-        <span class="card-bottom"><span><span class="num">03</span><h3 data-es="Auditorio Nacional de Música" data-en="Auditorio Nacional de Música">Auditorio Nacional de Música</h3><span class="card-meta" data-es="Conciertos de piano · Recitales — Madrid" data-en="Piano concerts · Recitals — Madrid">Conciertos de piano · Recitales — Madrid</span></span><span class="card-count" data-es="24 fotos · 2 reels" data-en="24 photos · 2 reels">24 fotos · 2 reels</span></span>
+        <span class="card-bottom"><span><span class="num">02</span><h3 data-es="Auditorio Nacional de Música" data-en="Auditorio Nacional de Música">Auditorio Nacional de Música</h3><span class="card-meta" data-es="Conciertos de piano · Recitales — Madrid" data-en="Piano concerts · Recitals — Madrid">Conciertos de piano · Recitales — Madrid</span></span><span class="card-count" data-es="24 fotos · 2 reels" data-en="24 photos · 2 reels">24 fotos · 2 reels</span></span>
       </button>
       <button class="card reveal" data-id="ateneo" data-cat="clasica" aria-label="Ateneo de Madrid — Sala Cátedra">
-        <img src="assets/img/portadas/min/02.jpg" alt="Ateneo de Madrid — Sala Cátedra" loading="lazy" decoding="async">
+        <img src="assets/img/portadas/min/02.jpg" alt="Ateneo de Madrid — Sala Cátedra" loading="eager" decoding="async">
         <span class="card-top"><span class="chip" data-es="Música clásica" data-en="Classical music">Música clásica</span><span class="pill foto" data-es="Foto" data-en="Photo">Foto</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span></span>
-        <span class="card-bottom"><span><span class="num">04</span><h3 data-es="Ateneo de Madrid" data-en="Ateneo de Madrid">Ateneo de Madrid</h3><span class="card-meta" data-es="Música clásica · Recitales · Actos culturales" data-en="Classical music · Recitals · Cultural events">Música clásica · Recitales · Actos culturales</span></span><span class="card-count" data-es="24 fotos · 4 reels" data-en="24 photos · 4 reels">24 fotos · 4 reels</span></span>
+        <span class="card-bottom"><span><span class="num">03</span><h3 data-es="Ateneo de Madrid" data-en="Ateneo de Madrid">Ateneo de Madrid</h3><span class="card-meta" data-es="Música clásica · Recitales · Actos culturales" data-en="Classical music · Recitals · Cultural events">Música clásica · Recitales · Actos culturales</span></span><span class="card-count" data-es="24 fotos · 4 reels" data-en="24 photos · 4 reels">24 fotos · 4 reels</span></span>
       </button>
       <button class="card reveal" data-id="kawai" data-cat="clasica" aria-label="Kawai Spain — Concurso Shigeru Kawai">
         <img src="assets/img/kawai/min/14.jpg" alt="Kawai Spain — Concurso Shigeru Kawai" loading="lazy" decoding="async">
         <span class="card-top"><span class="chip" data-es="Música clásica" data-en="Classical music">Música clásica</span><span class="pill foto" data-es="Foto" data-en="Photo">Foto</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span></span>
-        <span class="card-bottom"><span><span class="num">05</span><h3 data-es="Kawai Spain" data-en="Kawai Spain">Kawai Spain</h3><span class="card-meta" data-es="Concursos · Conciertos — Madrid · Valencia" data-en="Competitions · Concerts — Madrid · Valencia">Concursos · Conciertos — Madrid · Valencia</span></span><span class="card-count" data-es="26 fotos · 2 reels" data-en="26 photos · 2 reels">26 fotos · 2 reels</span></span>
+        <span class="card-bottom"><span><span class="num">04</span><h3 data-es="Kawai Spain" data-en="Kawai Spain">Kawai Spain</h3><span class="card-meta" data-es="Concursos · Conciertos — Madrid · Valencia" data-en="Competitions · Concerts — Madrid · Valencia">Concursos · Conciertos — Madrid · Valencia</span></span><span class="card-count" data-es="26 fotos · 2 reels" data-en="26 photos · 2 reels">26 fotos · 2 reels</span></span>
       </button>
       <button class="card reveal" data-id="bodas" data-cat="clasica" aria-label="Courtiers — Producción audiovisual">
         <img src="assets/img/portadas/min/04.jpg" alt="Courtiers — Producción audiovisual" loading="lazy" decoding="async">
         <span class="card-top"><span class="chip" data-es="Música clásica" data-en="Classical music">Música clásica</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span></span>
-        <span class="card-bottom"><span><span class="num">06</span><h3 data-es="Courtiers" data-en="Courtiers">Courtiers</h3><span class="card-meta" data-es="Operador de cámara · Música sinfónica" data-en="Camera operator · Symphonic music">Operador de cámara · Música sinfónica</span></span><span class="card-count" data-es="2 vídeos" data-en="2 videos">2 vídeos</span></span>
+        <span class="card-bottom"><span><span class="num">05</span><h3 data-es="Courtiers" data-en="Courtiers">Courtiers</h3><span class="card-meta" data-es="Operador de cámara · Música sinfónica" data-en="Camera operator · Symphonic music">Operador de cámara · Música sinfónica</span></span><span class="card-count" data-es="2 vídeos" data-en="2 videos">2 vídeos</span></span>
       </button>
       <button class="card reveal" data-id="artista" data-cat="artistas" aria-label="El Artista — Proyectos propios">
         <img src="assets/img/portadas/min/05.jpg" alt="El Artista — Proyectos propios" loading="lazy" decoding="async">
         <span class="card-top"><span class="chip" data-es="Artistas" data-en="Artists">Artistas</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span><span class="pill foto" data-es="Foto" data-en="Photo">Foto</span></span>
-        <span class="card-bottom"><span><span class="num">07</span><h3 data-es="El Artista" data-en="The Artist">El Artista</h3><span class="card-meta" data-es="Videoclips · Fotografía — Mariángeles Ayala" data-en="Music videos · Photography — Mariángeles Ayala">Videoclips · Fotografía — Mariángeles Ayala</span></span><span class="card-count" data-es="8 fotos · 3 vídeos" data-en="8 photos · 3 videos">8 fotos · 3 vídeos</span></span>
+        <span class="card-bottom"><span><span class="num">06</span><h3 data-es="El Artista" data-en="The Artist">El Artista</h3><span class="card-meta" data-es="Videoclips · Fotografía — Mariángeles Ayala" data-en="Music videos · Photography — Mariángeles Ayala">Videoclips · Fotografía — Mariángeles Ayala</span></span><span class="card-count" data-es="8 fotos · 3 vídeos" data-en="8 photos · 3 videos">8 fotos · 3 vídeos</span></span>
       </button>
-      <button class="card reveal" data-id="reels-artista" data-cat="artistas" aria-label="Reels de artista">
-        <img src="assets/video/andres-barrios.jpg" alt="Reels de artista" loading="lazy" decoding="async">
+      <button class="card reveal" data-id="hinves" data-cat="artistas" aria-label="Emily — Recital en Hinves Pianos">
+        <img src="assets/img/hinves/min/portada.jpg" alt="Emily — Recital en Hinves Pianos" loading="lazy" decoding="async">
+        <span class="card-top"><span class="chip" data-es="Artistas" data-en="Artists">Artistas</span><span class="pill foto" data-es="Foto" data-en="Photo">Foto</span></span>
+        <span class="card-bottom"><span><span class="num">07</span><h3 data-es="Emily" data-en="Emily">Emily</h3><span class="card-meta" data-es="Pianista · Recital en Hinves Pianos — Madrid" data-en="Pianist · Recital at Hinves Pianos — Madrid">Pianista · Recital en Hinves Pianos — Madrid</span></span><span class="card-count" data-es="7 fotos" data-en="7 photos">7 fotos</span></span>
+      </button>
+      <button class="card reveal" data-id="reels-artista" data-cat="artistas" aria-label="Andrés Barrios — Reel">
+        <img src="assets/video/andres-barrios.jpg" alt="Andrés Barrios — Reel" loading="lazy" decoding="async">
         <span class="card-top"><span class="chip" data-es="Artistas" data-en="Artists">Artistas</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span></span>
-        <span class="card-bottom"><span><span class="num">08</span><h3 data-es="Reels de artista" data-en="Artist reels">Reels de artista</h3><span class="card-meta" data-es="Vídeo vertical para músicos" data-en="Vertical video for musicians">Vídeo vertical para músicos</span></span><span class="card-count" data-es="2 reels" data-en="2 reels">2 reels</span></span>
+        <span class="card-bottom"><span><span class="num">08</span><h3 data-es="Andrés Barrios" data-en="Andrés Barrios">Andrés Barrios</h3><span class="card-meta" data-es="Vídeo vertical · Pianista" data-en="Vertical video · Pianist">Vídeo vertical · Pianista</span></span><span class="card-count" data-es="1 reel" data-en="1 reel">1 reel</span></span>
       </button>
       <button class="card reveal" data-id="branding" data-cat="artistas" aria-label="Artist Branding">
         <img src="assets/img/branding/min/01.jpg" alt="Artist Branding" loading="lazy" decoding="async">
@@ -156,15 +156,15 @@
         <span class="card-top"><span class="chip" data-es="Artistas" data-en="Artists">Artistas</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span></span>
         <span class="card-bottom"><span><span class="num">10</span><h3 data-es="Entrevistas &amp; Retratos" data-en="Interviews &amp; Portraits">Entrevistas &amp; Retratos</h3><span class="card-meta" data-es="Entrevistas en vídeo · Músicos y artistas" data-en="Video interviews · Musicians and artists">Entrevistas en vídeo · Músicos y artistas</span></span><span class="card-count" data-es="3 vídeos · 1 reel" data-en="3 videos · 1 reel">3 vídeos · 1 reel</span></span>
       </button>
-      <button class="card reveal" data-id="bodas-films" data-cat="bodas" aria-label="Bodas">
-        <img src="assets/img/portadas/min/bodas.jpg" alt="Bodas" loading="lazy" decoding="async">
-        <span class="card-top"><span class="chip" data-es="Bodas" data-en="Weddings">Bodas</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span></span>
-        <span class="card-bottom"><span><span class="num">11</span><h3 data-es="Bodas" data-en="Weddings">Bodas</h3><span class="card-meta" data-es="Películas de boda" data-en="Wedding films">Películas de boda</span></span><span class="card-count" data-es="3 vídeos" data-en="3 videos">3 vídeos</span></span>
-      </button>
       <button class="card reveal" data-id="hoqai" data-cat="marcas" aria-label="Moda &amp; Marcas personales">
         <img src="assets/img/portadas/min/07.jpg" alt="Moda &amp; Marcas personales" loading="lazy" decoding="async">
         <span class="card-top"><span class="chip" data-es="Marcas y eventos" data-en="Brands &amp; events">Marcas y eventos</span><span class="pill foto" data-es="Foto" data-en="Photo">Foto</span></span>
-        <span class="card-bottom"><span><span class="num">12</span><h3 data-es="Moda &amp; Marcas personales" data-en="Fashion &amp; Personal brands">Moda &amp; Marcas personales</h3><span class="card-meta" data-es="Campañas de fotografía y grabación — HOQAI" data-en="Photo &amp; video campaigns — HOQAI">Campañas de fotografía y grabación — HOQAI</span></span><span class="card-count" data-es="25 fotos" data-en="25 photos">25 fotos</span></span>
+        <span class="card-bottom"><span><span class="num">11</span><h3 data-es="Moda &amp; Marcas personales" data-en="Fashion &amp; Personal brands">Moda &amp; Marcas personales</h3><span class="card-meta" data-es="Campañas de fotografía y grabación — HOQAI" data-en="Photo &amp; video campaigns — HOQAI">Campañas de fotografía y grabación — HOQAI</span></span><span class="card-count" data-es="25 fotos" data-en="25 photos">25 fotos</span></span>
+      </button>
+      <button class="card reveal" data-id="musical-arts" data-cat="marcas" aria-label="Musical Arts — Promo">
+        <img src="assets/video/violin-madrid.jpg" alt="Musical Arts — Promo" loading="lazy" decoding="async">
+        <span class="card-top"><span class="chip" data-es="Marcas y eventos" data-en="Brands &amp; events">Marcas y eventos</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span></span>
+        <span class="card-bottom"><span><span class="num">12</span><h3 data-es="Musical Arts" data-en="Musical Arts">Musical Arts</h3><span class="card-meta" data-es="Campaña de inscripciones · Escuela de música" data-en="Enrolment campaign · Music school">Campaña de inscripciones · Escuela de música</span></span><span class="card-count" data-es="1 reel" data-en="1 reel">1 reel</span></span>
       </button>
       <button class="card reveal" data-id="graduacion" data-cat="marcas" aria-label="Graduaciones &amp; Actos académicos">
         <img src="assets/img/portadas/min/06.jpg" alt="Graduaciones &amp; Actos académicos" loading="lazy" decoding="async">
@@ -175,16 +175,6 @@
         <img src="assets/video/scherzo-grandes-interpretes.jpg" alt="Motion graphics" loading="lazy" decoding="async">
         <span class="card-top"><span class="chip" data-es="Motion graphics" data-en="Motion graphics">Motion graphics</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span></span>
         <span class="card-bottom"><span><span class="num">14</span><h3 data-es="Motion graphics" data-en="Motion graphics">Motion graphics</h3><span class="card-meta" data-es="Animación de cartelería · Fundación Scherzo" data-en="Poster animation · Fundación Scherzo">Animación de cartelería · Fundación Scherzo</span></span><span class="card-count" data-es="3 reels" data-en="3 reels">3 reels</span></span>
-      </button>
-      <button class="card reveal" data-id="viajes" data-cat="personal" aria-label="Travel films">
-        <img src="assets/img/portadas/min/viajes.jpg" alt="Travel films" loading="lazy" decoding="async">
-        <span class="card-top"><span class="chip" data-es="Personal" data-en="Personal">Personal</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span></span>
-        <span class="card-bottom"><span><span class="num">15</span><h3 data-es="Travel films" data-en="Travel films">Travel films</h3><span class="card-meta" data-es="Andalucía · Proyectos personales" data-en="Andalusia · Personal projects">Andalucía · Proyectos personales</span></span><span class="card-count" data-es="5 vídeos" data-en="5 videos">5 vídeos</span></span>
-      </button>
-      <button class="card reveal" data-id="street" data-cat="personal" aria-label="Street photography">
-        <img src="assets/img/portadas/min/street.jpg" alt="Street photography" loading="lazy" decoding="async">
-        <span class="card-top"><span class="chip" data-es="Personal" data-en="Personal">Personal</span><span class="pill video" data-es="Vídeo" data-en="Video">Vídeo</span></span>
-        <span class="card-bottom"><span><span class="num">16</span><h3 data-es="Street photography" data-en="Street photography">Street photography</h3><span class="card-meta" data-es="Retratos a desconocidos · Madrid" data-en="Portraits of strangers · Madrid">Retratos a desconocidos · Madrid</span></span><span class="card-count" data-es="5 reels" data-en="5 reels">5 reels</span></span>
       </button>
     </div>
   </section>
@@ -199,8 +189,8 @@
         <button class="vcard reveal vertical" data-src="assets/video/scherzo-beatrice-rana.mp4" data-prev="assets/video/scherzo-beatrice-rana-prev.mp4" data-v="1" aria-label="Ver vídeo: Beatrice Rana — Reel del concierto"><div class="frame"><img src="assets/video/scherzo-beatrice-rana.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Fundación Scherzo" data-en="Fundación Scherzo">Fundación Scherzo</small>Beatrice Rana — Reel del concierto</span></div></button>
         <button class="vcard reveal vertical" data-src="assets/video/scherzo-sokolov.mp4" data-prev="assets/video/scherzo-sokolov-prev.mp4" data-v="1" aria-label="Ver vídeo: Reel con entrevistas al público"><div class="frame"><img src="assets/video/scherzo-sokolov.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Fundación Scherzo" data-en="Fundación Scherzo">Fundación Scherzo</small>Reel con entrevistas al público</span></div></button>
         <button class="vcard reveal vertical" data-src="assets/video/scherzo-reel.mp4" data-prev="assets/video/scherzo-reel-prev.mp4" data-v="1" aria-label="Ver vídeo: Grandes Intérpretes — Reel"><div class="frame"><img src="assets/video/scherzo-reel.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Fundación Scherzo" data-en="Fundación Scherzo">Fundación Scherzo</small>Grandes Intérpretes — Reel</span></div></button>
-        <button class="vcard reveal vertical" data-src="assets/video/andres-barrios.mp4" data-prev="assets/video/andres-barrios-prev.mp4" data-v="1" aria-label="Ver vídeo: Andrés Barrios — pianista"><div class="frame"><img src="assets/video/andres-barrios.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Reels de artista" data-en="Artist reels">Reels de artista</small>Andrés Barrios — pianista</span></div></button>
-        <button class="vcard reveal vertical" data-src="assets/video/violin-madrid.mp4" data-prev="assets/video/violin-madrid-prev.mp4" data-v="1" aria-label="Ver vídeo: Violín en Madrid"><div class="frame"><img src="assets/video/violin-madrid.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Reels de artista" data-en="Artist reels">Reels de artista</small>Violín en Madrid</span></div></button>
+        <button class="vcard reveal vertical" data-src="assets/video/andres-barrios.mp4" data-prev="assets/video/andres-barrios-prev.mp4" data-v="1" aria-label="Ver vídeo: Andrés Barrios — pianista"><div class="frame"><img src="assets/video/andres-barrios.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Andrés Barrios" data-en="Andrés Barrios">Andrés Barrios</small>Andrés Barrios — pianista</span></div></button>
+        <button class="vcard reveal vertical" data-src="assets/video/violin-madrid.mp4" data-prev="assets/video/violin-madrid-prev.mp4" data-v="1" aria-label="Ver vídeo: Musical Arts — Inscripciones abiertas"><div class="frame"><img src="assets/video/violin-madrid.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Musical Arts" data-en="Musical Arts">Musical Arts</small>Musical Arts — Inscripciones abiertas</span></div></button>
         <button class="vcard reveal vertical" data-yt="wtEYdJoO_bI" data-v="1" aria-label="Ver vídeo: Eva Gevorgyan — Auditorio Nacional"><div class="frame"><img src="https://i.ytimg.com/vi/wtEYdJoO_bI/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Auditorio Nacional de Música" data-en="Auditorio Nacional de Música">Auditorio Nacional de Música</small>Eva Gevorgyan — Auditorio Nacional</span></div></button>
         <button class="vcard reveal vertical" data-yt="0ESE6CQ8Rg4" data-v="1" aria-label="Ver vídeo: Trío Paquito D&#x27;Rivera"><div class="frame"><img src="https://i.ytimg.com/vi/0ESE6CQ8Rg4/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Auditorio Nacional de Música" data-en="Auditorio Nacional de Música">Auditorio Nacional de Música</small>Trío Paquito D&#x27;Rivera</span></div></button>
         <button class="vcard reveal vertical" data-yt="07aL2wJJ7MY" data-v="1" aria-label="Ver vídeo: Festival Alicia de Larrocha"><div class="frame"><img src="https://i.ytimg.com/vi/07aL2wJJ7MY/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Ateneo de Madrid" data-en="Ateneo de Madrid">Ateneo de Madrid</small>Festival Alicia de Larrocha</span></div></button>
@@ -211,17 +201,16 @@
         <button class="vcard reveal vertical" data-yt="SyVJ0aAoZ0U" data-v="1" aria-label="Ver vídeo: Recap — Concurso Shigeru Kawai"><div class="frame"><img src="https://i.ytimg.com/vi/SyVJ0aAoZ0U/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Kawai Spain" data-en="Kawai Spain">Kawai Spain</small>Recap — Concurso Shigeru Kawai</span></div></button>
         <button class="vcard reveal vertical" data-yt="bPTx1eVMbaE" data-v="1" aria-label="Ver vídeo: Entrevista a alumnos de Escuela Superior de Música"><div class="frame"><img src="https://i.ytimg.com/vi/bPTx1eVMbaE/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Entrevistas &amp; Retratos" data-en="Interviews &amp; Portraits">Entrevistas &amp; Retratos</small>Entrevista a alumnos de Escuela Superior de Música</span></div></button>
     </div>
-    <div class="sub-head"><h3 data-es="Films &amp; videoclips" data-en="Films &amp; music videos">Films &amp; videoclips</h3><span>9</span></div>
+    <div class="sub-head"><h3 data-es="Films &amp; videoclips" data-en="Films &amp; music videos">Films &amp; videoclips</h3><span>8</span></div>
     <div class="films">
-        <button class="vcard reveal" data-yt="XZcwx3rbKJ8" data-v="0" aria-label="Ver vídeo: Harold y Andrea"><div class="frame"><img src="https://i.ytimg.com/vi/XZcwx3rbKJ8/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Bodas" data-en="Weddings">Bodas</small>Harold y Andrea</span></div></button>
-        <button class="vcard reveal" data-yt="DI3qeojUjlY" data-v="0" aria-label="Ver vídeo: Alexandra y Julio"><div class="frame"><img src="https://i.ytimg.com/vi/DI3qeojUjlY/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Bodas" data-en="Weddings">Bodas</small>Alexandra y Julio</span></div></button>
-        <button class="vcard reveal" data-yt="oZ4DRTuHsdA" data-v="0" aria-label="Ver vídeo: Henry y Carelia"><div class="frame"><img src="https://i.ytimg.com/vi/oZ4DRTuHsdA/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Bodas" data-en="Weddings">Bodas</small>Henry y Carelia</span></div></button>
         <button class="vcard reveal" data-yt="vtjjSkWkWlE" data-v="0" aria-label="Ver vídeo: Beethoven · Sinfonía nº 9 «Coral» — Dir. Guillermo García Calvo"><div class="frame"><img src="https://i.ytimg.com/vi/vtjjSkWkWlE/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Courtiers" data-en="Courtiers">Courtiers</small>Beethoven · Sinfonía nº 9 «Coral» — Dir. Guillermo García Calvo</span></div></button>
         <button class="vcard reveal" data-yt="CBXt23a6LLw" data-v="0" aria-label="Ver vídeo: Rachmáninov · Sinfonía nº 2 — Dir. György Győriványi Ráth"><div class="frame"><img src="https://i.ytimg.com/vi/CBXt23a6LLw/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Courtiers" data-en="Courtiers">Courtiers</small>Rachmáninov · Sinfonía nº 2 — Dir. György Győriványi Ráth</span></div></button>
         <button class="vcard reveal" data-yt="GxpLV1QJVcg" data-v="0" aria-label="Ver vídeo: Infancia"><div class="frame"><img src="https://i.ytimg.com/vi/GxpLV1QJVcg/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="El Artista" data-en="The Artist">El Artista</small>Infancia</span></div></button>
         <button class="vcard reveal" data-yt="i6CvcKyFatY" data-v="0" aria-label="Ver vídeo: Juventud"><div class="frame"><img src="https://i.ytimg.com/vi/i6CvcKyFatY/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="El Artista" data-en="The Artist">El Artista</small>Juventud</span></div></button>
         <button class="vcard reveal" data-yt="rEvzMY-ob4Y" data-v="0" aria-label="Ver vídeo: Legado"><div class="frame"><img src="https://i.ytimg.com/vi/rEvzMY-ob4Y/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="El Artista" data-en="The Artist">El Artista</small>Legado</span></div></button>
-        <button class="vcard reveal" data-yt="ljr67-Yy22Y" data-v="0" aria-label="Ver vídeo: Granada — Travel film"><div class="frame"><img src="https://i.ytimg.com/vi/ljr67-Yy22Y/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Travel films" data-en="Travel films">Travel films</small>Granada — Travel film</span></div></button>
+        <button class="vcard reveal" data-yt="617JpQqS1nA" data-v="0" aria-label="Ver vídeo: Alumnos inspiradores — Estelle Shircore Barker, pianista"><div class="frame"><img src="https://i.ytimg.com/vi/617JpQqS1nA/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Entrevistas &amp; Retratos" data-en="Interviews &amp; Portraits">Entrevistas &amp; Retratos</small>Alumnos inspiradores — Estelle Shircore Barker, pianista</span></div></button>
+        <button class="vcard reveal" data-yt="_DJU9AbxzUA" data-v="0" aria-label="Ver vídeo: Alumnos inspiradores — Jimena Villalba, pianista"><div class="frame"><img src="https://i.ytimg.com/vi/_DJU9AbxzUA/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Entrevistas &amp; Retratos" data-en="Interviews &amp; Portraits">Entrevistas &amp; Retratos</small>Alumnos inspiradores — Jimena Villalba, pianista</span></div></button>
+        <button class="vcard reveal" data-yt="T-dT6l5TgwE" data-v="0" aria-label="Ver vídeo: Alumnos inspiradores — Enrique Montesdeoca, futuro doctor en Música por Oxford"><div class="frame"><img src="https://i.ytimg.com/vi/T-dT6l5TgwE/hqdefault.jpg" alt="" loading="lazy" decoding="async"><span class="play"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="vt"><small data-es="Entrevistas &amp; Retratos" data-en="Interviews &amp; Portraits">Entrevistas &amp; Retratos</small>Alumnos inspiradores — Enrique Montesdeoca, futuro doctor en Música por Oxford</span></div></button>
     </div>
   </section>
 
@@ -233,7 +222,7 @@
     <ul class="services">
       <li class="service reveal">
         <button aria-expanded="false"><span class="s-num">01</span><span class="s-title" data-es="Fotografía de conciertos y eventos" data-en="Concert &amp; event photography">Fotografía de conciertos y eventos</span><span class="s-lead" data-es="Conciertos, recitales, festivales, actos culturales y académicos." data-en="Concerts, recitals, festivals, cultural and academic events.">Conciertos, recitales, festivales, actos culturales y académicos.</span><span class="plus" aria-hidden="true"></span></button>
-        <div class="s-body"><div><ul><li data-es="Conciertos y recitales" data-en="Concerts and recitals">Conciertos y recitales</li><li data-es="Festivales y concursos" data-en="Festivals and competitions">Festivales y concursos</li><li data-es="Graduaciones" data-en="Graduations">Graduaciones</li><li data-es="Bodas" data-en="Weddings">Bodas</li></ul><a class="s-more" href="#trabajo" data-goto="clasica" data-es="Ver conciertos →" data-en="See concerts →">Ver conciertos →</a></div></div>
+        <div class="s-body"><div><ul><li data-es="Conciertos y recitales" data-en="Concerts and recitals">Conciertos y recitales</li><li data-es="Festivales y concursos" data-en="Festivals and competitions">Festivales y concursos</li><li data-es="Graduaciones" data-en="Graduations">Graduaciones</li></ul><a class="s-more" href="#trabajo" data-goto="clasica" data-es="Ver conciertos →" data-en="See concerts →">Ver conciertos →</a></div></div>
       </li>
       <li class="service reveal">
         <button aria-expanded="false"><span class="s-num">02</span><span class="s-title" data-es="Vídeo y filmmaking" data-en="Video &amp; filmmaking">Vídeo y filmmaking</span><span class="s-lead" data-es="Reels, aftermovies, videoclips y grabación multicámara de conciertos." data-en="Reels, aftermovies, music videos and multi-camera concert recording.">Reels, aftermovies, videoclips y grabación multicámara de conciertos.</span><span class="plus" aria-hidden="true"></span></button>
@@ -246,10 +235,6 @@
       <li class="service reveal">
         <button aria-expanded="false"><span class="s-num">04</span><span class="s-title" data-es="Postproducción y motion graphics" data-en="Post-production &amp; motion graphics">Postproducción y motion graphics</span><span class="s-lead" data-es="Montaje, etalonaje, rótulos animados y subtítulos en varios idiomas." data-en="Editing, color grading, animated titles and multilingual subtitles.">Montaje, etalonaje, rótulos animados y subtítulos en varios idiomas.</span><span class="plus" aria-hidden="true"></span></button>
         <div class="s-body"><div><ul><li data-es="Montaje" data-en="Editing">Montaje</li><li data-es="Etalonaje (DaVinci Resolve)" data-en="Color grading (DaVinci Resolve)">Etalonaje (DaVinci Resolve)</li><li data-es="Rótulos y gráficos animados" data-en="Animated titles and graphics">Rótulos y gráficos animados</li><li data-es="Subtítulos ES · EN · IT · DE · PT" data-en="Subtitles ES · EN · IT · DE · PT">Subtítulos ES · EN · IT · DE · PT</li><li data-es="Campañas para redes" data-en="Social media campaigns">Campañas para redes</li></ul><a class="s-more" href="#trabajo" data-goto="motion" data-es="Ver motion graphics →" data-en="See motion graphics →">Ver motion graphics →</a></div></div>
-      </li>
-      <li class="service reveal">
-        <button aria-expanded="false"><span class="s-num">05</span><span class="s-title" data-es="Bodas" data-en="Weddings">Bodas</span><span class="s-lead" data-es="Películas de boda con mirada cinematográfica, del preparativo al baile." data-en="Wedding films with a cinematic eye, from getting ready to the first dance.">Películas de boda con mirada cinematográfica, del preparativo al baile.</span><span class="plus" aria-hidden="true"></span></button>
-        <div class="s-body"><div><ul><li data-es="Película de boda" data-en="Wedding film">Película de boda</li><li data-es="Tráiler para redes" data-en="Social media trailer">Tráiler para redes</li><li data-es="Fotografía" data-en="Photography">Fotografía</li></ul><a class="s-more" href="#trabajo" data-goto="bodas" data-es="Ver bodas →" data-en="See weddings →">Ver bodas →</a></div></div>
       </li>
     </ul>
   </section>
@@ -336,7 +321,7 @@
       <a href="/politica-cookies.html" data-es="Cookies" data-en="Cookies">Cookies</a>
     </nav>
   </div>
-  <p class="seo">SM Visuals es el estudio fotográfico y audiovisual de Samuel Mejia, fotógrafo de conciertos en Madrid especializado en música clásica, recitales y artes escénicas, con presencia habitual en el Auditorio Nacional de Música y el Ateneo de Madrid. Ofrece fotografía de artistas y músicos (artist branding), filmmaking, postproducción y motion graphics, fotografía de bodas y campañas visuales para marcas, en Madrid, en toda España y a nivel internacional.</p>
+  <p class="seo">SM Visuals es el estudio fotográfico y audiovisual de Samuel Mejia, fotógrafo de conciertos en Madrid especializado en música clásica, recitales y artes escénicas, con presencia habitual en el Auditorio Nacional de Música y el Ateneo de Madrid. Ofrece fotografía de artistas y músicos (artist branding), filmmaking, postproducción y motion graphics y campañas visuales para marcas, en Madrid, en toda España y a nivel internacional.</p>
 </footer>
 
 <div class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="panel-title" aria-hidden="true"></div>
@@ -349,7 +334,7 @@
   <div class="v-count"></div>
 </div>
 
-<script src="assets/js/proyectos.js?v=7"></script>
-<script src="assets/js/main.js?v=7"></script>
+<script src="assets/js/proyectos.js?v=8"></script>
+<script src="assets/js/main.js?v=8"></script>
 </body>
 </html>

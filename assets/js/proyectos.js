@@ -134,81 +134,8 @@ window.PROYECTOS = [
   "cat": "clasica"
  },
  {
-  "id": "hinves",
-  "n": "02",
-  "tags": [
-   "foto"
-  ],
-  "cover": "assets/img/hinves/min/portada.jpg",
-  "titulo": {
-   "es": "Hinves Pianos — Recital",
-   "en": "Hinves Pianos — Recital"
-  },
-  "meta": {
-   "es": "Recital de piano · Sala Hinves — Madrid",
-   "en": "Piano recital · Hinves showroom — Madrid"
-  },
-  "intro": {
-   "es": "Fotografía de un recital de piano en la sala de Hinves Pianos, en Madrid.",
-   "en": "Photography of a piano recital at the Hinves Pianos showroom in Madrid."
-  },
-  "videos": [],
-  "fotos": [
-   {
-    "s": "assets/img/hinves/01.jpg",
-    "m": "assets/img/hinves/min/01.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Recital en Hinves Pianos"
-   },
-   {
-    "s": "assets/img/hinves/02.jpg",
-    "m": "assets/img/hinves/min/02.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Emily junto al piano"
-   },
-   {
-    "s": "assets/img/hinves/03.jpg",
-    "m": "assets/img/hinves/min/03.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Manos y teclado"
-   },
-   {
-    "s": "assets/img/hinves/04.jpg",
-    "m": "assets/img/hinves/min/04.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Escenario de la sala"
-   },
-   {
-    "s": "assets/img/hinves/05.jpg",
-    "m": "assets/img/hinves/min/05.jpg",
-    "w": 900,
-    "h": 600,
-    "a": "Público del recital"
-   },
-   {
-    "s": "assets/img/hinves/06.jpg",
-    "m": "assets/img/hinves/min/06.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Reflejos en el piano"
-   },
-   {
-    "s": "assets/img/hinves/07.jpg",
-    "m": "assets/img/hinves/min/07.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Retrato — Emily"
-   }
-  ],
-  "cat": "clasica"
- },
- {
   "id": "conciertos",
-  "n": "03",
+  "n": "02",
   "tags": [
    "foto",
    "video"
@@ -412,7 +339,7 @@ window.PROYECTOS = [
  },
  {
   "id": "ateneo",
-  "n": "04",
+  "n": "03",
   "tags": [
    "foto",
    "video"
@@ -626,7 +553,7 @@ window.PROYECTOS = [
  },
  {
   "id": "kawai",
-  "n": "05",
+  "n": "04",
   "tags": [
    "foto",
    "video"
@@ -844,7 +771,7 @@ window.PROYECTOS = [
  },
  {
   "id": "bodas",
-  "n": "06",
+  "n": "05",
   "tags": [
    "video"
   ],
@@ -878,7 +805,7 @@ window.PROYECTOS = [
  },
  {
   "id": "artista",
-  "n": "07",
+  "n": "06",
   "tags": [
    "video",
    "foto"
@@ -974,6 +901,79 @@ window.PROYECTOS = [
   "cat": "artistas"
  },
  {
+  "id": "hinves",
+  "n": "07",
+  "tags": [
+   "foto"
+  ],
+  "cover": "assets/img/hinves/min/portada.jpg",
+  "titulo": {
+   "es": "Emily — Recital en Hinves Pianos",
+   "en": "Emily — Recital at Hinves Pianos"
+  },
+  "meta": {
+   "es": "Pianista · Recital en Hinves Pianos — Madrid",
+   "en": "Pianist · Recital at Hinves Pianos — Madrid"
+  },
+  "intro": {
+   "es": "Fotografía del recital de la pianista Emily en la sala de Hinves Pianos, en Madrid: retrato, interpretación y ambiente.",
+   "en": "Photography of pianist Emily’s recital at the Hinves Pianos showroom in Madrid: portrait, performance and atmosphere."
+  },
+  "videos": [],
+  "fotos": [
+   {
+    "s": "assets/img/hinves/01.jpg",
+    "m": "assets/img/hinves/min/01.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Recital en Hinves Pianos"
+   },
+   {
+    "s": "assets/img/hinves/02.jpg",
+    "m": "assets/img/hinves/min/02.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Emily junto al piano"
+   },
+   {
+    "s": "assets/img/hinves/03.jpg",
+    "m": "assets/img/hinves/min/03.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Manos y teclado"
+   },
+   {
+    "s": "assets/img/hinves/04.jpg",
+    "m": "assets/img/hinves/min/04.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Escenario de la sala"
+   },
+   {
+    "s": "assets/img/hinves/05.jpg",
+    "m": "assets/img/hinves/min/05.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Público del recital"
+   },
+   {
+    "s": "assets/img/hinves/06.jpg",
+    "m": "assets/img/hinves/min/06.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Reflejos en el piano"
+   },
+   {
+    "s": "assets/img/hinves/07.jpg",
+    "m": "assets/img/hinves/min/07.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Retrato — Emily"
+   }
+  ],
+  "cat": "artistas"
+ },
+ {
   "id": "reels-artista",
   "cat": "artistas",
   "tags": [
@@ -981,16 +981,16 @@ window.PROYECTOS = [
   ],
   "cover": "assets/video/andres-barrios.jpg",
   "titulo": {
-   "es": "Reels de artista",
-   "en": "Artist reels"
+   "es": "Andrés Barrios — Reel",
+   "en": "Andrés Barrios — Reel"
   },
   "meta": {
-   "es": "Vídeo vertical para músicos",
-   "en": "Vertical video for musicians"
+   "es": "Vídeo vertical · Pianista",
+   "en": "Vertical video · Pianist"
   },
   "intro": {
-   "es": "Piezas verticales para que el artista se presente en redes: interpretación, imagen y ritmo pensados para el móvil.",
-   "en": "Vertical pieces for artists to present themselves on social media: performance, image and pacing designed for mobile."
+   "es": "Pieza vertical para que el artista se presente en redes: interpretación, imagen y ritmo pensados para el móvil.",
+   "en": "A vertical piece for the artist to present himself on social media: performance, image and pacing designed for mobile."
   },
   "videos": [
    {
@@ -998,13 +998,6 @@ window.PROYECTOS = [
     "poster": "assets/video/andres-barrios.jpg",
     "prev": "assets/video/andres-barrios-prev.mp4",
     "t": "Andrés Barrios — pianista",
-    "v": true
-   },
-   {
-    "src": "assets/video/violin-madrid.mp4",
-    "poster": "assets/video/violin-madrid.jpg",
-    "prev": "assets/video/violin-madrid-prev.mp4",
-    "t": "Violín en Madrid",
     "v": true
    }
   ],
@@ -1157,47 +1150,8 @@ window.PROYECTOS = [
   "cat": "artistas"
  },
  {
-  "id": "bodas-films",
-  "cat": "bodas",
-  "tags": [
-   "video"
-  ],
-  "cover": "assets/img/portadas/min/bodas.jpg",
-  "titulo": {
-   "es": "Bodas",
-   "en": "Weddings"
-  },
-  "meta": {
-   "es": "Películas de boda",
-   "en": "Wedding films"
-  },
-  "intro": {
-   "es": "Películas de boda con mirada cinematográfica: la emoción del día contada como una historia.",
-   "en": "Wedding films with a cinematic eye: the emotion of the day told as a story."
-  },
-  "videos": [
-   {
-    "yt": "XZcwx3rbKJ8",
-    "t": "Harold y Andrea",
-    "v": false
-   },
-   {
-    "yt": "DI3qeojUjlY",
-    "t": "Alexandra y Julio",
-    "v": false
-   },
-   {
-    "yt": "oZ4DRTuHsdA",
-    "t": "Henry y Carelia",
-    "v": false
-   }
-  ],
-  "fotos": [],
-  "n": "11"
- },
- {
   "id": "hoqai",
-  "n": "12",
+  "n": "11",
   "tags": [
    "foto"
   ],
@@ -1393,6 +1347,37 @@ window.PROYECTOS = [
    }
   ],
   "cat": "marcas"
+ },
+ {
+  "id": "musical-arts",
+  "cat": "marcas",
+  "tags": [
+   "video"
+  ],
+  "cover": "assets/video/violin-madrid.jpg",
+  "titulo": {
+   "es": "Musical Arts — Promo",
+   "en": "Musical Arts — Promo"
+  },
+  "meta": {
+   "es": "Campaña de inscripciones · Escuela de música",
+   "en": "Enrolment campaign · Music school"
+  },
+  "intro": {
+   "es": "Vídeo vertical para la campaña de inscripciones de la escuela Musical Arts.",
+   "en": "Vertical video for the Musical Arts school enrolment campaign."
+  },
+  "videos": [
+   {
+    "src": "assets/video/violin-madrid.mp4",
+    "poster": "assets/video/violin-madrid.jpg",
+    "prev": "assets/video/violin-madrid-prev.mp4",
+    "t": "Musical Arts — Inscripciones abiertas",
+    "v": true
+   }
+  ],
+  "fotos": [],
+  "n": "12"
  },
  {
   "id": "graduacion",
@@ -1603,103 +1588,5 @@ window.PROYECTOS = [
   "fotos": [],
   "prev": "assets/video/scherzo-grandes-interpretes-prev.mp4",
   "n": "14"
- },
- {
-  "id": "viajes",
-  "cat": "personal",
-  "tags": [
-   "video"
-  ],
-  "cover": "assets/img/portadas/min/viajes.jpg",
-  "titulo": {
-   "es": "Travel films",
-   "en": "Travel films"
-  },
-  "meta": {
-   "es": "Andalucía · Proyectos personales",
-   "en": "Andalusia · Personal projects"
-  },
-  "intro": {
-   "es": "Películas de viaje y proyectos personales donde experimento con ritmo, color y narrativa.",
-   "en": "Travel films and personal projects where I experiment with pacing, colour and storytelling."
-  },
-  "videos": [
-   {
-    "yt": "ljr67-Yy22Y",
-    "t": "Granada — Travel film",
-    "v": false
-   },
-   {
-    "yt": "UaQwp7A7i5s",
-    "t": "Sevilla — Travel film",
-    "v": false
-   },
-   {
-    "yt": "wC27ywfTHmQ",
-    "t": "Cádiz",
-    "v": false
-   },
-   {
-    "yt": "a_jiCEoIG4s",
-    "t": "De paseo por Granada",
-    "v": false
-   },
-   {
-    "yt": "R_SgsdtMMUk",
-    "t": "El arte del jiujitsu",
-    "v": false
-   }
-  ],
-  "fotos": [],
-  "n": "15"
- },
- {
-  "id": "street",
-  "cat": "personal",
-  "tags": [
-   "video"
-  ],
-  "cover": "assets/img/portadas/min/street.jpg",
-  "titulo": {
-   "es": "Street photography",
-   "en": "Street photography"
-  },
-  "meta": {
-   "es": "Retratos a desconocidos · Madrid",
-   "en": "Portraits of strangers · Madrid"
-  },
-  "intro": {
-   "es": "Retratos espontáneos de desconocidos por las calles de Madrid.",
-   "en": "Spontaneous portraits of strangers on the streets of Madrid."
-  },
-  "videos": [
-   {
-    "yt": "h3vGsk3r9bo",
-    "t": "Madrid de noche",
-    "v": true
-   },
-   {
-    "yt": "S081cT__Eqs",
-    "t": "Fotografiando desconocidos en Madrid",
-    "v": true
-   },
-   {
-    "yt": "Cnk2BKGAOCM",
-    "t": "Fotografiando a desconocidos en Madrid",
-    "v": true
-   },
-   {
-    "yt": "u9qVo6YsckQ",
-    "t": "Fotografiando a desconocidos por Madrid",
-    "v": true
-   },
-   {
-    "yt": "bzp2c3fqfqw",
-    "t": "Fotografiando desconocidos en Madrid",
-    "v": true
-   }
-  ],
-  "fotos": [],
-  "n": "16"
  }
 ];
