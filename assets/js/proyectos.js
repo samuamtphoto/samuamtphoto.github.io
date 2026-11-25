@@ -3,8 +3,212 @@
    videos: yt = ID de YouTube, t = título, v = true si es vertical (reel) */
 window.PROYECTOS = [
  {
-  "id": "conciertos",
+  "id": "scherzo",
   "n": "01",
+  "tags": [
+   "foto",
+   "video"
+  ],
+  "cover": "assets/img/scherzo/min/portada.jpg",
+  "titulo": {
+   "es": "Fundación Scherzo — Grandes Intérpretes",
+   "en": "Fundación Scherzo — Great Performers"
+  },
+  "meta": {
+   "es": "Fotos y reels · Auditorio Nacional — Madrid",
+   "en": "Photos & reels · Auditorio Nacional — Madrid"
+  },
+  "intro": {
+   "es": "Fotografía de los recitales de la temporada 26/27 de la Fundación Scherzo en el Auditorio Nacional de Música: Rafał Blechacz, Nikolai Lugansky y Vadim Repin, y Martina Meola. Reels de concierto para redes, como el de Beatrice Rana o el de entrevistas al público.",
+   "en": "Photography of the Fundación Scherzo 2026/27 season recitals at the Auditorio Nacional de Música: Rafał Blechacz, Nikolai Lugansky and Vadim Repin, and Martina Meola. Concert reels for social media, such as Beatrice Rana’s or the audience-interview reel."
+  },
+  "videos": [
+   {
+    "src": "assets/video/scherzo-beatrice-rana.mp4",
+    "poster": "assets/video/scherzo-beatrice-rana.jpg",
+    "prev": "assets/video/scherzo-beatrice-rana-prev.mp4",
+    "t": "Beatrice Rana — Reel del concierto",
+    "v": true
+   },
+   {
+    "src": "assets/video/scherzo-sokolov.mp4",
+    "poster": "assets/video/scherzo-sokolov.jpg",
+    "prev": "assets/video/scherzo-sokolov-prev.mp4",
+    "t": "Reel con entrevistas al público",
+    "v": true
+   },
+   {
+    "src": "assets/video/scherzo-reel.mp4",
+    "poster": "assets/video/scherzo-reel.jpg",
+    "prev": "assets/video/scherzo-reel-prev.mp4",
+    "t": "Grandes Intérpretes — Reel",
+    "v": true
+   }
+  ],
+  "fotos": [
+   {
+    "s": "assets/img/scherzo/01.jpg",
+    "m": "assets/img/scherzo/min/01.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Vadim Repin y Nikolai Lugansky — Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo/02.jpg",
+    "m": "assets/img/scherzo/min/02.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Rafał Blechacz — Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo/03.jpg",
+    "m": "assets/img/scherzo/min/03.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Martina Meola al piano"
+   },
+   {
+    "s": "assets/img/scherzo/04.jpg",
+    "m": "assets/img/scherzo/min/04.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Sala Sinfónica — Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo/05.jpg",
+    "m": "assets/img/scherzo/min/05.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Programa de mano — Grandes Intérpretes"
+   },
+   {
+    "s": "assets/img/scherzo/06.jpg",
+    "m": "assets/img/scherzo/min/06.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Desde detrás del piano"
+   },
+   {
+    "s": "assets/img/scherzo/07.jpg",
+    "m": "assets/img/scherzo/min/07.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Rafał Blechacz al piano"
+   },
+   {
+    "s": "assets/img/scherzo/08.jpg",
+    "m": "assets/img/scherzo/min/08.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Lugansky & Repin — saludo final"
+   },
+   {
+    "s": "assets/img/scherzo/09.jpg",
+    "m": "assets/img/scherzo/min/09.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Vista de la Sala de Cámara"
+   },
+   {
+    "s": "assets/img/scherzo/10.jpg",
+    "m": "assets/img/scherzo/min/10.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Tras el último acorde"
+   },
+   {
+    "s": "assets/img/scherzo/11.jpg",
+    "m": "assets/img/scherzo/min/11.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Flores al final del recital"
+   },
+   {
+    "s": "assets/img/scherzo/12.jpg",
+    "m": "assets/img/scherzo/min/12.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Martina Meola — reverencia"
+   }
+  ],
+  "cat": "clasica"
+ },
+ {
+  "id": "hinves",
+  "n": "02",
+  "tags": [
+   "foto"
+  ],
+  "cover": "assets/img/hinves/min/portada.jpg",
+  "titulo": {
+   "es": "Hinves Pianos — Recital",
+   "en": "Hinves Pianos — Recital"
+  },
+  "meta": {
+   "es": "Recital de piano · Sala Hinves — Madrid",
+   "en": "Piano recital · Hinves showroom — Madrid"
+  },
+  "intro": {
+   "es": "Fotografía de un recital de piano en la sala de Hinves Pianos, en Madrid.",
+   "en": "Photography of a piano recital at the Hinves Pianos showroom in Madrid."
+  },
+  "videos": [],
+  "fotos": [
+   {
+    "s": "assets/img/hinves/01.jpg",
+    "m": "assets/img/hinves/min/01.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Recital en Hinves Pianos"
+   },
+   {
+    "s": "assets/img/hinves/02.jpg",
+    "m": "assets/img/hinves/min/02.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Emily junto al piano"
+   },
+   {
+    "s": "assets/img/hinves/03.jpg",
+    "m": "assets/img/hinves/min/03.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Manos y teclado"
+   },
+   {
+    "s": "assets/img/hinves/04.jpg",
+    "m": "assets/img/hinves/min/04.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Escenario de la sala"
+   },
+   {
+    "s": "assets/img/hinves/05.jpg",
+    "m": "assets/img/hinves/min/05.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Público del recital"
+   },
+   {
+    "s": "assets/img/hinves/06.jpg",
+    "m": "assets/img/hinves/min/06.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Reflejos en el piano"
+   },
+   {
+    "s": "assets/img/hinves/07.jpg",
+    "m": "assets/img/hinves/min/07.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Retrato — Emily"
+   }
+  ],
+  "cat": "clasica"
+ },
+ {
+  "id": "conciertos",
+  "n": "03",
   "tags": [
    "foto",
    "video"
@@ -203,11 +407,12 @@ window.PROYECTOS = [
     "h": 600,
     "a": "Auditorio Nacional de Música"
    }
-  ]
+  ],
+  "cat": "clasica"
  },
  {
   "id": "ateneo",
-  "n": "02",
+  "n": "04",
   "tags": [
    "foto",
    "video"
@@ -239,6 +444,11 @@ window.PROYECTOS = [
    {
     "yt": "VAPHFJFJlz8",
     "t": "Trío Candor — Festival Alicia de Larrocha",
+    "v": true
+   },
+   {
+    "yt": "QWzgl3MczJo",
+    "t": "Recital de piano — Ateneo de Madrid",
     "v": true
    }
   ],
@@ -411,11 +621,12 @@ window.PROYECTOS = [
     "h": 720,
     "a": "Ateneo de Madrid — Sala Cátedra"
    }
-  ]
+  ],
+  "cat": "clasica"
  },
  {
   "id": "kawai",
-  "n": "03",
+  "n": "05",
   "tags": [
    "foto",
    "video"
@@ -628,11 +839,12 @@ window.PROYECTOS = [
     "h": 600,
     "a": "Kawai Spain — Valencia"
    }
-  ]
+  ],
+  "cat": "clasica"
  },
  {
   "id": "bodas",
-  "n": "04",
+  "n": "06",
   "tags": [
    "video"
   ],
@@ -661,11 +873,12 @@ window.PROYECTOS = [
     "v": false
    }
   ],
-  "fotos": []
+  "fotos": [],
+  "cat": "clasica"
  },
  {
   "id": "artista",
-  "n": "05",
+  "n": "07",
   "tags": [
    "video",
    "foto"
@@ -757,11 +970,50 @@ window.PROYECTOS = [
     "h": 900,
     "a": "El Artista — Proyectos propios"
    }
-  ]
+  ],
+  "cat": "artistas"
+ },
+ {
+  "id": "reels-artista",
+  "cat": "artistas",
+  "tags": [
+   "video"
+  ],
+  "cover": "assets/video/andres-barrios.jpg",
+  "titulo": {
+   "es": "Reels de artista",
+   "en": "Artist reels"
+  },
+  "meta": {
+   "es": "Vídeo vertical para músicos",
+   "en": "Vertical video for musicians"
+  },
+  "intro": {
+   "es": "Piezas verticales para que el artista se presente en redes: interpretación, imagen y ritmo pensados para el móvil.",
+   "en": "Vertical pieces for artists to present themselves on social media: performance, image and pacing designed for mobile."
+  },
+  "videos": [
+   {
+    "src": "assets/video/andres-barrios.mp4",
+    "poster": "assets/video/andres-barrios.jpg",
+    "prev": "assets/video/andres-barrios-prev.mp4",
+    "t": "Andrés Barrios — pianista",
+    "v": true
+   },
+   {
+    "src": "assets/video/violin-madrid.mp4",
+    "poster": "assets/video/violin-madrid.jpg",
+    "prev": "assets/video/violin-madrid-prev.mp4",
+    "t": "Violín en Madrid",
+    "v": true
+   }
+  ],
+  "fotos": [],
+  "n": "08"
  },
  {
   "id": "branding",
-  "n": "06",
+  "n": "09",
   "tags": [
    "foto"
   ],
@@ -857,11 +1109,12 @@ window.PROYECTOS = [
     "h": 642,
     "a": "Artist Branding"
    }
-  ]
+  ],
+  "cat": "artistas"
  },
  {
   "id": "juventudes",
-  "n": "07",
+  "n": "10",
   "tags": [
    "video"
   ],
@@ -900,174 +1153,51 @@ window.PROYECTOS = [
     "v": true
    }
   ],
-  "fotos": []
+  "fotos": [],
+  "cat": "artistas"
  },
  {
-  "id": "graduacion",
-  "n": "08",
+  "id": "bodas-films",
+  "cat": "bodas",
   "tags": [
-   "foto"
+   "video"
   ],
-  "cover": "assets/img/portadas/min/06.jpg",
+  "cover": "assets/img/portadas/min/bodas.jpg",
   "titulo": {
-   "es": "Graduaciones & Actos académicos",
-   "en": "Graduations & Academic events"
+   "es": "Bodas",
+   "en": "Weddings"
   },
   "meta": {
-   "es": "Ceremonias · Escuelas de música — Madrid",
-   "en": "Ceremonies · Music schools — Madrid"
+   "es": "Películas de boda",
+   "en": "Wedding films"
   },
   "intro": {
-   "es": "Fotografía de ceremonias de graduación y actos académicos en escuelas de música.",
-   "en": "Photography of graduation ceremonies and academic events at music schools."
+   "es": "Películas de boda con mirada cinematográfica: la emoción del día contada como una historia.",
+   "en": "Wedding films with a cinematic eye: the emotion of the day told as a story."
   },
-  "videos": [],
-  "fotos": [
+  "videos": [
    {
-    "s": "assets/img/graduacion/01.jpg",
-    "m": "assets/img/graduacion/min/01.jpg",
-    "w": 900,
-    "h": 600,
-    "a": "Graduaciones & Actos académicos"
+    "yt": "XZcwx3rbKJ8",
+    "t": "Harold y Andrea",
+    "v": false
    },
    {
-    "s": "assets/img/graduacion/02.jpg",
-    "m": "assets/img/graduacion/min/02.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "yt": "DI3qeojUjlY",
+    "t": "Alexandra y Julio",
+    "v": false
    },
    {
-    "s": "assets/img/graduacion/03.jpg",
-    "m": "assets/img/graduacion/min/03.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/04.jpg",
-    "m": "assets/img/graduacion/min/04.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/05.jpg",
-    "m": "assets/img/graduacion/min/05.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/06.jpg",
-    "m": "assets/img/graduacion/min/06.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/07.jpg",
-    "m": "assets/img/graduacion/min/07.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/08.jpg",
-    "m": "assets/img/graduacion/min/08.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/09.jpg",
-    "m": "assets/img/graduacion/min/09.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/10.jpg",
-    "m": "assets/img/graduacion/min/10.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/11.jpg",
-    "m": "assets/img/graduacion/min/11.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/12.jpg",
-    "m": "assets/img/graduacion/min/12.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/13.jpg",
-    "m": "assets/img/graduacion/min/13.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/14.jpg",
-    "m": "assets/img/graduacion/min/14.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/15.jpg",
-    "m": "assets/img/graduacion/min/15.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/16.jpg",
-    "m": "assets/img/graduacion/min/16.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/17.jpg",
-    "m": "assets/img/graduacion/min/17.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/18.jpg",
-    "m": "assets/img/graduacion/min/18.jpg",
-    "w": 900,
-    "h": 600,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/19.jpg",
-    "m": "assets/img/graduacion/min/19.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
-   },
-   {
-    "s": "assets/img/graduacion/20.jpg",
-    "m": "assets/img/graduacion/min/20.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "yt": "oZ4DRTuHsdA",
+    "t": "Henry y Carelia",
+    "v": false
    }
-  ]
+  ],
+  "fotos": [],
+  "n": "11"
  },
  {
   "id": "hoqai",
-  "n": "09",
+  "n": "12",
   "tags": [
    "foto"
   ],
@@ -1261,15 +1391,315 @@ window.PROYECTOS = [
     "h": 900,
     "a": "HOQAI"
    }
-  ]
+  ],
+  "cat": "marcas"
+ },
+ {
+  "id": "graduacion",
+  "n": "13",
+  "tags": [
+   "foto"
+  ],
+  "cover": "assets/img/portadas/min/06.jpg",
+  "titulo": {
+   "es": "Graduaciones & Actos académicos",
+   "en": "Graduations & Academic events"
+  },
+  "meta": {
+   "es": "Ceremonias · Escuelas de música — Madrid",
+   "en": "Ceremonies · Music schools — Madrid"
+  },
+  "intro": {
+   "es": "Fotografía de ceremonias de graduación y actos académicos en escuelas de música.",
+   "en": "Photography of graduation ceremonies and academic events at music schools."
+  },
+  "videos": [],
+  "fotos": [
+   {
+    "s": "assets/img/graduacion/01.jpg",
+    "m": "assets/img/graduacion/min/01.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/02.jpg",
+    "m": "assets/img/graduacion/min/02.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/03.jpg",
+    "m": "assets/img/graduacion/min/03.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/04.jpg",
+    "m": "assets/img/graduacion/min/04.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/05.jpg",
+    "m": "assets/img/graduacion/min/05.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/06.jpg",
+    "m": "assets/img/graduacion/min/06.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/07.jpg",
+    "m": "assets/img/graduacion/min/07.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/08.jpg",
+    "m": "assets/img/graduacion/min/08.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/09.jpg",
+    "m": "assets/img/graduacion/min/09.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/10.jpg",
+    "m": "assets/img/graduacion/min/10.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/11.jpg",
+    "m": "assets/img/graduacion/min/11.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/12.jpg",
+    "m": "assets/img/graduacion/min/12.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/13.jpg",
+    "m": "assets/img/graduacion/min/13.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/14.jpg",
+    "m": "assets/img/graduacion/min/14.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/15.jpg",
+    "m": "assets/img/graduacion/min/15.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/16.jpg",
+    "m": "assets/img/graduacion/min/16.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/17.jpg",
+    "m": "assets/img/graduacion/min/17.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/18.jpg",
+    "m": "assets/img/graduacion/min/18.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/19.jpg",
+    "m": "assets/img/graduacion/min/19.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   },
+   {
+    "s": "assets/img/graduacion/20.jpg",
+    "m": "assets/img/graduacion/min/20.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Graduaciones & Actos académicos"
+   }
+  ],
+  "cat": "marcas"
+ },
+ {
+  "id": "motion",
+  "cat": "motion",
+  "tags": [
+   "video"
+  ],
+  "cover": "assets/video/scherzo-grandes-interpretes.jpg",
+  "titulo": {
+   "es": "Motion graphics",
+   "en": "Motion graphics"
+  },
+  "meta": {
+   "es": "Animación de cartelería · Fundación Scherzo",
+   "en": "Poster animation · Fundación Scherzo"
+  },
+  "intro": {
+   "es": "Animación de carteles y piezas gráficas para pantallas y redes: la temporada Grandes Intérpretes y los avisos de próximo concierto de la Fundación Scherzo.",
+   "en": "Animated posters and graphics for screens and social media: the Great Performers season and next-concert announcements for Fundación Scherzo."
+  },
+  "videos": [
+   {
+    "src": "assets/video/scherzo-grandes-interpretes.mp4",
+    "poster": "assets/video/scherzo-grandes-interpretes.jpg",
+    "prev": "assets/video/scherzo-grandes-interpretes-prev.mp4",
+    "t": "Grandes Intérpretes 26/27 — Pantallas",
+    "v": true
+   },
+   {
+    "src": "assets/video/scherzo-cierre-repin-lugansky.mp4",
+    "poster": "assets/video/scherzo-cierre-repin-lugansky.jpg",
+    "prev": "assets/video/scherzo-cierre-repin-lugansky-prev.mp4",
+    "t": "Próximo concierto — Repin & Lugansky",
+    "v": true
+   },
+   {
+    "src": "assets/video/scherzo-cierre-blechacz.mp4",
+    "poster": "assets/video/scherzo-cierre-blechacz.jpg",
+    "prev": "assets/video/scherzo-cierre-blechacz-prev.mp4",
+    "t": "Próximo concierto — Blechacz",
+    "v": true
+   }
+  ],
+  "fotos": [],
+  "prev": "assets/video/scherzo-grandes-interpretes-prev.mp4",
+  "n": "14"
+ },
+ {
+  "id": "viajes",
+  "cat": "personal",
+  "tags": [
+   "video"
+  ],
+  "cover": "assets/img/portadas/min/viajes.jpg",
+  "titulo": {
+   "es": "Travel films",
+   "en": "Travel films"
+  },
+  "meta": {
+   "es": "Andalucía · Proyectos personales",
+   "en": "Andalusia · Personal projects"
+  },
+  "intro": {
+   "es": "Películas de viaje y proyectos personales donde experimento con ritmo, color y narrativa.",
+   "en": "Travel films and personal projects where I experiment with pacing, colour and storytelling."
+  },
+  "videos": [
+   {
+    "yt": "ljr67-Yy22Y",
+    "t": "Granada — Travel film",
+    "v": false
+   },
+   {
+    "yt": "UaQwp7A7i5s",
+    "t": "Sevilla — Travel film",
+    "v": false
+   },
+   {
+    "yt": "wC27ywfTHmQ",
+    "t": "Cádiz",
+    "v": false
+   },
+   {
+    "yt": "a_jiCEoIG4s",
+    "t": "De paseo por Granada",
+    "v": false
+   },
+   {
+    "yt": "R_SgsdtMMUk",
+    "t": "El arte del jiujitsu",
+    "v": false
+   }
+  ],
+  "fotos": [],
+  "n": "15"
+ },
+ {
+  "id": "street",
+  "cat": "personal",
+  "tags": [
+   "video"
+  ],
+  "cover": "assets/img/portadas/min/street.jpg",
+  "titulo": {
+   "es": "Street photography",
+   "en": "Street photography"
+  },
+  "meta": {
+   "es": "Retratos a desconocidos · Madrid",
+   "en": "Portraits of strangers · Madrid"
+  },
+  "intro": {
+   "es": "Retratos espontáneos de desconocidos por las calles de Madrid.",
+   "en": "Spontaneous portraits of strangers on the streets of Madrid."
+  },
+  "videos": [
+   {
+    "yt": "h3vGsk3r9bo",
+    "t": "Madrid de noche",
+    "v": true
+   },
+   {
+    "yt": "S081cT__Eqs",
+    "t": "Fotografiando desconocidos en Madrid",
+    "v": true
+   },
+   {
+    "yt": "Cnk2BKGAOCM",
+    "t": "Fotografiando a desconocidos en Madrid",
+    "v": true
+   },
+   {
+    "yt": "u9qVo6YsckQ",
+    "t": "Fotografiando a desconocidos por Madrid",
+    "v": true
+   },
+   {
+    "yt": "bzp2c3fqfqw",
+    "t": "Fotografiando desconocidos en Madrid",
+    "v": true
+   }
+  ],
+  "fotos": [],
+  "n": "16"
  }
 ];
-window.TESTIMONIO = {
- "proyecto": "artista",
- "texto": "Trabajar con Samuel en los videoclips de mi disco fue una experiencia súper especial. Desde el primer momento entendió perfectamente todo lo que quería transmitir y consiguió llevarlo a imagen de una forma muy natural y bonita. Además de ser un gran profesional, tiene una creatividad increíble y una sensibilidad artística que hizo que todo el proceso fuese muy fácil, fluido y lleno de ideas que encajaban totalmente conmigo y con el proyecto. Muchas de las cosas más bonitas del resultado final surgieron gracias a su mirada y a su forma de implicarse. Estoy muy agradecida por todo lo que aportó al proyecto y por la manera tan cercana y humana de trabajar. Ha sido un regalo compartir este proceso con él.",
- "autor": "Mariángeles Ayala",
- "rol": {
-  "es": "Pianista profesional — Experiencia de rodaje",
-  "en": "Professional pianist — Filming experience"
- }
-};
