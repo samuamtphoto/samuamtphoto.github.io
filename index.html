@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=19">
+<link rel="stylesheet" href="assets/css/styles.css?v=20">
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -285,6 +285,7 @@
       <div class="reveal">
         <p class="eyebrow" style="color:var(--warm)" data-es="¿Trabajamos juntos?" data-en="Shall we work together?">¿Trabajamos juntos?</p>
         <h2 class="display" id="t-contacto" data-es="Hablemos de <em>tu proyecto.</em>" data-en="Let’s talk about <em>your project.</em>">Hablemos de <em>tu proyecto.</em></h2>
+        <p class="reply" data-es="Te respondo en menos de 24 h." data-en="I reply within 24 hours.">Te respondo en menos de 24 h.</p>
         <a class="mail" href="mailto:info@smvisuals.es">info@smvisuals.es</a>
         <p class="where" data-es="Madrid, España · Disponible para proyectos en toda España y fuera." data-en="Madrid, Spain · Available for projects across Spain and abroad.">Madrid, España · Disponible para proyectos en toda España y fuera.</p>
         <div class="socials">
@@ -306,7 +307,12 @@
             <option data-es="Otro" data-en="Other">Otro</option>
           </select>
         </label>
+        <div class="form-row">
+          <label><span data-es="Fecha del evento (opcional)" data-en="Event date (optional)">Fecha del evento (opcional)</span><input type="date" name="fecha"></label>
+          <label><span data-es="Lugar o sala (opcional)" data-en="Venue (optional)">Lugar o sala (opcional)</span><input name="lugar" autocomplete="off"></label>
+        </div>
         <label><span data-es="Cuéntame tu proyecto" data-en="Tell me about your project">Cuéntame tu proyecto</span><textarea name="mensaje" required></textarea></label>
+        <label class="consent"><input type="checkbox" name="privacidad" value="acepto" required><span data-es="He leído y acepto la <a href='/politica-privacidad.html' target='_blank' rel='noopener'>política de privacidad</a>." data-en="I have read and accept the <a href='/politica-privacidad.html' target='_blank' rel='noopener'>privacy policy</a>.">He leído y acepto la <a href='/politica-privacidad.html' target='_blank' rel='noopener'>política de privacidad</a>.</span></label>
         <input type="hidden" name="_subject" value="Nuevo mensaje desde smvisuals.es">
         <button class="btn solid" type="submit" data-es="Enviar mensaje →" data-en="Send message →">Enviar mensaje →</button>
         <p class="form-ok" data-es="Mensaje enviado. Te respondo lo antes posible." data-en="Message sent. I’ll get back to you soon.">Mensaje enviado. Te respondo lo antes posible.</p>
