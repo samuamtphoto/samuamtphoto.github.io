@@ -107,8 +107,6 @@
     }
     function start(){ if(!reduce){ clearInterval(t); t = setInterval(function(){ go(i + 1); }, 4000); } }
     dots.forEach(function(d, k){ d.addEventListener('click', function(){ go(k); start(); }); });
-    box.addEventListener('mouseenter', function(){ clearInterval(t); });
-    box.addEventListener('mouseleave', start);
     start();
   })();
 
