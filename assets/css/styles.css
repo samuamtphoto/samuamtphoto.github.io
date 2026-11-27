@@ -320,3 +320,12 @@ video.prev.on{opacity:1}
 .manifesto-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
 .manifesto::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at center,rgba(10,10,10,.55) 0%,rgba(10,10,10,.78) 70%),linear-gradient(to bottom,var(--ink) 0%,transparent 18%,transparent 82%,var(--ink) 100%)}
 .manifesto p{color:rgba(239,235,228,.8)}
+/* Franja de disponibilidad */
+.availability{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:0 var(--gutter);border-top:1px solid var(--line);border-bottom:1px solid var(--line);min-height:64px}
+.availability p{display:flex;align-items:center;gap:14px;font-family:var(--display);font-size:clamp(22px,2.4vw,32px);text-transform:uppercase;line-height:1;margin:0}
+.avail-dot{width:9px;height:9px;border-radius:50%;background:#8fc79a;box-shadow:0 0 0 0 rgba(143,199,154,.5);animation:availPulse 2.6s ease-in-out infinite;flex-shrink:0}
+@keyframes availPulse{0%,100%{box-shadow:0 0 0 0 rgba(143,199,154,.45)}50%{box-shadow:0 0 0 8px rgba(143,199,154,0)}}
+.availability a{display:inline-flex;align-items:center;height:40px;padding:0 20px;border:1px solid var(--paper);border-radius:999px;font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;white-space:nowrap;transition:background .35s var(--ease),color .35s var(--ease)}
+.availability a:hover{background:var(--paper);color:var(--ink)}
+@media (max-width:760px){.availability{flex-direction:column;justify-content:center;padding-top:18px;padding-bottom:18px;text-align:center}.availability p{font-size:22px}}
+@media (prefers-reduced-motion:reduce){.avail-dot{animation:none}}
