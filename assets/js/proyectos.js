@@ -5,22 +5,22 @@ window.PROYECTOS = [
  {
   "id": "scherzo",
   "titulo": {
-   "es": "Fundación Scherzo — Grandes Intérpretes",
-   "en": "Fundación Scherzo — Great Performers"
+   "es": "Fundación Scherzo — Auditorio Nacional de Música",
+   "en": "Fundación Scherzo — Auditorio Nacional de Música"
   },
   "meta": {
-   "es": "Grandes Intérpretes · Foto, reels y motion",
-   "en": "Great Performers · Photo, reels & motion"
+   "es": "Auditorio Nacional de Música · Foto, reels y motion",
+   "en": "Auditorio Nacional de Música · Photo, reels & motion"
   },
   "svc": [
    "conciertos",
    "video",
    "motion"
   ],
-  "cover": "assets/img/scherzo/min/portada.jpg",
+  "cover": "assets/img/scherzo/portada.jpg",
   "intro": {
-   "es": "Fotografía, reels y animación para el ciclo Grandes Intérpretes de la Fundación Scherzo en el Auditorio Nacional de Música: Rafał Blechacz, Nikolai Lugansky y Vadim Repin, Martina Meola, Beatrice Rana… y la animación de la temporada para pantallas y redes.",
-   "en": "Photography, reels and animation for Fundación Scherzo’s Great Performers series at the Auditorio Nacional de Música: Rafał Blechacz, Nikolai Lugansky and Vadim Repin, Martina Meola, Beatrice Rana… plus the season’s animation for screens and social media."
+   "es": "Fotografía y vídeo para el ciclo Grandes Intérpretes de la Fundación Scherzo en el Auditorio Nacional de Música: recitales de Rafał Blechacz, Nikolai Lugansky y Vadim Repin, Beatrice Rana, Martina Meola, Eva Gevorgyan o el trío de Paquito D’Rivera, reels para redes y la animación de la temporada para pantallas.",
+   "en": "Photography and video for Fundación Scherzo’s Great Performers series at the Auditorio Nacional de Música: recitals by Rafał Blechacz, Nikolai Lugansky and Vadim Repin, Beatrice Rana, Martina Meola, Eva Gevorgyan and Paquito D’Rivera’s trio, social-media reels and the season’s animation for screens."
   },
   "videos": [
    {
@@ -42,6 +42,16 @@ window.PROYECTOS = [
     "poster": "assets/video/scherzo-reel.jpg",
     "prev": "assets/video/scherzo-reel-prev.mp4",
     "t": "Grandes Intérpretes — Reel",
+    "v": true
+   },
+   {
+    "yt": "wtEYdJoO_bI",
+    "t": "Eva Gevorgyan — Auditorio Nacional",
+    "v": true
+   },
+   {
+    "yt": "0ESE6CQ8Rg4",
+    "t": "Trío Paquito D'Rivera",
     "v": true
    },
    {
@@ -150,19 +160,188 @@ window.PROYECTOS = [
     "w": 900,
     "h": 643,
     "a": "Martina Meola — reverencia"
+   },
+   {
+    "s": "assets/img/conciertos/01.jpg",
+    "m": "assets/img/conciertos/min/01.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Auditorio Nacional, Madrid"
+   },
+   {
+    "s": "assets/img/conciertos/02.jpg",
+    "m": "assets/img/conciertos/min/02.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Auditorio Nacional, Madrid"
+   },
+   {
+    "s": "assets/img/conciertos/03.jpg",
+    "m": "assets/img/conciertos/min/03.jpg",
+    "w": 900,
+    "h": 599,
+    "a": "Al Piano — Steinway & Sons"
+   },
+   {
+    "s": "assets/img/conciertos/04.jpg",
+    "m": "assets/img/conciertos/min/04.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Clarinete & Harmónica"
+   },
+   {
+    "s": "assets/img/conciertos/05.jpg",
+    "m": "assets/img/conciertos/min/05.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Vibráfono en Escena"
+   },
+   {
+    "s": "assets/img/conciertos/06.jpg",
+    "m": "assets/img/conciertos/min/06.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "El Momento del Aplauso"
+   },
+   {
+    "s": "assets/img/conciertos/07.jpg",
+    "m": "assets/img/conciertos/min/07.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Tras el Concierto"
+   },
+   {
+    "s": "assets/img/conciertos/08.jpg",
+    "m": "assets/img/conciertos/min/08.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Saxofón — Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/conciertos/09.jpg",
+    "m": "assets/img/conciertos/min/09.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "El Escenario es Tuyo"
+   },
+   {
+    "s": "assets/img/conciertos/10.jpg",
+    "m": "assets/img/conciertos/min/10.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Standing Ovation"
+   },
+   {
+    "s": "assets/img/conciertos/11.jpg",
+    "m": "assets/img/conciertos/min/11.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Soprano en Escena"
+   },
+   {
+    "s": "assets/img/conciertos/12.jpg",
+    "m": "assets/img/conciertos/min/12.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Piano desde Bambalinas"
+   },
+   {
+    "s": "assets/img/conciertos/13.jpg",
+    "m": "assets/img/conciertos/min/13.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Sola en el Escenario"
+   },
+   {
+    "s": "assets/img/conciertos/14.jpg",
+    "m": "assets/img/conciertos/min/14.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Eva Gevorgyan — Piano"
+   },
+   {
+    "s": "assets/img/conciertos/15.jpg",
+    "m": "assets/img/conciertos/min/15.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Sala Sinfónica Llena"
+   },
+   {
+    "s": "assets/img/conciertos/16.jpg",
+    "m": "assets/img/conciertos/min/16.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "La Emoción del Directo"
+   },
+   {
+    "s": "assets/img/conciertos/17.jpg",
+    "m": "assets/img/conciertos/min/17.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Vista Cenital — Auditorio"
+   },
+   {
+    "s": "assets/img/conciertos/18.jpg",
+    "m": "assets/img/conciertos/min/18.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "La Sala desde las Alturas"
+   },
+   {
+    "s": "assets/img/conciertos/19.jpg",
+    "m": "assets/img/conciertos/min/19.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Programa de Mano"
+   },
+   {
+    "s": "assets/img/conciertos/20.jpg",
+    "m": "assets/img/conciertos/min/20.jpg",
+    "w": 900,
+    "h": 506,
+    "a": "Auditorio Nacional de Música"
+   },
+   {
+    "s": "assets/img/conciertos/21.jpg",
+    "m": "assets/img/conciertos/min/21.jpg",
+    "w": 900,
+    "h": 506,
+    "a": "Auditorio Nacional de Música"
+   },
+   {
+    "s": "assets/img/conciertos/22.jpg",
+    "m": "assets/img/conciertos/min/22.jpg",
+    "w": 900,
+    "h": 506,
+    "a": "Auditorio Nacional de Música"
+   },
+   {
+    "s": "assets/img/conciertos/23.jpg",
+    "m": "assets/img/conciertos/min/23.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Auditorio Nacional de Música"
+   },
+   {
+    "s": "assets/img/conciertos/24.jpg",
+    "m": "assets/img/conciertos/min/24.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Auditorio Nacional de Música"
    }
   ],
-  "n": "01"
+  "n": "01",
+  "featured": true
  },
  {
   "id": "ateneo",
   "titulo": {
-   "es": "Ateneo de Madrid — Sala Cátedra",
-   "en": "Ateneo de Madrid — Sala Cátedra"
+   "es": "Fundación Piú Mosso — Ateneo de Madrid",
+   "en": "Fundación Piú Mosso — Ateneo de Madrid"
   },
   "meta": {
-   "es": "Recitales · Foto + reels",
-   "en": "Recitals · Photo + reels"
+   "es": "Ateneo de Madrid · Foto + reels",
+   "en": "Ateneo de Madrid · Photo + reels"
   },
   "svc": [
    "conciertos",
@@ -170,8 +349,8 @@ window.PROYECTOS = [
   ],
   "cover": "assets/img/ateneo/min/15.jpg",
   "intro": {
-   "es": "Recitales, festivales y actos culturales en la Sala Cátedra del Ateneo de Madrid, entre ellos el Festival Alicia de Larrocha.",
-   "en": "Recitals, festivals and cultural events at the Ateneo de Madrid’s Sala Cátedra, including the Alicia de Larrocha Festival."
+   "es": "Fotografía y reels para la Fundación Piú Mosso en la Sala Cátedra del Ateneo de Madrid: recitales, música de cámara y el Festival Alicia de Larrocha.",
+   "en": "Photography and reels for Fundación Piú Mosso at the Ateneo de Madrid’s Sala Cátedra: recitals, chamber music and the Alicia de Larrocha Festival."
   },
   "videos": [
    {
@@ -368,53 +547,14 @@ window.PROYECTOS = [
   "n": "02"
  },
  {
-  "id": "andres-barrios",
-  "titulo": {
-   "es": "Andrés Barrios",
-   "en": "Andrés Barrios"
-  },
-  "meta": {
-   "es": "Pianista · Reel + foto",
-   "en": "Pianist · Reel + photo"
-  },
-  "svc": [
-   "artistas",
-   "video"
-  ],
-  "cover": "assets/img/andres/min/01.jpg",
-  "intro": {
-   "es": "Vídeo vertical y fotografía para el pianista y cantante Andrés Barrios, en el Ateneo de Madrid y en Veranos de la Villa.",
-   "en": "Vertical video and photography for pianist and singer Andrés Barrios, at the Ateneo de Madrid and Veranos de la Villa."
-  },
-  "videos": [
-   {
-    "src": "assets/video/andres-barrios.mp4",
-    "poster": "assets/video/andres-barrios.jpg",
-    "prev": "assets/video/andres-barrios-prev.mp4",
-    "t": "Andrés Barrios — pianista",
-    "v": true
-   }
-  ],
-  "fotos": [
-   {
-    "s": "assets/img/andres/01.jpg",
-    "m": "assets/img/andres/min/01.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Andrés Barrios — Veranos de la Villa"
-   }
-  ],
-  "n": "03"
- },
- {
   "id": "kawai",
   "titulo": {
    "es": "Kawai Spain — Concurso Shigeru Kawai",
    "en": "Kawai Spain — Shigeru Kawai Competition"
   },
   "meta": {
-   "es": "Concurso de piano · Foto + reels",
-   "en": "Piano competition · Photo + reels"
+   "es": "Concurso Shigeru Kawai · Foto + reels",
+   "en": "Shigeru Kawai Competition · Photo + reels"
   },
   "svc": [
    "conciertos",
@@ -622,734 +762,7 @@ window.PROYECTOS = [
     "a": "Kawai Spain — Valencia"
    }
   ],
-  "n": "04"
- },
- {
-  "id": "artista",
-  "titulo": {
-   "es": "Mariángeles Ayala",
-   "en": "Mariángeles Ayala"
-  },
-  "meta": {
-   "es": "Pianista · Videoclips + foto",
-   "en": "Pianist · Music videos + photo"
-  },
-  "svc": [
-   "artistas",
-   "video"
-  ],
-  "cover": "assets/img/artista/min/05.jpg",
-  "intro": {
-   "es": "Videoclips y fotografía para el disco de la pianista Mariángeles Ayala: Infancia, Juventud y Legado.",
-   "en": "Music videos and photography for pianist Mariángeles Ayala’s album: Infancia, Juventud and Legado."
-  },
-  "videos": [
-   {
-    "yt": "GxpLV1QJVcg",
-    "t": "Infancia",
-    "v": false
-   },
-   {
-    "yt": "i6CvcKyFatY",
-    "t": "Juventud",
-    "v": false
-   },
-   {
-    "yt": "rEvzMY-ob4Y",
-    "t": "Legado",
-    "v": false
-   }
-  ],
-  "fotos": [
-   {
-    "s": "assets/img/artista/01.jpg",
-    "m": "assets/img/artista/min/01.jpg",
-    "w": 642,
-    "h": 900,
-    "a": "El Artista — Proyectos propios"
-   },
-   {
-    "s": "assets/img/artista/02.jpg",
-    "m": "assets/img/artista/min/02.jpg",
-    "w": 675,
-    "h": 900,
-    "a": "El Artista — Proyectos propios"
-   },
-   {
-    "s": "assets/img/artista/03.jpg",
-    "m": "assets/img/artista/min/03.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "El Artista — Proyectos propios"
-   },
-   {
-    "s": "assets/img/artista/04.jpg",
-    "m": "assets/img/artista/min/04.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "El Artista — Proyectos propios"
-   },
-   {
-    "s": "assets/img/artista/05.jpg",
-    "m": "assets/img/artista/min/05.jpg",
-    "w": 642,
-    "h": 900,
-    "a": "El Artista — Proyectos propios"
-   },
-   {
-    "s": "assets/img/artista/06.jpg",
-    "m": "assets/img/artista/min/06.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "El Artista — Proyectos propios"
-   },
-   {
-    "s": "assets/img/artista/07.jpg",
-    "m": "assets/img/artista/min/07.jpg",
-    "w": 675,
-    "h": 900,
-    "a": "El Artista — Proyectos propios"
-   },
-   {
-    "s": "assets/img/artista/08.jpg",
-    "m": "assets/img/artista/min/08.jpg",
-    "w": 675,
-    "h": 900,
-    "a": "El Artista — Proyectos propios"
-   }
-  ],
-  "n": "05"
- },
- {
-  "id": "conciertos",
-  "titulo": {
-   "es": "Auditorio Nacional de Música",
-   "en": "Auditorio Nacional de Música"
-  },
-  "meta": {
-   "es": "Recitales · Foto + reels",
-   "en": "Recitals · Photo + reels"
-  },
-  "svc": [
-   "conciertos",
-   "video"
-  ],
-  "cover": "assets/img/portadas/min/01.jpg",
-  "intro": {
-   "es": "Fotografía y reels de conciertos y recitales en el Auditorio Nacional de Música de Madrid.",
-   "en": "Photography and reels of concerts and recitals at the Auditorio Nacional de Música, Madrid."
-  },
-  "videos": [
-   {
-    "yt": "wtEYdJoO_bI",
-    "t": "Eva Gevorgyan — Auditorio Nacional",
-    "v": true
-   },
-   {
-    "yt": "0ESE6CQ8Rg4",
-    "t": "Trío Paquito D'Rivera",
-    "v": true
-   }
-  ],
-  "fotos": [
-   {
-    "s": "assets/img/conciertos/01.jpg",
-    "m": "assets/img/conciertos/min/01.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Auditorio Nacional, Madrid"
-   },
-   {
-    "s": "assets/img/conciertos/02.jpg",
-    "m": "assets/img/conciertos/min/02.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Auditorio Nacional, Madrid"
-   },
-   {
-    "s": "assets/img/conciertos/03.jpg",
-    "m": "assets/img/conciertos/min/03.jpg",
-    "w": 900,
-    "h": 599,
-    "a": "Al Piano — Steinway & Sons"
-   },
-   {
-    "s": "assets/img/conciertos/04.jpg",
-    "m": "assets/img/conciertos/min/04.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Clarinete & Harmónica"
-   },
-   {
-    "s": "assets/img/conciertos/05.jpg",
-    "m": "assets/img/conciertos/min/05.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Vibráfono en Escena"
-   },
-   {
-    "s": "assets/img/conciertos/06.jpg",
-    "m": "assets/img/conciertos/min/06.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "El Momento del Aplauso"
-   },
-   {
-    "s": "assets/img/conciertos/07.jpg",
-    "m": "assets/img/conciertos/min/07.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Tras el Concierto"
-   },
-   {
-    "s": "assets/img/conciertos/08.jpg",
-    "m": "assets/img/conciertos/min/08.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Saxofón — Auditorio Nacional"
-   },
-   {
-    "s": "assets/img/conciertos/09.jpg",
-    "m": "assets/img/conciertos/min/09.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "El Escenario es Tuyo"
-   },
-   {
-    "s": "assets/img/conciertos/10.jpg",
-    "m": "assets/img/conciertos/min/10.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Standing Ovation"
-   },
-   {
-    "s": "assets/img/conciertos/11.jpg",
-    "m": "assets/img/conciertos/min/11.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Soprano en Escena"
-   },
-   {
-    "s": "assets/img/conciertos/12.jpg",
-    "m": "assets/img/conciertos/min/12.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Piano desde Bambalinas"
-   },
-   {
-    "s": "assets/img/conciertos/13.jpg",
-    "m": "assets/img/conciertos/min/13.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Sola en el Escenario"
-   },
-   {
-    "s": "assets/img/conciertos/14.jpg",
-    "m": "assets/img/conciertos/min/14.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Eva Gevorgyan — Piano"
-   },
-   {
-    "s": "assets/img/conciertos/15.jpg",
-    "m": "assets/img/conciertos/min/15.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Sala Sinfónica Llena"
-   },
-   {
-    "s": "assets/img/conciertos/16.jpg",
-    "m": "assets/img/conciertos/min/16.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "La Emoción del Directo"
-   },
-   {
-    "s": "assets/img/conciertos/17.jpg",
-    "m": "assets/img/conciertos/min/17.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Vista Cenital — Auditorio"
-   },
-   {
-    "s": "assets/img/conciertos/18.jpg",
-    "m": "assets/img/conciertos/min/18.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "La Sala desde las Alturas"
-   },
-   {
-    "s": "assets/img/conciertos/19.jpg",
-    "m": "assets/img/conciertos/min/19.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Programa de Mano"
-   },
-   {
-    "s": "assets/img/conciertos/20.jpg",
-    "m": "assets/img/conciertos/min/20.jpg",
-    "w": 900,
-    "h": 506,
-    "a": "Auditorio Nacional de Música"
-   },
-   {
-    "s": "assets/img/conciertos/21.jpg",
-    "m": "assets/img/conciertos/min/21.jpg",
-    "w": 900,
-    "h": 506,
-    "a": "Auditorio Nacional de Música"
-   },
-   {
-    "s": "assets/img/conciertos/22.jpg",
-    "m": "assets/img/conciertos/min/22.jpg",
-    "w": 900,
-    "h": 506,
-    "a": "Auditorio Nacional de Música"
-   },
-   {
-    "s": "assets/img/conciertos/23.jpg",
-    "m": "assets/img/conciertos/min/23.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Auditorio Nacional de Música"
-   },
-   {
-    "s": "assets/img/conciertos/24.jpg",
-    "m": "assets/img/conciertos/min/24.jpg",
-    "w": 900,
-    "h": 600,
-    "a": "Auditorio Nacional de Música"
-   }
-  ],
-  "n": "06"
- },
- {
-  "id": "pedro-lopez-salas",
-  "titulo": {
-   "es": "Pedro López Salas",
-   "en": "Pedro López Salas"
-  },
-  "meta": {
-   "es": "Pianista · Retrato",
-   "en": "Pianist · Portraits"
-  },
-  "svc": [
-   "artistas"
-  ],
-  "cover": "assets/img/branding/min/05.jpg",
-  "intro": {
-   "es": "Retratos y fotografía de prensa para el pianista Pedro López Salas.",
-   "en": "Portraits and press photography for pianist Pedro López Salas."
-  },
-  "videos": [],
-  "fotos": [
-   {
-    "s": "assets/img/branding/05.jpg",
-    "m": "assets/img/branding/min/05.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Pedro López Salas — retrato"
-   },
-   {
-    "s": "assets/img/branding/06.jpg",
-    "m": "assets/img/branding/min/06.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Pedro López Salas — retrato"
-   },
-   {
-    "s": "assets/img/branding/07.jpg",
-    "m": "assets/img/branding/min/07.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Pedro López Salas — retrato"
-   },
-   {
-    "s": "assets/img/branding/08.jpg",
-    "m": "assets/img/branding/min/08.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Pedro López Salas — retrato"
-   },
-   {
-    "s": "assets/img/branding/09.jpg",
-    "m": "assets/img/branding/min/09.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Pedro López Salas — retrato"
-   },
-   {
-    "s": "assets/img/branding/10.jpg",
-    "m": "assets/img/branding/min/10.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Pedro López Salas — retrato"
-   },
-   {
-    "s": "assets/img/branding/11.jpg",
-    "m": "assets/img/branding/min/11.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Pedro López Salas — retrato"
-   }
-  ],
-  "n": "07"
- },
- {
-  "id": "bodas",
-  "titulo": {
-   "es": "Courtiers — Real Orquesta Sinfónica de Sevilla",
-   "en": "Courtiers — Royal Seville Symphony Orchestra"
-  },
-  "meta": {
-   "es": "Orquesta sinfónica · Operador de cámara",
-   "en": "Symphony orchestra · Camera operator"
-  },
-  "svc": [
-   "conciertos",
-   "video"
-  ],
-  "cover": "assets/img/portadas/min/courtiers.jpg",
-  "intro": {
-   "es": "He trabajado como operador de cámara con la productora Courtiers en grabaciones de música clásica, como los conciertos de la Real Orquesta Sinfónica de Sevilla.",
-   "en": "I have worked as a camera operator with the production company Courtiers on classical music recordings, such as the Royal Seville Symphony Orchestra concerts."
-  },
-  "videos": [
-   {
-    "yt": "vtjjSkWkWlE",
-    "t": "Beethoven · Sinfonía nº 9 «Coral» — Dir. Guillermo García Calvo",
-    "v": false
-   },
-   {
-    "yt": "CBXt23a6LLw",
-    "t": "Rachmáninov · Sinfonía nº 2 — Dir. György Győriványi Ráth",
-    "v": false
-   }
-  ],
-  "fotos": [],
-  "n": "08"
- },
- {
-  "id": "hinves",
-  "titulo": {
-   "es": "Emily — Hinves Pianos",
-   "en": "Emily — Hinves Pianos"
-  },
-  "meta": {
-   "es": "Pianista · Foto de recital",
-   "en": "Pianist · Recital photography"
-  },
-  "svc": [
-   "artistas",
-   "conciertos"
-  ],
-  "cover": "assets/img/hinves/min/portada.jpg",
-  "intro": {
-   "es": "Fotografía del recital de la pianista Emily en la sala de Hinves Pianos, en Madrid: retrato, interpretación y ambiente.",
-   "en": "Photography of pianist Emily’s recital at the Hinves Pianos showroom in Madrid: portrait, performance and atmosphere."
-  },
-  "videos": [],
-  "fotos": [
-   {
-    "s": "assets/img/hinves/01.jpg",
-    "m": "assets/img/hinves/min/01.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Recital en Hinves Pianos"
-   },
-   {
-    "s": "assets/img/hinves/02.jpg",
-    "m": "assets/img/hinves/min/02.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Emily junto al piano"
-   },
-   {
-    "s": "assets/img/hinves/03.jpg",
-    "m": "assets/img/hinves/min/03.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Manos y teclado"
-   },
-   {
-    "s": "assets/img/hinves/04.jpg",
-    "m": "assets/img/hinves/min/04.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Escenario de la sala"
-   },
-   {
-    "s": "assets/img/hinves/05.jpg",
-    "m": "assets/img/hinves/min/05.jpg",
-    "w": 900,
-    "h": 600,
-    "a": "Público del recital"
-   },
-   {
-    "s": "assets/img/hinves/06.jpg",
-    "m": "assets/img/hinves/min/06.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Reflejos en el piano"
-   },
-   {
-    "s": "assets/img/hinves/07.jpg",
-    "m": "assets/img/hinves/min/07.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Retrato — Emily"
-   }
-  ],
-  "n": "09"
- },
- {
-  "id": "hoqai",
-  "titulo": {
-   "es": "HOQAI",
-   "en": "HOQAI"
-  },
-  "meta": {
-   "es": "Moda · Campaña de foto",
-   "en": "Fashion · Photo campaign"
-  },
-  "svc": [
-   "marcas"
-  ],
-  "cover": "assets/img/portadas/min/07.jpg",
-  "intro": {
-   "es": "Campañas y lookbooks para la marca de moda HOQAI: producto, estilo de vida y exterior.",
-   "en": "Campaigns and lookbooks for the fashion brand HOQAI: product, lifestyle and outdoor."
-  },
-  "videos": [],
-  "fotos": [
-   {
-    "s": "assets/img/hoqai/01.jpg",
-    "m": "assets/img/hoqai/min/01.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "HOQAI — Camiseta Blanca"
-   },
-   {
-    "s": "assets/img/hoqai/02.jpg",
-    "m": "assets/img/hoqai/min/02.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "HOQAI — Maestro Tee"
-   },
-   {
-    "s": "assets/img/hoqai/03.jpg",
-    "m": "assets/img/hoqai/min/03.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "HOQAI — Lookbook Masculino"
-   },
-   {
-    "s": "assets/img/hoqai/04.jpg",
-    "m": "assets/img/hoqai/min/04.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "HOQAI — Camiseta Verde"
-   },
-   {
-    "s": "assets/img/hoqai/05.jpg",
-    "m": "assets/img/hoqai/min/05.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "HOQAI — Camiseta Negra Detail"
-   },
-   {
-    "s": "assets/img/hoqai/06.jpg",
-    "m": "assets/img/hoqai/min/06.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "HOQAI — Camiseta Azul Cielo"
-   },
-   {
-    "s": "assets/img/hoqai/07.jpg",
-    "m": "assets/img/hoqai/min/07.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "HOQAI — Carlitos Back"
-   },
-   {
-    "s": "assets/img/hoqai/08.jpg",
-    "m": "assets/img/hoqai/min/08.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "HOQAI — Carlo5 Negro"
-   },
-   {
-    "s": "assets/img/hoqai/09.jpg",
-    "m": "assets/img/hoqai/min/09.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "HOQAI — Colección Apilada"
-   },
-   {
-    "s": "assets/img/hoqai/10.jpg",
-    "m": "assets/img/hoqai/min/10.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "HOQAI — Otoño con Hoodies"
-   },
-   {
-    "s": "assets/img/hoqai/11.jpg",
-    "m": "assets/img/hoqai/min/11.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "HOQAI — Hoodie Blanco Angular"
-   },
-   {
-    "s": "assets/img/hoqai/12.jpg",
-    "m": "assets/img/hoqai/min/12.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "HOQAI — Hoodie Naranja Street"
-   },
-   {
-    "s": "assets/img/hoqai/13.jpg",
-    "m": "assets/img/hoqai/min/13.jpg",
-    "w": 900,
-    "h": 675,
-    "a": "HOQAI — Cap Azul Grass"
-   },
-   {
-    "s": "assets/img/hoqai/14.jpg",
-    "m": "assets/img/hoqai/min/14.jpg",
-    "w": 900,
-    "h": 675,
-    "a": "HOQAI — Caps en la Hierba"
-   },
-   {
-    "s": "assets/img/hoqai/15.jpg",
-    "m": "assets/img/hoqai/min/15.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "HOQAI — Duo Maestro"
-   },
-   {
-    "s": "assets/img/hoqai/16.jpg",
-    "m": "assets/img/hoqai/min/16.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "HOQAI — Duo Caleidoscopio"
-   },
-   {
-    "s": "assets/img/hoqai/17.jpg",
-    "m": "assets/img/hoqai/min/17.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "HOQAI — Cap & Hoodie Gris"
-   },
-   {
-    "s": "assets/img/hoqai/18.jpg",
-    "m": "assets/img/hoqai/min/18.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "HOQAI — Poetry in Motion"
-   },
-   {
-    "s": "assets/img/hoqai/19.jpg",
-    "m": "assets/img/hoqai/min/19.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "HOQAI — Sweatshirt Marrón"
-   },
-   {
-    "s": "assets/img/hoqai/20.jpg",
-    "m": "assets/img/hoqai/min/20.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "HOQAI"
-   },
-   {
-    "s": "assets/img/hoqai/21.jpg",
-    "m": "assets/img/hoqai/min/21.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "HOQAI"
-   },
-   {
-    "s": "assets/img/hoqai/22.jpg",
-    "m": "assets/img/hoqai/min/22.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "HOQAI"
-   },
-   {
-    "s": "assets/img/hoqai/23.jpg",
-    "m": "assets/img/hoqai/min/23.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "HOQAI"
-   },
-   {
-    "s": "assets/img/hoqai/24.jpg",
-    "m": "assets/img/hoqai/min/24.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "HOQAI"
-   },
-   {
-    "s": "assets/img/hoqai/25.jpg",
-    "m": "assets/img/hoqai/min/25.jpg",
-    "w": 720,
-    "h": 900,
-    "a": "HOQAI"
-   }
-  ],
-  "n": "10"
- },
- {
-  "id": "giuseppe-devastato",
-  "titulo": {
-   "es": "Giuseppe Devastato",
-   "en": "Giuseppe Devastato"
-  },
-  "meta": {
-   "es": "Pianista · Retrato",
-   "en": "Pianist · Portraits"
-  },
-  "svc": [
-   "artistas"
-  ],
-  "cover": "assets/img/branding/min/01.jpg",
-  "intro": {
-   "es": "Retratos y fotografía de prensa para el pianista Giuseppe Devastato.",
-   "en": "Portraits and press photography for pianist Giuseppe Devastato."
-  },
-  "videos": [],
-  "fotos": [
-   {
-    "s": "assets/img/branding/01.jpg",
-    "m": "assets/img/branding/min/01.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Giuseppe Devastato — retrato"
-   },
-   {
-    "s": "assets/img/branding/02.jpg",
-    "m": "assets/img/branding/min/02.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Giuseppe Devastato — retrato"
-   },
-   {
-    "s": "assets/img/branding/03.jpg",
-    "m": "assets/img/branding/min/03.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Giuseppe Devastato — retrato"
-   },
-   {
-    "s": "assets/img/branding/04.jpg",
-    "m": "assets/img/branding/min/04.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Giuseppe Devastato — retrato"
-   }
-  ],
-  "n": "11"
+  "n": "03"
  },
  {
   "id": "musical-arts",
@@ -1541,7 +954,570 @@ window.PROYECTOS = [
     "a": "Musical Arts Madrid — graduación"
    }
   ],
-  "n": "12"
+  "n": "04"
+ },
+ {
+  "id": "bodas",
+  "titulo": {
+   "es": "Courtiers — Real Orquesta Sinfónica de Sevilla",
+   "en": "Courtiers — Royal Seville Symphony Orchestra"
+  },
+  "meta": {
+   "es": "Real Orquesta Sinfónica de Sevilla · Cámara",
+   "en": "Royal Seville Symphony Orchestra · Camera"
+  },
+  "svc": [
+   "conciertos",
+   "video"
+  ],
+  "cover": "assets/img/portadas/min/courtiers.jpg",
+  "intro": {
+   "es": "He trabajado como operador de cámara con la productora Courtiers en grabaciones de música clásica, como los conciertos de la Real Orquesta Sinfónica de Sevilla.",
+   "en": "I have worked as a camera operator with the production company Courtiers on classical music recordings, such as the Royal Seville Symphony Orchestra concerts."
+  },
+  "videos": [
+   {
+    "yt": "vtjjSkWkWlE",
+    "t": "Beethoven · Sinfonía nº 9 «Coral» — Dir. Guillermo García Calvo",
+    "v": false
+   },
+   {
+    "yt": "CBXt23a6LLw",
+    "t": "Rachmáninov · Sinfonía nº 2 — Dir. György Győriványi Ráth",
+    "v": false
+   }
+  ],
+  "fotos": [],
+  "n": "05"
+ },
+ {
+  "id": "andres-barrios",
+  "titulo": {
+   "es": "Andrés Barrios",
+   "en": "Andrés Barrios"
+  },
+  "meta": {
+   "es": "Pianista · Foto + reel",
+   "en": "Pianist · Photo + reel"
+  },
+  "svc": [
+   "artistas",
+   "video"
+  ],
+  "cover": "assets/img/andres/min/01.jpg",
+  "intro": {
+   "es": "Vídeo vertical y fotografía para el pianista y cantante Andrés Barrios, en el Ateneo de Madrid y en Veranos de la Villa.",
+   "en": "Vertical video and photography for pianist and singer Andrés Barrios, at the Ateneo de Madrid and Veranos de la Villa."
+  },
+  "videos": [
+   {
+    "src": "assets/video/andres-barrios.mp4",
+    "poster": "assets/video/andres-barrios.jpg",
+    "prev": "assets/video/andres-barrios-prev.mp4",
+    "t": "Andrés Barrios — pianista",
+    "v": true
+   }
+  ],
+  "fotos": [
+   {
+    "s": "assets/img/andres/01.jpg",
+    "m": "assets/img/andres/min/01.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Andrés Barrios — Veranos de la Villa"
+   }
+  ],
+  "n": "06"
+ },
+ {
+  "id": "artista",
+  "titulo": {
+   "es": "Mariángeles Ayala",
+   "en": "Mariángeles Ayala"
+  },
+  "meta": {
+   "es": "Pianista · Videoclips + foto",
+   "en": "Pianist · Music videos + photo"
+  },
+  "svc": [
+   "artistas",
+   "video"
+  ],
+  "cover": "assets/img/artista/min/05.jpg",
+  "intro": {
+   "es": "Videoclips y fotografía para el disco de la pianista Mariángeles Ayala: Infancia, Juventud y Legado.",
+   "en": "Music videos and photography for pianist Mariángeles Ayala’s album: Infancia, Juventud and Legado."
+  },
+  "videos": [
+   {
+    "yt": "GxpLV1QJVcg",
+    "t": "Infancia",
+    "v": false
+   },
+   {
+    "yt": "i6CvcKyFatY",
+    "t": "Juventud",
+    "v": false
+   },
+   {
+    "yt": "rEvzMY-ob4Y",
+    "t": "Legado",
+    "v": false
+   }
+  ],
+  "fotos": [
+   {
+    "s": "assets/img/artista/01.jpg",
+    "m": "assets/img/artista/min/01.jpg",
+    "w": 642,
+    "h": 900,
+    "a": "El Artista — Proyectos propios"
+   },
+   {
+    "s": "assets/img/artista/02.jpg",
+    "m": "assets/img/artista/min/02.jpg",
+    "w": 675,
+    "h": 900,
+    "a": "El Artista — Proyectos propios"
+   },
+   {
+    "s": "assets/img/artista/03.jpg",
+    "m": "assets/img/artista/min/03.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "El Artista — Proyectos propios"
+   },
+   {
+    "s": "assets/img/artista/04.jpg",
+    "m": "assets/img/artista/min/04.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "El Artista — Proyectos propios"
+   },
+   {
+    "s": "assets/img/artista/05.jpg",
+    "m": "assets/img/artista/min/05.jpg",
+    "w": 642,
+    "h": 900,
+    "a": "El Artista — Proyectos propios"
+   },
+   {
+    "s": "assets/img/artista/06.jpg",
+    "m": "assets/img/artista/min/06.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "El Artista — Proyectos propios"
+   },
+   {
+    "s": "assets/img/artista/07.jpg",
+    "m": "assets/img/artista/min/07.jpg",
+    "w": 675,
+    "h": 900,
+    "a": "El Artista — Proyectos propios"
+   },
+   {
+    "s": "assets/img/artista/08.jpg",
+    "m": "assets/img/artista/min/08.jpg",
+    "w": 675,
+    "h": 900,
+    "a": "El Artista — Proyectos propios"
+   }
+  ],
+  "n": "07"
+ },
+ {
+  "id": "pedro-lopez-salas",
+  "titulo": {
+   "es": "Pedro López Salas",
+   "en": "Pedro López Salas"
+  },
+  "meta": {
+   "es": "Pianista · Retrato",
+   "en": "Pianist · Portraits"
+  },
+  "svc": [
+   "artistas"
+  ],
+  "cover": "assets/img/branding/min/05.jpg",
+  "intro": {
+   "es": "Retratos y fotografía de prensa para el pianista Pedro López Salas.",
+   "en": "Portraits and press photography for pianist Pedro López Salas."
+  },
+  "videos": [],
+  "fotos": [
+   {
+    "s": "assets/img/branding/05.jpg",
+    "m": "assets/img/branding/min/05.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/branding/06.jpg",
+    "m": "assets/img/branding/min/06.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/branding/07.jpg",
+    "m": "assets/img/branding/min/07.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/branding/08.jpg",
+    "m": "assets/img/branding/min/08.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/branding/09.jpg",
+    "m": "assets/img/branding/min/09.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/branding/10.jpg",
+    "m": "assets/img/branding/min/10.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/branding/11.jpg",
+    "m": "assets/img/branding/min/11.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   }
+  ],
+  "n": "08"
+ },
+ {
+  "id": "giuseppe-devastato",
+  "titulo": {
+   "es": "Giuseppe Devastato",
+   "en": "Giuseppe Devastato"
+  },
+  "meta": {
+   "es": "Pianista · Retrato",
+   "en": "Pianist · Portraits"
+  },
+  "svc": [
+   "artistas"
+  ],
+  "cover": "assets/img/branding/min/01.jpg",
+  "intro": {
+   "es": "Retratos y fotografía de prensa para el pianista Giuseppe Devastato.",
+   "en": "Portraits and press photography for pianist Giuseppe Devastato."
+  },
+  "videos": [],
+  "fotos": [
+   {
+    "s": "assets/img/branding/01.jpg",
+    "m": "assets/img/branding/min/01.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Giuseppe Devastato — retrato"
+   },
+   {
+    "s": "assets/img/branding/02.jpg",
+    "m": "assets/img/branding/min/02.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Giuseppe Devastato — retrato"
+   },
+   {
+    "s": "assets/img/branding/03.jpg",
+    "m": "assets/img/branding/min/03.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Giuseppe Devastato — retrato"
+   },
+   {
+    "s": "assets/img/branding/04.jpg",
+    "m": "assets/img/branding/min/04.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Giuseppe Devastato — retrato"
+   }
+  ],
+  "n": "09"
+ },
+ {
+  "id": "hinves",
+  "titulo": {
+   "es": "Emily — Hinves Pianos",
+   "en": "Emily — Hinves Pianos"
+  },
+  "meta": {
+   "es": "Pianista · Recital",
+   "en": "Pianist · Recital"
+  },
+  "svc": [
+   "artistas",
+   "conciertos"
+  ],
+  "cover": "assets/img/hinves/min/portada.jpg",
+  "intro": {
+   "es": "Fotografía del recital de la pianista Emily en la sala de Hinves Pianos, en Madrid: retrato, interpretación y ambiente.",
+   "en": "Photography of pianist Emily’s recital at the Hinves Pianos showroom in Madrid: portrait, performance and atmosphere."
+  },
+  "videos": [],
+  "fotos": [
+   {
+    "s": "assets/img/hinves/01.jpg",
+    "m": "assets/img/hinves/min/01.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Recital en Hinves Pianos"
+   },
+   {
+    "s": "assets/img/hinves/02.jpg",
+    "m": "assets/img/hinves/min/02.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Emily junto al piano"
+   },
+   {
+    "s": "assets/img/hinves/03.jpg",
+    "m": "assets/img/hinves/min/03.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Manos y teclado"
+   },
+   {
+    "s": "assets/img/hinves/04.jpg",
+    "m": "assets/img/hinves/min/04.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Escenario de la sala"
+   },
+   {
+    "s": "assets/img/hinves/05.jpg",
+    "m": "assets/img/hinves/min/05.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Público del recital"
+   },
+   {
+    "s": "assets/img/hinves/06.jpg",
+    "m": "assets/img/hinves/min/06.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Reflejos en el piano"
+   },
+   {
+    "s": "assets/img/hinves/07.jpg",
+    "m": "assets/img/hinves/min/07.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Retrato — Emily"
+   }
+  ],
+  "n": "10"
+ },
+ {
+  "id": "hoqai",
+  "titulo": {
+   "es": "HOQAI",
+   "en": "HOQAI"
+  },
+  "meta": {
+   "es": "Marca de moda · Campaña de foto",
+   "en": "Fashion brand · Photo campaign"
+  },
+  "svc": [
+   "marcas"
+  ],
+  "cover": "assets/img/portadas/min/07.jpg",
+  "intro": {
+   "es": "Campañas y lookbooks para la marca de moda HOQAI: producto, estilo de vida y exterior.",
+   "en": "Campaigns and lookbooks for the fashion brand HOQAI: product, lifestyle and outdoor."
+  },
+  "videos": [],
+  "fotos": [
+   {
+    "s": "assets/img/hoqai/01.jpg",
+    "m": "assets/img/hoqai/min/01.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "HOQAI — Camiseta Blanca"
+   },
+   {
+    "s": "assets/img/hoqai/02.jpg",
+    "m": "assets/img/hoqai/min/02.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "HOQAI — Maestro Tee"
+   },
+   {
+    "s": "assets/img/hoqai/03.jpg",
+    "m": "assets/img/hoqai/min/03.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "HOQAI — Lookbook Masculino"
+   },
+   {
+    "s": "assets/img/hoqai/04.jpg",
+    "m": "assets/img/hoqai/min/04.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "HOQAI — Camiseta Verde"
+   },
+   {
+    "s": "assets/img/hoqai/05.jpg",
+    "m": "assets/img/hoqai/min/05.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "HOQAI — Camiseta Negra Detail"
+   },
+   {
+    "s": "assets/img/hoqai/06.jpg",
+    "m": "assets/img/hoqai/min/06.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "HOQAI — Camiseta Azul Cielo"
+   },
+   {
+    "s": "assets/img/hoqai/07.jpg",
+    "m": "assets/img/hoqai/min/07.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "HOQAI — Carlitos Back"
+   },
+   {
+    "s": "assets/img/hoqai/08.jpg",
+    "m": "assets/img/hoqai/min/08.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "HOQAI — Carlo5 Negro"
+   },
+   {
+    "s": "assets/img/hoqai/09.jpg",
+    "m": "assets/img/hoqai/min/09.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "HOQAI — Colección Apilada"
+   },
+   {
+    "s": "assets/img/hoqai/10.jpg",
+    "m": "assets/img/hoqai/min/10.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "HOQAI — Otoño con Hoodies"
+   },
+   {
+    "s": "assets/img/hoqai/11.jpg",
+    "m": "assets/img/hoqai/min/11.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "HOQAI — Hoodie Blanco Angular"
+   },
+   {
+    "s": "assets/img/hoqai/12.jpg",
+    "m": "assets/img/hoqai/min/12.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "HOQAI — Hoodie Naranja Street"
+   },
+   {
+    "s": "assets/img/hoqai/13.jpg",
+    "m": "assets/img/hoqai/min/13.jpg",
+    "w": 900,
+    "h": 675,
+    "a": "HOQAI — Cap Azul Grass"
+   },
+   {
+    "s": "assets/img/hoqai/14.jpg",
+    "m": "assets/img/hoqai/min/14.jpg",
+    "w": 900,
+    "h": 675,
+    "a": "HOQAI — Caps en la Hierba"
+   },
+   {
+    "s": "assets/img/hoqai/15.jpg",
+    "m": "assets/img/hoqai/min/15.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "HOQAI — Duo Maestro"
+   },
+   {
+    "s": "assets/img/hoqai/16.jpg",
+    "m": "assets/img/hoqai/min/16.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "HOQAI — Duo Caleidoscopio"
+   },
+   {
+    "s": "assets/img/hoqai/17.jpg",
+    "m": "assets/img/hoqai/min/17.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "HOQAI — Cap & Hoodie Gris"
+   },
+   {
+    "s": "assets/img/hoqai/18.jpg",
+    "m": "assets/img/hoqai/min/18.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "HOQAI — Poetry in Motion"
+   },
+   {
+    "s": "assets/img/hoqai/19.jpg",
+    "m": "assets/img/hoqai/min/19.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "HOQAI — Sweatshirt Marrón"
+   },
+   {
+    "s": "assets/img/hoqai/20.jpg",
+    "m": "assets/img/hoqai/min/20.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "HOQAI"
+   },
+   {
+    "s": "assets/img/hoqai/21.jpg",
+    "m": "assets/img/hoqai/min/21.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "HOQAI"
+   },
+   {
+    "s": "assets/img/hoqai/22.jpg",
+    "m": "assets/img/hoqai/min/22.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "HOQAI"
+   },
+   {
+    "s": "assets/img/hoqai/23.jpg",
+    "m": "assets/img/hoqai/min/23.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "HOQAI"
+   },
+   {
+    "s": "assets/img/hoqai/24.jpg",
+    "m": "assets/img/hoqai/min/24.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "HOQAI"
+   },
+   {
+    "s": "assets/img/hoqai/25.jpg",
+    "m": "assets/img/hoqai/min/25.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "HOQAI"
+   }
+  ],
+  "n": "11"
  }
 ];
 
