@@ -412,3 +412,10 @@ video.prev.on{opacity:1}
 .q-dots{display:flex;gap:10px;justify-content:center;margin-top:clamp(24px,4vh,40px)}
 .q-dots button{width:28px;height:3px;border-radius:2px;background:var(--line);padding:0;border:0;cursor:pointer;transition:background .4s}
 .q-dots button.is-active{background:var(--warm)}
+
+/* ── Testimonios: transición deslizante ── */
+.q-slides{overflow:hidden}
+.q-slide{transform:translateX(70px);transition:opacity 1.6s var(--ease),transform 1.6s var(--ease),visibility 0s linear 1.6s}
+.q-slide.is-active{transform:translateX(0);transition:opacity 1.6s var(--ease),transform 1.6s var(--ease),visibility 0s}
+.q-slide.is-leaving{transform:translateX(-70px);opacity:0;visibility:visible}
+@media (prefers-reduced-motion:reduce){.q-slide,.q-slide.is-active,.q-slide.is-leaving{transform:none;transition:opacity .4s}}
