@@ -934,6 +934,90 @@ window.PROYECTOS = [
         "w": 900,
         "h": 643,
         "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/43.jpg",
+        "m": "assets/img/ateneo/min/43.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "Mario Prisuelos, piano — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/44.jpg",
+        "m": "assets/img/ateneo/min/44.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Mario Prisuelos, piano — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/45.jpg",
+        "m": "assets/img/ateneo/min/45.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Mario Prisuelos, piano — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/46.jpg",
+        "m": "assets/img/ateneo/min/46.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Mario Prisuelos, piano — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/47.jpg",
+        "m": "assets/img/ateneo/min/47.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Mario Prisuelos, piano — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/48.jpg",
+        "m": "assets/img/ateneo/min/48.jpg",
+        "w": 900,
+        "h": 642,
+        "a": "Mario Prisuelos, piano — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/49.jpg",
+        "m": "assets/img/ateneo/min/49.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Mario Prisuelos, piano — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/50.jpg",
+        "m": "assets/img/ateneo/min/50.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Mario Prisuelos, piano — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/51.jpg",
+        "m": "assets/img/ateneo/min/51.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Mario Prisuelos, piano — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/52.jpg",
+        "m": "assets/img/ateneo/min/52.jpg",
+        "w": 900,
+        "h": 642,
+        "a": "Mario Prisuelos, piano — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/53.jpg",
+        "m": "assets/img/ateneo/min/53.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Mario Prisuelos, piano — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/54.jpg",
+        "m": "assets/img/ateneo/min/54.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Mario Prisuelos, piano — Ateneo de Madrid"
       }
     ],
     "n": "02"
