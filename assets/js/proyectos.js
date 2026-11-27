@@ -489,6 +489,111 @@ window.PROYECTOS = [
         "w": 900,
         "h": 720,
         "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+      },
+      {
+        "s": "assets/img/scherzo-camara/01.jpg",
+        "m": "assets/img/scherzo-camara/min/01.jpg",
+        "w": 900,
+        "h": 600,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/02.jpg",
+        "m": "assets/img/scherzo-camara/min/02.jpg",
+        "w": 900,
+        "h": 600,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/03.jpg",
+        "m": "assets/img/scherzo-camara/min/03.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/04.jpg",
+        "m": "assets/img/scherzo-camara/min/04.jpg",
+        "w": 900,
+        "h": 600,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/05.jpg",
+        "m": "assets/img/scherzo-camara/min/05.jpg",
+        "w": 900,
+        "h": 600,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/06.jpg",
+        "m": "assets/img/scherzo-camara/min/06.jpg",
+        "w": 900,
+        "h": 642,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/07.jpg",
+        "m": "assets/img/scherzo-camara/min/07.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/08.jpg",
+        "m": "assets/img/scherzo-camara/min/08.jpg",
+        "w": 900,
+        "h": 600,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/09.jpg",
+        "m": "assets/img/scherzo-camara/min/09.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/10.jpg",
+        "m": "assets/img/scherzo-camara/min/10.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/11.jpg",
+        "m": "assets/img/scherzo-camara/min/11.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/12.jpg",
+        "m": "assets/img/scherzo-camara/min/12.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/13.jpg",
+        "m": "assets/img/scherzo-camara/min/13.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/14.jpg",
+        "m": "assets/img/scherzo-camara/min/14.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
+      },
+      {
+        "s": "assets/img/scherzo-camara/15.jpg",
+        "m": "assets/img/scherzo-camara/min/15.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "Recital de violín y piano — Auditorio Nacional, Sala de Cámara"
       }
     ],
     "n": "01",
@@ -703,6 +808,132 @@ window.PROYECTOS = [
         "w": 900,
         "h": 720,
         "a": "Ateneo de Madrid — Sala Cátedra"
+      },
+      {
+        "s": "assets/img/ateneo/25.jpg",
+        "m": "assets/img/ateneo/min/25.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/26.jpg",
+        "m": "assets/img/ateneo/min/26.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/27.jpg",
+        "m": "assets/img/ateneo/min/27.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/28.jpg",
+        "m": "assets/img/ateneo/min/28.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/29.jpg",
+        "m": "assets/img/ateneo/min/29.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/30.jpg",
+        "m": "assets/img/ateneo/min/30.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/31.jpg",
+        "m": "assets/img/ateneo/min/31.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/32.jpg",
+        "m": "assets/img/ateneo/min/32.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/33.jpg",
+        "m": "assets/img/ateneo/min/33.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/34.jpg",
+        "m": "assets/img/ateneo/min/34.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/35.jpg",
+        "m": "assets/img/ateneo/min/35.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/36.jpg",
+        "m": "assets/img/ateneo/min/36.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/37.jpg",
+        "m": "assets/img/ateneo/min/37.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/38.jpg",
+        "m": "assets/img/ateneo/min/38.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/39.jpg",
+        "m": "assets/img/ateneo/min/39.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/40.jpg",
+        "m": "assets/img/ateneo/min/40.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/41.jpg",
+        "m": "assets/img/ateneo/min/41.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
+      },
+      {
+        "s": "assets/img/ateneo/42.jpg",
+        "m": "assets/img/ateneo/min/42.jpg",
+        "w": 900,
+        "h": 643,
+        "a": "Coro — Ateneo de Madrid"
       }
     ],
     "n": "02"
@@ -933,6 +1164,99 @@ window.PROYECTOS = [
     "n": "03"
   },
   {
+    "id": "wpta",
+    "titulo": {
+      "es": "WPTA Spain — Gala de premiados",
+      "en": "WPTA Spain — Winners' Gala"
+    },
+    "meta": {
+      "es": "Concurso Internacional de Piano · Foto",
+      "en": "International Piano Competition · Photo"
+    },
+    "svc": [
+      "conciertos"
+    ],
+    "cover": "assets/img/wpta/min/03.jpg",
+    "intro": {
+      "es": "Cobertura fotográfica del concierto de gala y la entrega de premios del concurso internacional de piano WPTA Spain.",
+      "en": "Photography of the gala concert and awards ceremony of the WPTA Spain international piano competition."
+    },
+    "videos": [],
+    "fotos": [
+      {
+        "s": "assets/img/wpta/01.jpg",
+        "m": "assets/img/wpta/min/01.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "WPTA Spain — Gala Concert"
+      },
+      {
+        "s": "assets/img/wpta/02.jpg",
+        "m": "assets/img/wpta/min/02.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "WPTA Spain — Gala Concert"
+      },
+      {
+        "s": "assets/img/wpta/03.jpg",
+        "m": "assets/img/wpta/min/03.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "WPTA Spain — Gala Concert"
+      },
+      {
+        "s": "assets/img/wpta/04.jpg",
+        "m": "assets/img/wpta/min/04.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "WPTA Spain — Gala Concert"
+      },
+      {
+        "s": "assets/img/wpta/05.jpg",
+        "m": "assets/img/wpta/min/05.jpg",
+        "w": 900,
+        "h": 600,
+        "a": "WPTA Spain — Gala Concert"
+      },
+      {
+        "s": "assets/img/wpta/06.jpg",
+        "m": "assets/img/wpta/min/06.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "WPTA Spain — Gala Concert"
+      },
+      {
+        "s": "assets/img/wpta/07.jpg",
+        "m": "assets/img/wpta/min/07.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "WPTA Spain — Gala Concert"
+      },
+      {
+        "s": "assets/img/wpta/08.jpg",
+        "m": "assets/img/wpta/min/08.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "WPTA Spain — Gala Concert"
+      },
+      {
+        "s": "assets/img/wpta/09.jpg",
+        "m": "assets/img/wpta/min/09.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "WPTA Spain — Gala Concert"
+      },
+      {
+        "s": "assets/img/wpta/10.jpg",
+        "m": "assets/img/wpta/min/10.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "WPTA Spain — Gala Concert"
+      }
+    ],
+    "n": "04"
+  },
+  {
     "id": "musical-arts",
     "titulo": {
       "es": "Musical Arts Madrid",
@@ -948,7 +1272,7 @@ window.PROYECTOS = [
     ],
     "cover": "assets/img/portadas/min/06.jpg",
     "intro": {
-      "es": "Escuela Superior de Música Musical Arts Madrid: fotografía de la graduación, la campaña de inscripciones y las entrevistas «Alumnos inspiradores».",
+      "es": "Escuela Superior de Música Musical Arts Madrid: fotografía de la graduación, retratos de orla, la campaña de inscripciones y las entrevistas «Alumnos inspiradores».",
       "en": "Musical Arts Madrid music conservatoire: graduation photography, the enrolment campaign and the “Inspiring students” interviews."
     },
     "videos": [
@@ -1120,9 +1444,58 @@ window.PROYECTOS = [
         "w": 900,
         "h": 642,
         "a": "Musical Arts Madrid — graduación"
+      },
+      {
+        "s": "assets/img/orla/01.jpg",
+        "m": "assets/img/orla/min/01.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "Retrato de orla — Musical Arts Madrid"
+      },
+      {
+        "s": "assets/img/orla/02.jpg",
+        "m": "assets/img/orla/min/02.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "Retrato de orla — Musical Arts Madrid"
+      },
+      {
+        "s": "assets/img/orla/03.jpg",
+        "m": "assets/img/orla/min/03.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "Retrato de orla — Musical Arts Madrid"
+      },
+      {
+        "s": "assets/img/orla/04.jpg",
+        "m": "assets/img/orla/min/04.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "Retrato de orla — Musical Arts Madrid"
+      },
+      {
+        "s": "assets/img/orla/05.jpg",
+        "m": "assets/img/orla/min/05.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "Retrato de orla — Musical Arts Madrid"
+      },
+      {
+        "s": "assets/img/orla/06.jpg",
+        "m": "assets/img/orla/min/06.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "Retrato de orla — Musical Arts Madrid"
+      },
+      {
+        "s": "assets/img/orla/07.jpg",
+        "m": "assets/img/orla/min/07.jpg",
+        "w": 900,
+        "h": 720,
+        "a": "Retrato de orla — Musical Arts Madrid"
       }
     ],
-    "n": "04"
+    "n": "05"
   },
   {
     "id": "bodas",
@@ -1156,7 +1529,7 @@ window.PROYECTOS = [
       }
     ],
     "fotos": [],
-    "n": "05"
+    "n": "06"
   },
   {
     "id": "andres-barrios",
@@ -1398,7 +1771,7 @@ window.PROYECTOS = [
         "a": "Andrés Barrios — Ateneo de Madrid"
       }
     ],
-    "n": "06"
+    "n": "07"
   },
   {
     "id": "artista",
@@ -1494,7 +1867,7 @@ window.PROYECTOS = [
         "a": "El Artista — Proyectos propios"
       }
     ],
-    "n": "07"
+    "n": "08"
   },
   {
     "id": "pedro-lopez-salas",
@@ -1622,7 +1995,7 @@ window.PROYECTOS = [
         "a": "Pedro López Salas — retrato"
       }
     ],
-    "n": "08"
+    "n": "09"
   },
   {
     "id": "giuseppe-devastato",
@@ -1673,7 +2046,7 @@ window.PROYECTOS = [
         "a": "Giuseppe Devastato — retrato"
       }
     ],
-    "n": "09"
+    "n": "10"
   },
   {
     "id": "hinves",
@@ -1804,7 +2177,7 @@ window.PROYECTOS = [
         "a": "Emily Preziosa — recital en Hinves Pianos"
       }
     ],
-    "n": "10"
+    "n": "11"
   },
   {
     "id": "hoqai",
@@ -2002,7 +2375,7 @@ window.PROYECTOS = [
         "a": "HOQAI"
       }
     ],
-    "n": "11"
+    "n": "12"
   }
 ];
 
