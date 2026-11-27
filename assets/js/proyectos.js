@@ -31,6 +31,20 @@ window.PROYECTOS = [
         "v": true
       },
       {
+        "src": "assets/video/scherzo-volodos.mp4",
+        "poster": "assets/video/scherzo-volodos.jpg",
+        "prev": "assets/video/scherzo-volodos-prev.mp4",
+        "t": "Arcadi Volodos — Auditorio Nacional",
+        "v": true
+      },
+      {
+        "src": "assets/video/scherzo-repin-lugansky.mp4",
+        "poster": "assets/video/scherzo-repin-lugansky.jpg",
+        "prev": "assets/video/scherzo-repin-lugansky-prev.mp4",
+        "t": "Vadim Repin & Nikolai Lugansky — Reel con entrevista",
+        "v": true
+      },
+      {
         "src": "assets/video/scherzo-sokolov.mp4?v=2",
         "poster": "assets/video/scherzo-sokolov.jpg",
         "prev": "assets/video/scherzo-sokolov-prev.mp4",
@@ -1673,14 +1687,23 @@ window.PROYECTOS = [
     },
     "svc": [
       "artistas",
-      "conciertos"
+      "conciertos",
+      "video"
     ],
     "cover": "assets/img/hinves/min/portada.jpg",
     "intro": {
       "es": "Fotografía del recital de la pianista Emily Preziosa en la sala de Hinves Pianos, en Madrid: retrato, interpretación y ambiente.",
       "en": "Photography of pianist Emily Preziosa’s recital at the Hinves Pianos showroom in Madrid: portrait, performance and atmosphere."
     },
-    "videos": [],
+    "videos": [
+      {
+        "src": "assets/video/emily-preziosa.mp4",
+        "poster": "assets/video/emily-preziosa.jpg",
+        "prev": "assets/video/emily-preziosa-prev.mp4",
+        "t": "Emily Preziosa — Reel de artista",
+        "v": true
+      }
+    ],
     "fotos": [
       {
         "s": "assets/img/emily/01.jpg",
