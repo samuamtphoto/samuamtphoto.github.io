@@ -336,3 +336,10 @@ video.prev.on{opacity:1}
 .avail-dot{width:clamp(12px,1.1vw,18px);height:clamp(12px,1.1vw,18px)}
 .availability a{height:48px;padding:0 28px;font-size:13px}
 @media (max-width:760px){.availability{padding-top:48px;padding-bottom:48px;gap:22px}.availability p{font-size:clamp(38px,11vw,52px)}}
+/* Franja de disponibilidad: tamaño intermedio, discreta */
+.availability{flex-direction:row;flex-wrap:wrap;justify-content:center;gap:14px 32px;padding:clamp(30px,4.5vh,46px) var(--gutter)}
+.availability p{font-size:clamp(26px,2.8vw,42px);gap:14px}
+.avail-dot{width:10px;height:10px}
+.availability a{height:42px;padding:0 22px;font-size:12px}
+@media (max-width:760px){.availability{flex-direction:column;padding-top:34px;padding-bottom:34px;gap:16px}.availability p{font-size:clamp(26px,8vw,32px)}}
+.availability p em{white-space:nowrap}
