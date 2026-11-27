@@ -1370,8 +1370,8 @@ window.PROYECTOS = [
  {
   "id": "hinves",
   "titulo": {
-   "es": "Emily — Hinves Pianos",
-   "en": "Emily — Hinves Pianos"
+   "es": "Emily Preziosa — Hinves Pianos",
+   "en": "Emily Preziosa — Hinves Pianos"
   },
   "meta": {
    "es": "Pianista · Recital",
@@ -1383,8 +1383,8 @@ window.PROYECTOS = [
   ],
   "cover": "assets/img/hinves/min/portada.jpg",
   "intro": {
-   "es": "Fotografía del recital de la pianista Emily en la sala de Hinves Pianos, en Madrid: retrato, interpretación y ambiente.",
-   "en": "Photography of pianist Emily’s recital at the Hinves Pianos showroom in Madrid: portrait, performance and atmosphere."
+   "es": "Fotografía del recital de la pianista Emily Preziosa en la sala de Hinves Pianos, en Madrid: retrato, interpretación y ambiente.",
+   "en": "Photography of pianist Emily Preziosa’s recital at the Hinves Pianos showroom in Madrid: portrait, performance and atmosphere."
   },
   "videos": [],
   "fotos": [
@@ -1400,7 +1400,7 @@ window.PROYECTOS = [
     "m": "assets/img/hinves/min/02.jpg",
     "w": 900,
     "h": 720,
-    "a": "Emily junto al piano"
+    "a": "Emily Preziosa junto al piano"
    },
    {
     "s": "assets/img/hinves/03.jpg",
@@ -1435,7 +1435,7 @@ window.PROYECTOS = [
     "m": "assets/img/hinves/min/07.jpg",
     "w": 900,
     "h": 643,
-    "a": "Retrato — Emily"
+    "a": "Retrato — Emily Preziosa"
    }
   ],
   "n": "10"
