@@ -24,21 +24,21 @@ window.PROYECTOS = [
   },
   "videos": [
    {
-    "src": "assets/video/scherzo-beatrice-rana.mp4",
+    "src": "assets/video/scherzo-beatrice-rana.mp4?v=2",
     "poster": "assets/video/scherzo-beatrice-rana.jpg",
     "prev": "assets/video/scherzo-beatrice-rana-prev.mp4",
     "t": "Beatrice Rana — Reel del concierto",
     "v": true
    },
    {
-    "src": "assets/video/scherzo-sokolov.mp4",
+    "src": "assets/video/scherzo-sokolov.mp4?v=2",
     "poster": "assets/video/scherzo-sokolov.jpg",
     "prev": "assets/video/scherzo-sokolov-prev.mp4",
     "t": "Reel con entrevistas al público",
     "v": true
    },
    {
-    "src": "assets/video/scherzo-reel.mp4",
+    "src": "assets/video/scherzo-reel.mp4?v=2",
     "poster": "assets/video/scherzo-reel.jpg",
     "prev": "assets/video/scherzo-reel-prev.mp4",
     "t": "Grandes Intérpretes — Reel",
@@ -932,7 +932,7 @@ window.PROYECTOS = [
   },
   "videos": [
    {
-    "src": "assets/video/violin-madrid.mp4",
+    "src": "assets/video/violin-madrid.mp4?v=2",
     "poster": "assets/video/violin-madrid.jpg",
     "prev": "assets/video/violin-madrid-prev.mp4",
     "t": "Musical Arts — Inscripciones abiertas",
@@ -1153,12 +1153,12 @@ window.PROYECTOS = [
   ],
   "cover": "assets/img/andres/min/01.jpg",
   "intro": {
-   "es": "Fotografía y vídeo para el pianista y cantante Andrés Barrios: su concierto en Veranos de la Villa, en el patio del Cuartel de Conde Duque, y un reel vertical para redes.",
-   "en": "Photography and video for pianist and singer Andrés Barrios: his Veranos de la Villa concert in the Conde Duque courtyard, plus a vertical reel for social media."
+   "es": "Fotografía y vídeo para el pianista y cantante Andrés Barrios: su concierto en Veranos de la Villa, en el patio del Cuartel de Conde Duque, su recital en el Ateneo de Madrid y un reel vertical para redes.",
+   "en": "Photography and video for pianist and singer Andrés Barrios: his Veranos de la Villa concert in the Conde Duque courtyard, his recital at the Ateneo de Madrid and a vertical reel for social media."
   },
   "videos": [
    {
-    "src": "assets/video/andres-barrios.mp4",
+    "src": "assets/video/andres-barrios.mp4?v=2",
     "poster": "assets/video/andres-barrios.jpg",
     "prev": "assets/video/andres-barrios-prev.mp4",
     "t": "Andrés Barrios — pianista",
@@ -1291,6 +1291,90 @@ window.PROYECTOS = [
     "w": 900,
     "h": 642,
     "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres-ateneo/01.jpg",
+    "m": "assets/img/andres-ateneo/min/01.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "Andrés Barrios — Ateneo de Madrid"
+   },
+   {
+    "s": "assets/img/andres-ateneo/02.jpg",
+    "m": "assets/img/andres-ateneo/min/02.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Andrés Barrios — Ateneo de Madrid"
+   },
+   {
+    "s": "assets/img/andres-ateneo/03.jpg",
+    "m": "assets/img/andres-ateneo/min/03.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Andrés Barrios — Ateneo de Madrid"
+   },
+   {
+    "s": "assets/img/andres-ateneo/04.jpg",
+    "m": "assets/img/andres-ateneo/min/04.jpg",
+    "w": 900,
+    "h": 675,
+    "a": "Andrés Barrios — Ateneo de Madrid"
+   },
+   {
+    "s": "assets/img/andres-ateneo/05.jpg",
+    "m": "assets/img/andres-ateneo/min/05.jpg",
+    "w": 900,
+    "h": 675,
+    "a": "Andrés Barrios — Ateneo de Madrid"
+   },
+   {
+    "s": "assets/img/andres-ateneo/06.jpg",
+    "m": "assets/img/andres-ateneo/min/06.jpg",
+    "w": 900,
+    "h": 675,
+    "a": "Andrés Barrios — Ateneo de Madrid"
+   },
+   {
+    "s": "assets/img/andres-ateneo/07.jpg",
+    "m": "assets/img/andres-ateneo/min/07.jpg",
+    "w": 900,
+    "h": 675,
+    "a": "Andrés Barrios — Ateneo de Madrid"
+   },
+   {
+    "s": "assets/img/andres-ateneo/08.jpg",
+    "m": "assets/img/andres-ateneo/min/08.jpg",
+    "w": 900,
+    "h": 506,
+    "a": "Andrés Barrios — Ateneo de Madrid"
+   },
+   {
+    "s": "assets/img/andres-ateneo/09.jpg",
+    "m": "assets/img/andres-ateneo/min/09.jpg",
+    "w": 900,
+    "h": 675,
+    "a": "Andrés Barrios — Ateneo de Madrid"
+   },
+   {
+    "s": "assets/img/andres-ateneo/10.jpg",
+    "m": "assets/img/andres-ateneo/min/10.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Andrés Barrios — Ateneo de Madrid"
+   },
+   {
+    "s": "assets/img/andres-ateneo/11.jpg",
+    "m": "assets/img/andres-ateneo/min/11.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Andrés Barrios — Ateneo de Madrid"
+   },
+   {
+    "s": "assets/img/andres-ateneo/12.jpg",
+    "m": "assets/img/andres-ateneo/min/12.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Andrés Barrios — Ateneo de Madrid"
    }
   ],
   "n": "06"
