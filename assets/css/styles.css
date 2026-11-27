@@ -419,3 +419,15 @@ video.prev.on{opacity:1}
 .q-slide.is-active{transform:translateX(0);transition:opacity 1.6s var(--ease),transform 1.6s var(--ease),visibility 0s}
 .q-slide.is-leaving{transform:translateX(-70px);opacity:0;visibility:visible}
 @media (prefers-reduced-motion:reduce){.q-slide,.q-slide.is-active,.q-slide.is-leaving{transform:none;transition:opacity .4s}}
+
+/* ── Ficha de proyecto: pestañas y "ver todas" ── */
+.panel-tabs{position:sticky;top:68px;z-index:3;display:flex;gap:8px;margin:0 0 28px;padding:10px 0;background:var(--ink)}
+.panel-tabs button{height:40px;padding:0 20px;border:1px solid var(--line);border-radius:999px;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);transition:background .35s var(--ease),color .35s,border-color .35s}
+.panel-tabs button span{margin-left:6px;opacity:.7;font-weight:500}
+.panel-tabs button[aria-selected="true"]{background:var(--paper);border-color:var(--paper);color:var(--ink)}
+.panel-tabs button:hover{border-color:var(--paper);color:var(--paper)}
+.panel-tabs button[aria-selected="true"]:hover{color:var(--ink)}
+.panel-pane[hidden]{display:none}
+.masonry .is-extra{display:none}
+.panel-more{display:flex;justify-content:center;margin:20px 0 8px}
+.panel-more[hidden]{display:none}

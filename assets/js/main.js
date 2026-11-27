@@ -133,6 +133,7 @@
       '<div class="frame"><img src="' + (v.src ? v.poster : thumb(v.yt)) + '" alt="" loading="lazy" decoding="async"><span class="play">' + PLAY + '</span>' +
       '<span class="vt"><small>' + esc(label || (v.v ? T[lang].reel : T[lang].film)) + '</small>' + esc(v.t) + '</span></div></button>';
   }
+  var panelTab = {id:null, tab:'fotos', all:false};
   function renderPanel(id, keepScroll){
     var p = byId[id]; if(!p) return;
     var idx = P.indexOf(p), next = P[(idx + 1) % P.length], t = T[lang];
@@ -140,12 +141,25 @@
     var h = '<div class="panel-bar"><span class="chip">' + p.n + ' — ' + esc(p.titulo[lang]) + '</span><button class="btn" data-close>' + t.cerrar + ' ✕</button></div>';
     h += '<header class="panel-head"><h2 class="display" id="panel-title">' + esc(p.titulo[lang]) + '</h2><div><p class="eyebrow" style="color:var(--warm);margin-bottom:12px">' + esc(p.meta[lang]) + '</p><p>' + esc(p.intro[lang]) + '</p><p class="eyebrow" style="margin-top:18px;color:var(--mute)">' + counts(p) + '</p></div></header>';
     h += '<div class="panel-body">';
-    if(films.length) h += '<div class="panel-videos">' + films.map(function(v){ return vcard(v); }).join('') + '</div>';
-    if(reels.length) h += '<div class="panel-videos verticals">' + reels.map(function(v){ return vcard(v); }).join('') + '</div>';
+    var es = lang === 'es', both = p.fotos.length && p.videos.length;
+    if(panelTab.id !== id){ panelTab = {id:id, tab:'fotos', all:false}; }
+    var tab = both ? panelTab.tab : (p.fotos.length ? 'fotos' : 'videos');
+    if(both){
+      h += '<div class="panel-tabs" role="tablist">'
+        + '<button role="tab" data-tab="fotos" aria-selected="' + (tab === 'fotos') + '">' + (es ? 'Fotos' : 'Photos') + ' <span>' + p.fotos.length + '</span></button>'
+        + '<button role="tab" data-tab="videos" aria-selected="' + (tab === 'videos') + '">' + (es ? 'Vídeos' : 'Videos') + ' <span>' + p.videos.length + '</span></button></div>';
+    }
+    var vids = '';
+    if(films.length) vids += '<div class="panel-videos">' + films.map(function(v){ return vcard(v); }).join('') + '</div>';
+    if(reels.length) vids += '<div class="panel-videos verticals">' + reels.map(function(v){ return vcard(v); }).join('') + '</div>';
+    if(vids) h += '<div class="panel-pane" data-pane="videos"' + (tab === 'videos' ? '' : ' hidden') + '>' + vids + '</div>';
     if(p.fotos.length){
-      h += '<div class="masonry">' + p.fotos.map(function(f, i){
-        return '<button data-i="' + i + '" aria-label="' + esc(f.a) + '"><img src="' + f.m + '" width="' + f.w + '" height="' + f.h + '" alt="' + esc(f.a) + '" loading="lazy" decoding="async"></button>';
+      var LIM = 24, cut = !panelTab.all && p.fotos.length > LIM + 6;
+      h += '<div class="panel-pane" data-pane="fotos"' + (tab === 'fotos' ? '' : ' hidden') + '><div class="masonry">' + p.fotos.map(function(f, i){
+        return '<button data-i="' + i + '" aria-label="' + esc(f.a) + '"' + (cut && i >= LIM ? ' class="is-extra"' : '') + '><img src="' + f.m + '" width="' + f.w + '" height="' + f.h + '" alt="' + esc(f.a) + '" loading="lazy" decoding="async"></button>';
       }).join('') + '</div>';
+      if(cut) h += '<div class="panel-more"><button class="btn" data-more>' + (es ? 'Ver las ' + p.fotos.length + ' fotos' : 'See all ' + p.fotos.length + ' photos') + ' ↓</button></div>';
+      h += '</div>';
     }
     var Q = window.TESTIMONIO;
     if(Q && Q.proyecto === id){
@@ -180,6 +194,19 @@
   $$('.card').forEach(function(c){ c.addEventListener('click', function(){ openPanel(c.dataset.id); }); });
   panel.addEventListener('click', function(e){
     var t = e.target.closest('button'); if(!t) return;
+    if(t.dataset.tab){
+      panelTab.tab = t.dataset.tab;
+      $$('.panel-tabs button', panel).forEach(function(b){ b.setAttribute('aria-selected', b === t); });
+      $$('.panel-pane', panel).forEach(function(pn){ pn.hidden = pn.dataset.pane !== t.dataset.tab; });
+      var tabs = $('.panel-tabs', panel); if(tabs && panel.scrollTop > tabs.offsetTop) panel.scrollTop = tabs.offsetTop - 70;
+      return;
+    }
+    if(t.hasAttribute('data-more')){
+      panelTab.all = true;
+      $$('.masonry .is-extra', panel).forEach(function(b){ b.classList.toggle('is-extra', false); });
+      t.parentNode.hidden = true;
+      return;
+    }
     if(t.hasAttribute('data-close')) return closePanel();
     if(t.dataset.next){ openPanel(t.dataset.next, false); history.replaceState({p:t.dataset.next}, '', '#' + t.dataset.next); return; }
     if(t.dataset.yt || t.dataset.src) return openVideo(t);
