@@ -51,7 +51,7 @@
     b.addEventListener('click', function(){
       $$('.filters button').forEach(function(x){ x.setAttribute('aria-pressed', x === b); });
       var f = b.dataset.filter;
-      $$('.card').forEach(function(c){ c.classList.toggle('hidden', f !== 'todo' && c.dataset.cat !== f); });
+      $$('.card').forEach(function(c){ c.classList.toggle('hidden', f !== 'todo' && (' ' + c.dataset.svc + ' ').indexOf(' ' + f + ' ') < 0); });
     });
   });
   /* Enlaces "Ver ejemplos" de servicios → filtra el portfolio */

@@ -4,23 +4,23 @@
 window.PROYECTOS = [
  {
   "id": "scherzo",
-  "n": "01",
-  "tags": [
-   "foto",
-   "video"
-  ],
-  "cover": "assets/img/scherzo/min/portada.jpg",
   "titulo": {
    "es": "Fundación Scherzo — Grandes Intérpretes",
    "en": "Fundación Scherzo — Great Performers"
   },
   "meta": {
-   "es": "Fotos y reels · Auditorio Nacional — Madrid",
-   "en": "Photos & reels · Auditorio Nacional — Madrid"
+   "es": "Grandes Intérpretes · Foto, reels y motion",
+   "en": "Great Performers · Photo, reels & motion"
   },
+  "svc": [
+   "conciertos",
+   "video",
+   "motion"
+  ],
+  "cover": "assets/img/scherzo/min/portada.jpg",
   "intro": {
-   "es": "Fotografía de los recitales de la temporada 26/27 de la Fundación Scherzo en el Auditorio Nacional de Música: Rafał Blechacz, Nikolai Lugansky y Vadim Repin, y Martina Meola. Reels de concierto para redes, como el de Beatrice Rana o el de entrevistas al público.",
-   "en": "Photography of the Fundación Scherzo 2026/27 season recitals at the Auditorio Nacional de Música: Rafał Blechacz, Nikolai Lugansky and Vadim Repin, and Martina Meola. Concert reels for social media, such as Beatrice Rana’s or the audience-interview reel."
+   "es": "Fotografía, reels y animación para el ciclo Grandes Intérpretes de la Fundación Scherzo en el Auditorio Nacional de Música: Rafał Blechacz, Nikolai Lugansky y Vadim Repin, Martina Meola, Beatrice Rana… y la animación de la temporada para pantallas y redes.",
+   "en": "Photography, reels and animation for Fundación Scherzo’s Great Performers series at the Auditorio Nacional de Música: Rafał Blechacz, Nikolai Lugansky and Vadim Repin, Martina Meola, Beatrice Rana… plus the season’s animation for screens and social media."
   },
   "videos": [
    {
@@ -42,6 +42,27 @@ window.PROYECTOS = [
     "poster": "assets/video/scherzo-reel.jpg",
     "prev": "assets/video/scherzo-reel-prev.mp4",
     "t": "Grandes Intérpretes — Reel",
+    "v": true
+   },
+   {
+    "src": "assets/video/scherzo-grandes-interpretes.mp4",
+    "poster": "assets/video/scherzo-grandes-interpretes.jpg",
+    "prev": "assets/video/scherzo-grandes-interpretes-prev.mp4",
+    "t": "Grandes Intérpretes 26/27 — Pantallas",
+    "v": true
+   },
+   {
+    "src": "assets/video/scherzo-cierre-repin-lugansky.mp4",
+    "poster": "assets/video/scherzo-cierre-repin-lugansky.jpg",
+    "prev": "assets/video/scherzo-cierre-repin-lugansky-prev.mp4",
+    "t": "Próximo concierto — Repin & Lugansky",
+    "v": true
+   },
+   {
+    "src": "assets/video/scherzo-cierre-blechacz.mp4",
+    "poster": "assets/video/scherzo-cierre-blechacz.jpg",
+    "prev": "assets/video/scherzo-cierre-blechacz-prev.mp4",
+    "t": "Próximo concierto — Blechacz",
     "v": true
    }
   ],
@@ -131,228 +152,23 @@ window.PROYECTOS = [
     "a": "Martina Meola — reverencia"
    }
   ],
-  "cat": "clasica"
- },
- {
-  "id": "conciertos",
-  "n": "02",
-  "tags": [
-   "foto",
-   "video"
-  ],
-  "cover": "assets/img/portadas/min/01.jpg",
-  "titulo": {
-   "es": "Auditorio Nacional de Música",
-   "en": "Auditorio Nacional de Música"
-  },
-  "meta": {
-   "es": "Conciertos de piano · Recitales — Madrid",
-   "en": "Piano concerts · Recitals — Madrid"
-  },
-  "intro": {
-   "es": "Fotografía y reels de conciertos y recitales en el Auditorio Nacional de Música de Madrid.",
-   "en": "Photography and reels of concerts and recitals at the Auditorio Nacional de Música, Madrid."
-  },
-  "videos": [
-   {
-    "yt": "wtEYdJoO_bI",
-    "t": "Eva Gevorgyan — Auditorio Nacional",
-    "v": true
-   },
-   {
-    "yt": "0ESE6CQ8Rg4",
-    "t": "Trío Paquito D'Rivera",
-    "v": true
-   }
-  ],
-  "fotos": [
-   {
-    "s": "assets/img/conciertos/01.jpg",
-    "m": "assets/img/conciertos/min/01.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Auditorio Nacional, Madrid"
-   },
-   {
-    "s": "assets/img/conciertos/02.jpg",
-    "m": "assets/img/conciertos/min/02.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Auditorio Nacional, Madrid"
-   },
-   {
-    "s": "assets/img/conciertos/03.jpg",
-    "m": "assets/img/conciertos/min/03.jpg",
-    "w": 900,
-    "h": 599,
-    "a": "Al Piano — Steinway & Sons"
-   },
-   {
-    "s": "assets/img/conciertos/04.jpg",
-    "m": "assets/img/conciertos/min/04.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Clarinete & Harmónica"
-   },
-   {
-    "s": "assets/img/conciertos/05.jpg",
-    "m": "assets/img/conciertos/min/05.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Vibráfono en Escena"
-   },
-   {
-    "s": "assets/img/conciertos/06.jpg",
-    "m": "assets/img/conciertos/min/06.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "El Momento del Aplauso"
-   },
-   {
-    "s": "assets/img/conciertos/07.jpg",
-    "m": "assets/img/conciertos/min/07.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Tras el Concierto"
-   },
-   {
-    "s": "assets/img/conciertos/08.jpg",
-    "m": "assets/img/conciertos/min/08.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Saxofón — Auditorio Nacional"
-   },
-   {
-    "s": "assets/img/conciertos/09.jpg",
-    "m": "assets/img/conciertos/min/09.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "El Escenario es Tuyo"
-   },
-   {
-    "s": "assets/img/conciertos/10.jpg",
-    "m": "assets/img/conciertos/min/10.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Standing Ovation"
-   },
-   {
-    "s": "assets/img/conciertos/11.jpg",
-    "m": "assets/img/conciertos/min/11.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Soprano en Escena"
-   },
-   {
-    "s": "assets/img/conciertos/12.jpg",
-    "m": "assets/img/conciertos/min/12.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Piano desde Bambalinas"
-   },
-   {
-    "s": "assets/img/conciertos/13.jpg",
-    "m": "assets/img/conciertos/min/13.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Sola en el Escenario"
-   },
-   {
-    "s": "assets/img/conciertos/14.jpg",
-    "m": "assets/img/conciertos/min/14.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Eva Gevorgyan — Piano"
-   },
-   {
-    "s": "assets/img/conciertos/15.jpg",
-    "m": "assets/img/conciertos/min/15.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Sala Sinfónica Llena"
-   },
-   {
-    "s": "assets/img/conciertos/16.jpg",
-    "m": "assets/img/conciertos/min/16.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "La Emoción del Directo"
-   },
-   {
-    "s": "assets/img/conciertos/17.jpg",
-    "m": "assets/img/conciertos/min/17.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Vista Cenital — Auditorio"
-   },
-   {
-    "s": "assets/img/conciertos/18.jpg",
-    "m": "assets/img/conciertos/min/18.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "La Sala desde las Alturas"
-   },
-   {
-    "s": "assets/img/conciertos/19.jpg",
-    "m": "assets/img/conciertos/min/19.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Programa de Mano"
-   },
-   {
-    "s": "assets/img/conciertos/20.jpg",
-    "m": "assets/img/conciertos/min/20.jpg",
-    "w": 900,
-    "h": 506,
-    "a": "Auditorio Nacional de Música"
-   },
-   {
-    "s": "assets/img/conciertos/21.jpg",
-    "m": "assets/img/conciertos/min/21.jpg",
-    "w": 900,
-    "h": 506,
-    "a": "Auditorio Nacional de Música"
-   },
-   {
-    "s": "assets/img/conciertos/22.jpg",
-    "m": "assets/img/conciertos/min/22.jpg",
-    "w": 900,
-    "h": 506,
-    "a": "Auditorio Nacional de Música"
-   },
-   {
-    "s": "assets/img/conciertos/23.jpg",
-    "m": "assets/img/conciertos/min/23.jpg",
-    "w": 900,
-    "h": 643,
-    "a": "Auditorio Nacional de Música"
-   },
-   {
-    "s": "assets/img/conciertos/24.jpg",
-    "m": "assets/img/conciertos/min/24.jpg",
-    "w": 900,
-    "h": 600,
-    "a": "Auditorio Nacional de Música"
-   }
-  ],
-  "cat": "clasica"
+  "n": "01"
  },
  {
   "id": "ateneo",
-  "n": "03",
-  "tags": [
-   "foto",
-   "video"
-  ],
-  "cover": "assets/img/portadas/min/02.jpg",
   "titulo": {
    "es": "Ateneo de Madrid — Sala Cátedra",
    "en": "Ateneo de Madrid — Sala Cátedra"
   },
   "meta": {
-   "es": "Música clásica · Recitales · Actos culturales",
-   "en": "Classical music · Recitals · Cultural events"
+   "es": "Recitales · Foto + reels",
+   "en": "Recitals · Photo + reels"
   },
+  "svc": [
+   "conciertos",
+   "video"
+  ],
+  "cover": "assets/img/ateneo/min/15.jpg",
   "intro": {
    "es": "Recitales, festivales y actos culturales en la Sala Cátedra del Ateneo de Madrid, entre ellos el Festival Alicia de Larrocha.",
    "en": "Recitals, festivals and cultural events at the Ateneo de Madrid’s Sala Cátedra, including the Alicia de Larrocha Festival."
@@ -549,24 +365,63 @@ window.PROYECTOS = [
     "a": "Ateneo de Madrid — Sala Cátedra"
    }
   ],
-  "cat": "clasica"
+  "n": "02"
+ },
+ {
+  "id": "andres-barrios",
+  "titulo": {
+   "es": "Andrés Barrios",
+   "en": "Andrés Barrios"
+  },
+  "meta": {
+   "es": "Pianista · Reel + foto",
+   "en": "Pianist · Reel + photo"
+  },
+  "svc": [
+   "artistas",
+   "video"
+  ],
+  "cover": "assets/img/andres/min/01.jpg",
+  "intro": {
+   "es": "Vídeo vertical y fotografía para el pianista y cantante Andrés Barrios, en el Ateneo de Madrid y en Veranos de la Villa.",
+   "en": "Vertical video and photography for pianist and singer Andrés Barrios, at the Ateneo de Madrid and Veranos de la Villa."
+  },
+  "videos": [
+   {
+    "src": "assets/video/andres-barrios.mp4",
+    "poster": "assets/video/andres-barrios.jpg",
+    "prev": "assets/video/andres-barrios-prev.mp4",
+    "t": "Andrés Barrios — pianista",
+    "v": true
+   }
+  ],
+  "fotos": [
+   {
+    "s": "assets/img/andres/01.jpg",
+    "m": "assets/img/andres/min/01.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Andrés Barrios — Veranos de la Villa"
+   }
+  ],
+  "n": "03"
  },
  {
   "id": "kawai",
-  "n": "04",
-  "tags": [
-   "foto",
-   "video"
-  ],
-  "cover": "assets/img/kawai/min/14.jpg",
   "titulo": {
    "es": "Kawai Spain — Concurso Shigeru Kawai",
    "en": "Kawai Spain — Shigeru Kawai Competition"
   },
   "meta": {
-   "es": "Concursos · Conciertos — Madrid · Valencia",
-   "en": "Competitions · Concerts — Madrid · Valencia"
+   "es": "Concurso de piano · Foto + reels",
+   "en": "Piano competition · Photo + reels"
   },
+  "svc": [
+   "conciertos",
+   "marcas",
+   "video"
+  ],
+  "cover": "assets/img/kawai/min/14.jpg",
   "intro": {
    "es": "Cobertura del Concurso Shigeru Kawai y del ciclo de Grandes Intérpretes para Kawai Spain.",
    "en": "Coverage of the Shigeru Kawai Competition and the Great Performers series for Kawai Spain."
@@ -767,61 +622,26 @@ window.PROYECTOS = [
     "a": "Kawai Spain — Valencia"
    }
   ],
-  "cat": "clasica"
- },
- {
-  "id": "bodas",
-  "n": "05",
-  "tags": [
-   "video"
-  ],
-  "cover": "assets/img/portadas/min/04.jpg",
-  "titulo": {
-   "es": "Courtiers — Producción audiovisual",
-   "en": "Courtiers — Audiovisual production"
-  },
-  "meta": {
-   "es": "Operador de cámara · Música sinfónica",
-   "en": "Camera operator · Symphonic music"
-  },
-  "intro": {
-   "es": "He trabajado como operador de cámara con la productora Courtiers en grabaciones de música clásica, como los conciertos de la Real Orquesta Sinfónica de Sevilla.",
-   "en": "I have worked as a camera operator with the production company Courtiers on classical music recordings, such as the Royal Seville Symphony Orchestra concerts."
-  },
-  "videos": [
-   {
-    "yt": "vtjjSkWkWlE",
-    "t": "Beethoven · Sinfonía nº 9 «Coral» — Dir. Guillermo García Calvo",
-    "v": false
-   },
-   {
-    "yt": "CBXt23a6LLw",
-    "t": "Rachmáninov · Sinfonía nº 2 — Dir. György Győriványi Ráth",
-    "v": false
-   }
-  ],
-  "fotos": [],
-  "cat": "clasica"
+  "n": "04"
  },
  {
   "id": "artista",
-  "n": "06",
-  "tags": [
-   "video",
-   "foto"
-  ],
-  "cover": "assets/img/portadas/min/05.jpg",
   "titulo": {
-   "es": "El Artista — Proyectos propios",
-   "en": "The Artist — Personal projects"
+   "es": "Mariángeles Ayala",
+   "en": "Mariángeles Ayala"
   },
   "meta": {
-   "es": "Videoclips · Fotografía — Mariángeles Ayala",
-   "en": "Music videos · Photography — Mariángeles Ayala"
+   "es": "Pianista · Videoclips + foto",
+   "en": "Pianist · Music videos + photo"
   },
+  "svc": [
+   "artistas",
+   "video"
+  ],
+  "cover": "assets/img/artista/min/05.jpg",
   "intro": {
-   "es": "Acompaño los proyectos personales de cada artista. Videoclips del disco de la pianista Mariángeles Ayala: Infancia, Juventud y Legado.",
-   "en": "I accompany each artist’s personal projects. Music videos for pianist Mariángeles Ayala’s album: Infancia, Juventud and Legado."
+   "es": "Videoclips y fotografía para el disco de la pianista Mariángeles Ayala: Infancia, Juventud y Legado.",
+   "en": "Music videos and photography for pianist Mariángeles Ayala’s album: Infancia, Juventud and Legado."
   },
   "videos": [
    {
@@ -898,23 +718,332 @@ window.PROYECTOS = [
     "a": "El Artista — Proyectos propios"
    }
   ],
-  "cat": "artistas"
+  "n": "05"
+ },
+ {
+  "id": "conciertos",
+  "titulo": {
+   "es": "Auditorio Nacional de Música",
+   "en": "Auditorio Nacional de Música"
+  },
+  "meta": {
+   "es": "Recitales · Foto + reels",
+   "en": "Recitals · Photo + reels"
+  },
+  "svc": [
+   "conciertos",
+   "video"
+  ],
+  "cover": "assets/img/portadas/min/01.jpg",
+  "intro": {
+   "es": "Fotografía y reels de conciertos y recitales en el Auditorio Nacional de Música de Madrid.",
+   "en": "Photography and reels of concerts and recitals at the Auditorio Nacional de Música, Madrid."
+  },
+  "videos": [
+   {
+    "yt": "wtEYdJoO_bI",
+    "t": "Eva Gevorgyan — Auditorio Nacional",
+    "v": true
+   },
+   {
+    "yt": "0ESE6CQ8Rg4",
+    "t": "Trío Paquito D'Rivera",
+    "v": true
+   }
+  ],
+  "fotos": [
+   {
+    "s": "assets/img/conciertos/01.jpg",
+    "m": "assets/img/conciertos/min/01.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Auditorio Nacional, Madrid"
+   },
+   {
+    "s": "assets/img/conciertos/02.jpg",
+    "m": "assets/img/conciertos/min/02.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Auditorio Nacional, Madrid"
+   },
+   {
+    "s": "assets/img/conciertos/03.jpg",
+    "m": "assets/img/conciertos/min/03.jpg",
+    "w": 900,
+    "h": 599,
+    "a": "Al Piano — Steinway & Sons"
+   },
+   {
+    "s": "assets/img/conciertos/04.jpg",
+    "m": "assets/img/conciertos/min/04.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Clarinete & Harmónica"
+   },
+   {
+    "s": "assets/img/conciertos/05.jpg",
+    "m": "assets/img/conciertos/min/05.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Vibráfono en Escena"
+   },
+   {
+    "s": "assets/img/conciertos/06.jpg",
+    "m": "assets/img/conciertos/min/06.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "El Momento del Aplauso"
+   },
+   {
+    "s": "assets/img/conciertos/07.jpg",
+    "m": "assets/img/conciertos/min/07.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Tras el Concierto"
+   },
+   {
+    "s": "assets/img/conciertos/08.jpg",
+    "m": "assets/img/conciertos/min/08.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Saxofón — Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/conciertos/09.jpg",
+    "m": "assets/img/conciertos/min/09.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "El Escenario es Tuyo"
+   },
+   {
+    "s": "assets/img/conciertos/10.jpg",
+    "m": "assets/img/conciertos/min/10.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Standing Ovation"
+   },
+   {
+    "s": "assets/img/conciertos/11.jpg",
+    "m": "assets/img/conciertos/min/11.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Soprano en Escena"
+   },
+   {
+    "s": "assets/img/conciertos/12.jpg",
+    "m": "assets/img/conciertos/min/12.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Piano desde Bambalinas"
+   },
+   {
+    "s": "assets/img/conciertos/13.jpg",
+    "m": "assets/img/conciertos/min/13.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Sola en el Escenario"
+   },
+   {
+    "s": "assets/img/conciertos/14.jpg",
+    "m": "assets/img/conciertos/min/14.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Eva Gevorgyan — Piano"
+   },
+   {
+    "s": "assets/img/conciertos/15.jpg",
+    "m": "assets/img/conciertos/min/15.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Sala Sinfónica Llena"
+   },
+   {
+    "s": "assets/img/conciertos/16.jpg",
+    "m": "assets/img/conciertos/min/16.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "La Emoción del Directo"
+   },
+   {
+    "s": "assets/img/conciertos/17.jpg",
+    "m": "assets/img/conciertos/min/17.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Vista Cenital — Auditorio"
+   },
+   {
+    "s": "assets/img/conciertos/18.jpg",
+    "m": "assets/img/conciertos/min/18.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "La Sala desde las Alturas"
+   },
+   {
+    "s": "assets/img/conciertos/19.jpg",
+    "m": "assets/img/conciertos/min/19.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Programa de Mano"
+   },
+   {
+    "s": "assets/img/conciertos/20.jpg",
+    "m": "assets/img/conciertos/min/20.jpg",
+    "w": 900,
+    "h": 506,
+    "a": "Auditorio Nacional de Música"
+   },
+   {
+    "s": "assets/img/conciertos/21.jpg",
+    "m": "assets/img/conciertos/min/21.jpg",
+    "w": 900,
+    "h": 506,
+    "a": "Auditorio Nacional de Música"
+   },
+   {
+    "s": "assets/img/conciertos/22.jpg",
+    "m": "assets/img/conciertos/min/22.jpg",
+    "w": 900,
+    "h": 506,
+    "a": "Auditorio Nacional de Música"
+   },
+   {
+    "s": "assets/img/conciertos/23.jpg",
+    "m": "assets/img/conciertos/min/23.jpg",
+    "w": 900,
+    "h": 643,
+    "a": "Auditorio Nacional de Música"
+   },
+   {
+    "s": "assets/img/conciertos/24.jpg",
+    "m": "assets/img/conciertos/min/24.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Auditorio Nacional de Música"
+   }
+  ],
+  "n": "06"
+ },
+ {
+  "id": "pedro-lopez-salas",
+  "titulo": {
+   "es": "Pedro López Salas",
+   "en": "Pedro López Salas"
+  },
+  "meta": {
+   "es": "Pianista · Retrato",
+   "en": "Pianist · Portraits"
+  },
+  "svc": [
+   "artistas"
+  ],
+  "cover": "assets/img/branding/min/05.jpg",
+  "intro": {
+   "es": "Retratos y fotografía de prensa para el pianista Pedro López Salas.",
+   "en": "Portraits and press photography for pianist Pedro López Salas."
+  },
+  "videos": [],
+  "fotos": [
+   {
+    "s": "assets/img/branding/05.jpg",
+    "m": "assets/img/branding/min/05.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/branding/06.jpg",
+    "m": "assets/img/branding/min/06.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/branding/07.jpg",
+    "m": "assets/img/branding/min/07.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/branding/08.jpg",
+    "m": "assets/img/branding/min/08.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/branding/09.jpg",
+    "m": "assets/img/branding/min/09.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/branding/10.jpg",
+    "m": "assets/img/branding/min/10.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/branding/11.jpg",
+    "m": "assets/img/branding/min/11.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   }
+  ],
+  "n": "07"
+ },
+ {
+  "id": "bodas",
+  "titulo": {
+   "es": "Courtiers — Real Orquesta Sinfónica de Sevilla",
+   "en": "Courtiers — Royal Seville Symphony Orchestra"
+  },
+  "meta": {
+   "es": "Orquesta sinfónica · Operador de cámara",
+   "en": "Symphony orchestra · Camera operator"
+  },
+  "svc": [
+   "conciertos",
+   "video"
+  ],
+  "cover": "assets/img/portadas/min/courtiers.jpg",
+  "intro": {
+   "es": "He trabajado como operador de cámara con la productora Courtiers en grabaciones de música clásica, como los conciertos de la Real Orquesta Sinfónica de Sevilla.",
+   "en": "I have worked as a camera operator with the production company Courtiers on classical music recordings, such as the Royal Seville Symphony Orchestra concerts."
+  },
+  "videos": [
+   {
+    "yt": "vtjjSkWkWlE",
+    "t": "Beethoven · Sinfonía nº 9 «Coral» — Dir. Guillermo García Calvo",
+    "v": false
+   },
+   {
+    "yt": "CBXt23a6LLw",
+    "t": "Rachmáninov · Sinfonía nº 2 — Dir. György Győriványi Ráth",
+    "v": false
+   }
+  ],
+  "fotos": [],
+  "n": "08"
  },
  {
   "id": "hinves",
-  "n": "07",
-  "tags": [
-   "foto"
-  ],
-  "cover": "assets/img/hinves/min/portada.jpg",
   "titulo": {
-   "es": "Emily — Recital en Hinves Pianos",
-   "en": "Emily — Recital at Hinves Pianos"
+   "es": "Emily — Hinves Pianos",
+   "en": "Emily — Hinves Pianos"
   },
   "meta": {
-   "es": "Pianista · Recital en Hinves Pianos — Madrid",
-   "en": "Pianist · Recital at Hinves Pianos — Madrid"
+   "es": "Pianista · Foto de recital",
+   "en": "Pianist · Recital photography"
   },
+  "svc": [
+   "artistas",
+   "conciertos"
+  ],
+  "cover": "assets/img/hinves/min/portada.jpg",
   "intro": {
    "es": "Fotografía del recital de la pianista Emily en la sala de Hinves Pianos, en Madrid: retrato, interpretación y ambiente.",
    "en": "Photography of pianist Emily’s recital at the Hinves Pianos showroom in Madrid: portrait, performance and atmosphere."
@@ -971,199 +1100,22 @@ window.PROYECTOS = [
     "a": "Retrato — Emily"
    }
   ],
-  "cat": "artistas"
- },
- {
-  "id": "reels-artista",
-  "cat": "artistas",
-  "tags": [
-   "video"
-  ],
-  "cover": "assets/video/andres-barrios.jpg",
-  "titulo": {
-   "es": "Andrés Barrios — Reel",
-   "en": "Andrés Barrios — Reel"
-  },
-  "meta": {
-   "es": "Vídeo vertical · Pianista",
-   "en": "Vertical video · Pianist"
-  },
-  "intro": {
-   "es": "Pieza vertical para que el artista se presente en redes: interpretación, imagen y ritmo pensados para el móvil.",
-   "en": "A vertical piece for the artist to present himself on social media: performance, image and pacing designed for mobile."
-  },
-  "videos": [
-   {
-    "src": "assets/video/andres-barrios.mp4",
-    "poster": "assets/video/andres-barrios.jpg",
-    "prev": "assets/video/andres-barrios-prev.mp4",
-    "t": "Andrés Barrios — pianista",
-    "v": true
-   }
-  ],
-  "fotos": [],
-  "n": "08"
- },
- {
-  "id": "branding",
-  "n": "09",
-  "tags": [
-   "foto"
-  ],
-  "cover": "assets/img/branding/min/01.jpg",
-  "titulo": {
-   "es": "Artist Branding",
-   "en": "Artist Branding"
-  },
-  "meta": {
-   "es": "Retrato · Imagen personal del artista",
-   "en": "Portraits · The artist’s personal image"
-  },
-  "intro": {
-   "es": "Retratos y fotografía de prensa para construir la imagen personal de músicos y artistas.",
-   "en": "Portraits and press photography to build the personal image of musicians and artists."
-  },
-  "videos": [],
-  "fotos": [
-   {
-    "s": "assets/img/branding/01.jpg",
-    "m": "assets/img/branding/min/01.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Pedro Lopez - Artist Branding"
-   },
-   {
-    "s": "assets/img/branding/02.jpg",
-    "m": "assets/img/branding/min/02.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Pedro Lopez - Artist Branding"
-   },
-   {
-    "s": "assets/img/branding/03.jpg",
-    "m": "assets/img/branding/min/03.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Pedro Lopez - Artist Branding"
-   },
-   {
-    "s": "assets/img/branding/04.jpg",
-    "m": "assets/img/branding/min/04.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Pedro Lopez - Artist Branding"
-   },
-   {
-    "s": "assets/img/branding/05.jpg",
-    "m": "assets/img/branding/min/05.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Pedro Lopez - Artist Branding"
-   },
-   {
-    "s": "assets/img/branding/06.jpg",
-    "m": "assets/img/branding/min/06.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Pedro Lopez - Artist Branding"
-   },
-   {
-    "s": "assets/img/branding/07.jpg",
-    "m": "assets/img/branding/min/07.jpg",
-    "w": 900,
-    "h": 720,
-    "a": "Pedro Lopez - Artist Branding"
-   },
-   {
-    "s": "assets/img/branding/08.jpg",
-    "m": "assets/img/branding/min/08.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Artist Branding"
-   },
-   {
-    "s": "assets/img/branding/09.jpg",
-    "m": "assets/img/branding/min/09.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Artist Branding"
-   },
-   {
-    "s": "assets/img/branding/10.jpg",
-    "m": "assets/img/branding/min/10.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Artist Branding"
-   },
-   {
-    "s": "assets/img/branding/11.jpg",
-    "m": "assets/img/branding/min/11.jpg",
-    "w": 900,
-    "h": 642,
-    "a": "Artist Branding"
-   }
-  ],
-  "cat": "artistas"
- },
- {
-  "id": "juventudes",
-  "n": "10",
-  "tags": [
-   "video"
-  ],
-  "cover": "assets/img/portadas/min/03.jpg",
-  "titulo": {
-   "es": "Entrevistas & Retratos",
-   "en": "Interviews & Portraits"
-  },
-  "meta": {
-   "es": "Entrevistas en vídeo · Músicos y artistas",
-   "en": "Video interviews · Musicians and artists"
-  },
-  "intro": {
-   "es": "Entrevistas grabadas a músicos y alumnos de escuelas superiores de música.",
-   "en": "Recorded interviews with musicians and students of music conservatoires."
-  },
-  "videos": [
-   {
-    "yt": "617JpQqS1nA",
-    "t": "Alumnos inspiradores — Estelle Shircore Barker, pianista",
-    "v": false
-   },
-   {
-    "yt": "_DJU9AbxzUA",
-    "t": "Alumnos inspiradores — Jimena Villalba, pianista",
-    "v": false
-   },
-   {
-    "yt": "T-dT6l5TgwE",
-    "t": "Alumnos inspiradores — Enrique Montesdeoca, futuro doctor en Música por Oxford",
-    "v": false
-   },
-   {
-    "yt": "bPTx1eVMbaE",
-    "t": "Entrevista a alumnos de Escuela Superior de Música",
-    "v": true
-   }
-  ],
-  "fotos": [],
-  "cat": "artistas"
+  "n": "09"
  },
  {
   "id": "hoqai",
-  "n": "11",
-  "tags": [
-   "foto"
-  ],
-  "cover": "assets/img/portadas/min/07.jpg",
   "titulo": {
-   "es": "Moda & Marcas personales",
-   "en": "Fashion & Personal brands"
+   "es": "HOQAI",
+   "en": "HOQAI"
   },
   "meta": {
-   "es": "Campañas de fotografía y grabación — HOQAI",
-   "en": "Photo & video campaigns — HOQAI"
+   "es": "Moda · Campaña de foto",
+   "en": "Fashion · Photo campaign"
   },
+  "svc": [
+   "marcas"
+  ],
+  "cover": "assets/img/portadas/min/07.jpg",
   "intro": {
    "es": "Campañas y lookbooks para la marca de moda HOQAI: producto, estilo de vida y exterior.",
    "en": "Campaigns and lookbooks for the fashion brand HOQAI: product, lifestyle and outdoor."
@@ -1346,26 +1298,77 @@ window.PROYECTOS = [
     "a": "HOQAI"
    }
   ],
-  "cat": "marcas"
+  "n": "10"
+ },
+ {
+  "id": "giuseppe-devastato",
+  "titulo": {
+   "es": "Giuseppe Devastato",
+   "en": "Giuseppe Devastato"
+  },
+  "meta": {
+   "es": "Pianista · Retrato",
+   "en": "Pianist · Portraits"
+  },
+  "svc": [
+   "artistas"
+  ],
+  "cover": "assets/img/branding/min/01.jpg",
+  "intro": {
+   "es": "Retratos y fotografía de prensa para el pianista Giuseppe Devastato.",
+   "en": "Portraits and press photography for pianist Giuseppe Devastato."
+  },
+  "videos": [],
+  "fotos": [
+   {
+    "s": "assets/img/branding/01.jpg",
+    "m": "assets/img/branding/min/01.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Giuseppe Devastato — retrato"
+   },
+   {
+    "s": "assets/img/branding/02.jpg",
+    "m": "assets/img/branding/min/02.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Giuseppe Devastato — retrato"
+   },
+   {
+    "s": "assets/img/branding/03.jpg",
+    "m": "assets/img/branding/min/03.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Giuseppe Devastato — retrato"
+   },
+   {
+    "s": "assets/img/branding/04.jpg",
+    "m": "assets/img/branding/min/04.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Giuseppe Devastato — retrato"
+   }
+  ],
+  "n": "11"
  },
  {
   "id": "musical-arts",
-  "cat": "marcas",
-  "tags": [
-   "video"
-  ],
-  "cover": "assets/video/violin-madrid.jpg",
   "titulo": {
-   "es": "Musical Arts — Promo",
-   "en": "Musical Arts — Promo"
+   "es": "Musical Arts Madrid",
+   "en": "Musical Arts Madrid"
   },
   "meta": {
-   "es": "Campaña de inscripciones · Escuela de música",
-   "en": "Enrolment campaign · Music school"
+   "es": "Escuela de música · Foto + vídeo",
+   "en": "Music school · Photo + video"
   },
+  "svc": [
+   "marcas",
+   "video"
+  ],
+  "cover": "assets/img/portadas/min/06.jpg",
   "intro": {
-   "es": "Vídeo vertical para la campaña de inscripciones de la escuela Musical Arts.",
-   "en": "Vertical video for the Musical Arts school enrolment campaign."
+   "es": "Escuela Superior de Música Musical Arts Madrid: fotografía de la graduación, la campaña de inscripciones y las entrevistas «Alumnos inspiradores».",
+   "en": "Musical Arts Madrid music conservatoire: graduation photography, the enrolment campaign and the “Inspiring students” interviews."
   },
   "videos": [
    {
@@ -1374,219 +1377,180 @@ window.PROYECTOS = [
     "prev": "assets/video/violin-madrid-prev.mp4",
     "t": "Musical Arts — Inscripciones abiertas",
     "v": true
+   },
+   {
+    "yt": "617JpQqS1nA",
+    "t": "Alumnos inspiradores — Estelle Shircore Barker, pianista",
+    "v": false
+   },
+   {
+    "yt": "_DJU9AbxzUA",
+    "t": "Alumnos inspiradores — Jimena Villalba, pianista",
+    "v": false
+   },
+   {
+    "yt": "T-dT6l5TgwE",
+    "t": "Alumnos inspiradores — Enrique Montesdeoca, futuro doctor en Música por Oxford",
+    "v": false
+   },
+   {
+    "yt": "bPTx1eVMbaE",
+    "t": "Entrevista a alumnos de Escuela Superior de Música",
+    "v": true
    }
   ],
-  "fotos": [],
-  "n": "12"
- },
- {
-  "id": "graduacion",
-  "n": "13",
-  "tags": [
-   "foto"
-  ],
-  "cover": "assets/img/portadas/min/06.jpg",
-  "titulo": {
-   "es": "Graduaciones & Actos académicos",
-   "en": "Graduations & Academic events"
-  },
-  "meta": {
-   "es": "Ceremonias · Escuelas de música — Madrid",
-   "en": "Ceremonies · Music schools — Madrid"
-  },
-  "intro": {
-   "es": "Fotografía de ceremonias de graduación y actos académicos en escuelas de música.",
-   "en": "Photography of graduation ceremonies and academic events at music schools."
-  },
-  "videos": [],
   "fotos": [
    {
     "s": "assets/img/graduacion/01.jpg",
     "m": "assets/img/graduacion/min/01.jpg",
     "w": 900,
     "h": 600,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/02.jpg",
     "m": "assets/img/graduacion/min/02.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/03.jpg",
     "m": "assets/img/graduacion/min/03.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/04.jpg",
     "m": "assets/img/graduacion/min/04.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/05.jpg",
     "m": "assets/img/graduacion/min/05.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/06.jpg",
     "m": "assets/img/graduacion/min/06.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/07.jpg",
     "m": "assets/img/graduacion/min/07.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/08.jpg",
     "m": "assets/img/graduacion/min/08.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/09.jpg",
     "m": "assets/img/graduacion/min/09.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/10.jpg",
     "m": "assets/img/graduacion/min/10.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/11.jpg",
     "m": "assets/img/graduacion/min/11.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/12.jpg",
     "m": "assets/img/graduacion/min/12.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/13.jpg",
     "m": "assets/img/graduacion/min/13.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/14.jpg",
     "m": "assets/img/graduacion/min/14.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/15.jpg",
     "m": "assets/img/graduacion/min/15.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/16.jpg",
     "m": "assets/img/graduacion/min/16.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/17.jpg",
     "m": "assets/img/graduacion/min/17.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/18.jpg",
     "m": "assets/img/graduacion/min/18.jpg",
     "w": 900,
     "h": 600,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/19.jpg",
     "m": "assets/img/graduacion/min/19.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    },
    {
     "s": "assets/img/graduacion/20.jpg",
     "m": "assets/img/graduacion/min/20.jpg",
     "w": 900,
     "h": 642,
-    "a": "Graduaciones & Actos académicos"
+    "a": "Musical Arts Madrid — graduación"
    }
   ],
-  "cat": "marcas"
- },
- {
-  "id": "motion",
-  "cat": "motion",
-  "tags": [
-   "video"
-  ],
-  "cover": "assets/video/scherzo-grandes-interpretes.jpg",
-  "titulo": {
-   "es": "Motion graphics",
-   "en": "Motion graphics"
-  },
-  "meta": {
-   "es": "Animación de cartelería · Fundación Scherzo",
-   "en": "Poster animation · Fundación Scherzo"
-  },
-  "intro": {
-   "es": "Animación de carteles y piezas gráficas para pantallas y redes: la temporada Grandes Intérpretes y los avisos de próximo concierto de la Fundación Scherzo.",
-   "en": "Animated posters and graphics for screens and social media: the Great Performers season and next-concert announcements for Fundación Scherzo."
-  },
-  "videos": [
-   {
-    "src": "assets/video/scherzo-grandes-interpretes.mp4",
-    "poster": "assets/video/scherzo-grandes-interpretes.jpg",
-    "prev": "assets/video/scherzo-grandes-interpretes-prev.mp4",
-    "t": "Grandes Intérpretes 26/27 — Pantallas",
-    "v": true
-   },
-   {
-    "src": "assets/video/scherzo-cierre-repin-lugansky.mp4",
-    "poster": "assets/video/scherzo-cierre-repin-lugansky.jpg",
-    "prev": "assets/video/scherzo-cierre-repin-lugansky-prev.mp4",
-    "t": "Próximo concierto — Repin & Lugansky",
-    "v": true
-   },
-   {
-    "src": "assets/video/scherzo-cierre-blechacz.mp4",
-    "poster": "assets/video/scherzo-cierre-blechacz.jpg",
-    "prev": "assets/video/scherzo-cierre-blechacz-prev.mp4",
-    "t": "Próximo concierto — Blechacz",
-    "v": true
-   }
-  ],
-  "fotos": [],
-  "prev": "assets/video/scherzo-grandes-interpretes-prev.mp4",
-  "n": "14"
+  "n": "12"
  }
 ];
+
+window.TESTIMONIO = {
+ "proyecto": "artista",
+ "texto": "Trabajar con Samuel en los videoclips de mi disco fue una experiencia súper especial. Desde el primer momento entendió perfectamente todo lo que quería transmitir y consiguió llevarlo a imagen de una forma muy natural y bonita. Además de ser un gran profesional, tiene una creatividad increíble y una sensibilidad artística que hizo que todo el proceso fuese muy fácil, fluido y lleno de ideas que encajaban totalmente conmigo y con el proyecto. Muchas de las cosas más bonitas del resultado final surgieron gracias a su mirada y a su forma de implicarse. Estoy muy agradecida por todo lo que aportó al proyecto y por la manera tan cercana y humana de trabajar. Ha sido un regalo compartir este proceso con él.",
+ "autor": "Mariángeles Ayala",
+ "rol": {
+  "es": "Pianista profesional — Experiencia de rodaje",
+  "en": "Professional pianist — Filming experience"
+ }
+};
