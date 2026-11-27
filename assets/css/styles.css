@@ -329,3 +329,10 @@ video.prev.on{opacity:1}
 .availability a:hover{background:var(--paper);color:var(--ink)}
 @media (max-width:760px){.availability{flex-direction:column;justify-content:center;padding-top:18px;padding-bottom:18px;text-align:center}.availability p{font-size:22px}}
 @media (prefers-reduced-motion:reduce){.avail-dot{animation:none}}
+/* Franja de disponibilidad: grande y centrada */
+.availability{flex-direction:column;justify-content:center;text-align:center;gap:26px;padding:clamp(56px,9vh,96px) var(--gutter)}
+.availability p{font-size:clamp(40px,6.4vw,104px);line-height:.92;gap:clamp(14px,1.6vw,26px);justify-content:center;flex-wrap:wrap}
+.availability p em{font-style:italic;text-transform:none;color:var(--warm)}
+.avail-dot{width:clamp(12px,1.1vw,18px);height:clamp(12px,1.1vw,18px)}
+.availability a{height:48px;padding:0 28px;font-size:13px}
+@media (max-width:760px){.availability{padding-top:48px;padding-bottom:48px;gap:22px}.availability p{font-size:clamp(38px,11vw,52px)}}
