@@ -387,3 +387,11 @@ video.prev.on{opacity:1}
 .quote-main blockquote p{font-size:clamp(28px,3.4vw,50px);line-height:1.14;max-width:26ch;margin:0 auto}
 .quote-main footer{margin-top:clamp(28px,4vh,44px);font-size:14px}
 .quote-main footer strong{font-size:13px;margin-bottom:6px}
+
+/* ── Sobre mí: datos ── */
+.about-facts{margin:28px 0 22px;border-top:1px solid var(--line-dark)}
+.about-facts>div{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line-dark)}
+.about-facts dt{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--warm-deep);padding-top:3px}
+.about-facts dd{margin:0;font-size:15px;line-height:1.5}
+.about h2{font-size:clamp(44px,5.6vw,92px)}
+@media (max-width:760px){.about-facts>div{grid-template-columns:1fr;gap:4px}}
