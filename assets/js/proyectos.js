@@ -1552,6 +1552,13 @@ window.PROYECTOS = [
     },
     "videos": [
       {
+        "src": "assets/video/andres-barrios-film.mp4",
+        "poster": "assets/video/andres-barrios-film.jpg",
+        "prev": "assets/video/andres-barrios-film-prev.mp4",
+        "t": "Andrés Barrios — Veranos de la Villa",
+        "v": false
+      },
+      {
         "src": "assets/video/andres-barrios.mp4?v=2",
         "poster": "assets/video/andres-barrios.jpg",
         "prev": "assets/video/andres-barrios-prev.mp4",
