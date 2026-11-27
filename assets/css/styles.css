@@ -376,3 +376,4 @@ video.prev.on{opacity:1}
   .s-deliv{grid-template-columns:1fr}
   .process ol{grid-template-columns:1fr}
 }
+.process-note{font-family:var(--display);font-size:clamp(20px,2vw,26px);line-height:1.25;max-width:40ch;font-style:italic}
