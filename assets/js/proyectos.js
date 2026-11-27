@@ -1006,8 +1006,8 @@ window.PROYECTOS = [
   ],
   "cover": "assets/img/andres/min/01.jpg",
   "intro": {
-   "es": "Vídeo vertical y fotografía para el pianista y cantante Andrés Barrios, en el Ateneo de Madrid y en Veranos de la Villa.",
-   "en": "Vertical video and photography for pianist and singer Andrés Barrios, at the Ateneo de Madrid and Veranos de la Villa."
+   "es": "Fotografía y vídeo para el pianista y cantante Andrés Barrios: su concierto en Veranos de la Villa, en el patio del Cuartel de Conde Duque, y un reel vertical para redes.",
+   "en": "Photography and video for pianist and singer Andrés Barrios: his Veranos de la Villa concert in the Conde Duque courtyard, plus a vertical reel for social media."
   },
   "videos": [
    {
@@ -1024,7 +1024,126 @@ window.PROYECTOS = [
     "m": "assets/img/andres/min/01.jpg",
     "w": 900,
     "h": 642,
-    "a": "Andrés Barrios — Veranos de la Villa"
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/02.jpg",
+    "m": "assets/img/andres/min/02.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/03.jpg",
+    "m": "assets/img/andres/min/03.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/04.jpg",
+    "m": "assets/img/andres/min/04.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/05.jpg",
+    "m": "assets/img/andres/min/05.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/06.jpg",
+    "m": "assets/img/andres/min/06.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/07.jpg",
+    "m": "assets/img/andres/min/07.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/08.jpg",
+    "m": "assets/img/andres/min/08.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/13.jpg",
+    "m": "assets/img/andres/min/13.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/09.jpg",
+    "m": "assets/img/andres/min/09.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/10.jpg",
+    "m": "assets/img/andres/min/10.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/11.jpg",
+    "m": "assets/img/andres/min/11.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/12.jpg",
+    "m": "assets/img/andres/min/12.jpg",
+    "w": 720,
+    "h": 900,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/14.jpg",
+    "m": "assets/img/andres/min/14.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/15.jpg",
+    "m": "assets/img/andres/min/15.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/16.jpg",
+    "m": "assets/img/andres/min/16.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/17.jpg",
+    "m": "assets/img/andres/min/17.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
+   },
+   {
+    "s": "assets/img/andres/18.jpg",
+    "m": "assets/img/andres/min/18.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Andrés Barrios — Veranos de la Villa, Conde Duque"
    }
   ],
   "n": "06"
