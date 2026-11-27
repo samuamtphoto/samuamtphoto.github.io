@@ -131,6 +131,7 @@
       '<div class="frame"><img src="' + (v.src ? v.poster : thumb(v.yt)) + '" alt="" loading="lazy" decoding="async"><span class="play">' + PLAY + '</span>' +
       '<span class="vt"><small>' + esc(label || (v.v ? T[lang].reel : T[lang].film)) + '</small>' + esc(v.t) + '</span></div></button>';
   }
+  function track(path, title){ try{ if(window.goatcounter && window.goatcounter.count) window.goatcounter.count({path:path, title:title, event:true}); }catch(e){} }
   var panelTab = {id:null, tab:'fotos', all:false};
   function renderPanel(id, keepScroll){
     var p = byId[id]; if(!p) return;
@@ -179,6 +180,7 @@
     panel.setAttribute('aria-hidden', 'false');
     setTimeout(function(){ var c = $('[data-close]', panel); if(c) c.focus({preventScroll:true}); }, 60);
     if(push !== false) history.pushState({p:id}, '', '#' + id);
+    track('proyecto-' + id, byId[id].titulo.es);
   }
   function closePanel(push){
     if(!openId) return;
@@ -236,6 +238,7 @@
   function openPhotos(fotos, i){ list = fotos; cur = i; viewer.classList.remove('is-video'); drawPhoto(); showViewer(); }
   function step(d){ if(!list.length) return; cur = (cur + d + list.length) % list.length; drawPhoto(); }
   function openVideo(btn){
+    track('video-' + (btn.dataset.yt || (btn.dataset.src || '').split('/').pop().split('.')[0]), btn.getAttribute('aria-label') || '');
     clearTimeout(clearTimer);
     list = [];
     var vertical = btn.dataset.v === '1';
