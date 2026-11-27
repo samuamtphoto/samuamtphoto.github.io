@@ -404,3 +404,11 @@ video.prev.on{opacity:1}
 .form .consent input{appearance:auto;width:18px;height:18px;margin:1px 0 0;padding:0;flex-shrink:0;accent-color:var(--warm);border:0}
 .form .consent a{color:var(--paper);border-bottom:1px solid var(--line)}
 @media (max-width:760px){.form-row{grid-template-columns:1fr}}
+
+/* ── Testimonios rotativos ── */
+.q-slides{display:grid;width:100%}
+.q-slide{grid-area:1/1;opacity:0;visibility:hidden;transition:opacity .9s var(--ease),visibility 0s linear .9s}
+.q-slide.is-active{opacity:1;visibility:visible;transition:opacity .9s var(--ease) .15s,visibility 0s}
+.q-dots{display:flex;gap:10px;justify-content:center;margin-top:clamp(24px,4vh,40px)}
+.q-dots button{width:28px;height:3px;border-radius:2px;background:var(--line);padding:0;border:0;cursor:pointer;transition:background .4s}
+.q-dots button.is-active{background:var(--warm)}

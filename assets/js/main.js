@@ -91,6 +91,24 @@
     });
   });
 
+  /* ── Testimonios rotativos ── */
+  (function(){
+    var box = $('.quote-main'); if(!box) return;
+    var slides = $$('.q-slide', box), dots = $$('.q-dots button', box);
+    if(slides.length < 2) return;
+    var i = 0, t = null, reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function go(n){
+      slides[i].classList.toggle('is-active', false); slides[i].setAttribute('aria-hidden','true'); dots[i].classList.toggle('is-active', false);
+      i = (n + slides.length) % slides.length;
+      slides[i].classList.toggle('is-active', true); slides[i].setAttribute('aria-hidden','false'); dots[i].classList.toggle('is-active', true);
+    }
+    function start(){ if(!reduce){ clearInterval(t); t = setInterval(function(){ go(i + 1); }, 8000); } }
+    dots.forEach(function(d, k){ d.addEventListener('click', function(){ go(k); start(); }); });
+    box.addEventListener('mouseenter', function(){ clearInterval(t); });
+    box.addEventListener('mouseleave', start);
+    start();
+  })();
+
   /* ── Bloqueo de scroll ── */
   var locks = 0;
   function lock(){ if(locks++ === 0) document.documentElement.style.overflow = 'hidden'; }

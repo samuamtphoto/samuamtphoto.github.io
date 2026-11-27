@@ -26,7 +26,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=20">
+<link rel="stylesheet" href="assets/css/styles.css?v=21">
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -238,12 +238,19 @@
     </div>
   </section>
 
-  <figure class="quote quote-main reveal">
+  <figure class="quote quote-main reveal" aria-roledescription="carrusel" aria-label="Testimonios">
     <div class="mark" aria-hidden="true">“</div>
-    <div>
-      <blockquote><p>Trabajar con Samuel en los videoclips de mi disco fue una experiencia súper especial. Desde el primer momento entendió perfectamente todo lo que quería transmitir y consiguió llevarlo a imagen de una forma muy natural y bonita.</p></blockquote>
-      <footer><strong>Mariángeles Ayala</strong><span data-es="Pianista profesional — Videoclips de su disco" data-en="Professional pianist — Music videos for her album">Pianista profesional — Videoclips de su disco</span></footer>
+    <div class="q-slides">
+      <div class="q-slide is-active">
+        <blockquote><p>La Fundación Piú Mosso lleva años trabajando con SM Visuals. Es absolutamente profesional y creativo, siempre intenta mejorar en su trabajo y su nivel técnico es francamente muy bueno. Lo recomendamos.</p></blockquote>
+        <footer><strong>Ana Benedicto</strong><span data-es="Fundadora y presidenta — Fundación Piú Mosso" data-en="Founder and president — Fundación Piú Mosso">Fundadora y presidenta — Fundación Piú Mosso</span></footer>
+      </div>
+      <div class="q-slide" aria-hidden="true">
+        <blockquote><p>Trabajar con Samuel en los videoclips de mi disco fue una experiencia súper especial. Desde el primer momento entendió perfectamente todo lo que quería transmitir y consiguió llevarlo a imagen de una forma muy natural y bonita.</p></blockquote>
+        <footer><strong>Mariángeles Ayala</strong><span data-es="Pianista profesional — Videoclips de su disco" data-en="Professional pianist — Music videos for her album">Pianista profesional — Videoclips de su disco</span></footer>
+      </div>
     </div>
+    <div class="q-dots"><button class="is-active" aria-label="Testimonio 1"></button><button aria-label="Testimonio 2"></button></div>
   </figure>
 
   <section class="clients" aria-labelledby="t-clientes">
@@ -347,6 +354,6 @@
 </div>
 
 <script src="assets/js/proyectos.js?v=23"></script>
-<script src="assets/js/main.js?v=15"></script>
+<script src="assets/js/main.js?v=16"></script>
 </body>
 </html>
