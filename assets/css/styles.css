@@ -377,3 +377,13 @@ video.prev.on{opacity:1}
   .process ol{grid-template-columns:1fr}
 }
 .process-note{font-family:var(--display);font-size:clamp(20px,2vw,26px);line-height:1.25;max-width:40ch;font-style:italic}
+
+/* ── Logos con peso óptico igualado y testimonio destacado ── */
+.logos img{max-height:none;max-width:100%;height:auto}
+@media (max-width:1024px){.logos{grid-template-columns:repeat(4,1fr)}}
+@media (max-width:760px){.logos{grid-template-columns:repeat(2,1fr);gap:36px 24px}}
+.quote-main{grid-template-columns:1fr;justify-items:center;text-align:center;gap:0}
+.quote-main .mark{font-size:clamp(110px,12vw,180px);line-height:.6;height:.42em;margin-bottom:clamp(16px,3vh,32px)}
+.quote-main blockquote p{font-size:clamp(28px,3.4vw,50px);line-height:1.14;max-width:26ch;margin:0 auto}
+.quote-main footer{margin-top:clamp(28px,4vh,44px);font-size:14px}
+.quote-main footer strong{font-size:13px;margin-bottom:6px}
