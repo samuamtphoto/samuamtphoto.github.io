@@ -105,7 +105,7 @@
       i = n;
       slides[i].classList.toggle('is-active', true); slides[i].setAttribute('aria-hidden','false'); dots[i].classList.toggle('is-active', true);
     }
-    function start(){ if(!reduce){ clearInterval(t); t = setInterval(function(){ go(i + 1); }, 8000); } }
+    function start(){ if(!reduce){ clearInterval(t); t = setInterval(function(){ go(i + 1); }, 4000); } }
     dots.forEach(function(d, k){ d.addEventListener('click', function(){ go(k); start(); }); });
     box.addEventListener('mouseenter', function(){ clearInterval(t); });
     box.addEventListener('mouseleave', start);
