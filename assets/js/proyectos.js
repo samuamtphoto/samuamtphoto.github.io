@@ -328,6 +328,153 @@ window.PROYECTOS = [
     "w": 900,
     "h": 600,
     "a": "Auditorio Nacional de Música"
+   },
+   {
+    "s": "assets/img/scherzo-beatrice/01.jpg",
+    "m": "assets/img/scherzo-beatrice/min/01.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Beatrice Rana — Fundación Scherzo, Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-beatrice/02.jpg",
+    "m": "assets/img/scherzo-beatrice/min/02.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Beatrice Rana — Fundación Scherzo, Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-beatrice/03.jpg",
+    "m": "assets/img/scherzo-beatrice/min/03.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Beatrice Rana — Fundación Scherzo, Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-beatrice/04.jpg",
+    "m": "assets/img/scherzo-beatrice/min/04.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Beatrice Rana — Fundación Scherzo, Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-beatrice/05.jpg",
+    "m": "assets/img/scherzo-beatrice/min/05.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Beatrice Rana — Fundación Scherzo, Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-beatrice/06.jpg",
+    "m": "assets/img/scherzo-beatrice/min/06.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Beatrice Rana — Fundación Scherzo, Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-beatrice/07.jpg",
+    "m": "assets/img/scherzo-beatrice/min/07.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Beatrice Rana — Fundación Scherzo, Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-beatrice/08.jpg",
+    "m": "assets/img/scherzo-beatrice/min/08.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Beatrice Rana — Fundación Scherzo, Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/01.jpg",
+    "m": "assets/img/scherzo-recital/min/01.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/02.jpg",
+    "m": "assets/img/scherzo-recital/min/02.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/03.jpg",
+    "m": "assets/img/scherzo-recital/min/03.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/04.jpg",
+    "m": "assets/img/scherzo-recital/min/04.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/05.jpg",
+    "m": "assets/img/scherzo-recital/min/05.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/06.jpg",
+    "m": "assets/img/scherzo-recital/min/06.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/07.jpg",
+    "m": "assets/img/scherzo-recital/min/07.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/08.jpg",
+    "m": "assets/img/scherzo-recital/min/08.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/09.jpg",
+    "m": "assets/img/scherzo-recital/min/09.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/10.jpg",
+    "m": "assets/img/scherzo-recital/min/10.jpg",
+    "w": 900,
+    "h": 600,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/11.jpg",
+    "m": "assets/img/scherzo-recital/min/11.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/12.jpg",
+    "m": "assets/img/scherzo-recital/min/12.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
+   },
+   {
+    "s": "assets/img/scherzo-recital/13.jpg",
+    "m": "assets/img/scherzo-recital/min/13.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Fundación Scherzo — recital en el Auditorio Nacional"
    }
   ],
   "n": "01",
@@ -1312,6 +1459,62 @@ window.PROYECTOS = [
     "w": 900,
     "h": 642,
     "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/pedro/01.jpg",
+    "m": "assets/img/pedro/min/01.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/pedro/02.jpg",
+    "m": "assets/img/pedro/min/02.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/pedro/03.jpg",
+    "m": "assets/img/pedro/min/03.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/pedro/04.jpg",
+    "m": "assets/img/pedro/min/04.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/pedro/05.jpg",
+    "m": "assets/img/pedro/min/05.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/pedro/06.jpg",
+    "m": "assets/img/pedro/min/06.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/pedro/07.jpg",
+    "m": "assets/img/pedro/min/07.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
+   },
+   {
+    "s": "assets/img/pedro/09.jpg",
+    "m": "assets/img/pedro/min/09.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Pedro López Salas — retrato"
    }
   ],
   "n": "08"
@@ -1389,53 +1592,102 @@ window.PROYECTOS = [
   "videos": [],
   "fotos": [
    {
-    "s": "assets/img/hinves/01.jpg",
-    "m": "assets/img/hinves/min/01.jpg",
+    "s": "assets/img/emily/01.jpg",
+    "m": "assets/img/emily/min/01.jpg",
     "w": 900,
     "h": 720,
-    "a": "Recital en Hinves Pianos"
+    "a": "Emily Preziosa — recital en Hinves Pianos"
    },
    {
-    "s": "assets/img/hinves/02.jpg",
-    "m": "assets/img/hinves/min/02.jpg",
+    "s": "assets/img/emily/02.jpg",
+    "m": "assets/img/emily/min/02.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Emily Preziosa — recital en Hinves Pianos"
+   },
+   {
+    "s": "assets/img/emily/03.jpg",
+    "m": "assets/img/emily/min/03.jpg",
     "w": 900,
     "h": 720,
-    "a": "Emily Preziosa junto al piano"
+    "a": "Emily Preziosa — recital en Hinves Pianos"
    },
    {
-    "s": "assets/img/hinves/03.jpg",
-    "m": "assets/img/hinves/min/03.jpg",
+    "s": "assets/img/emily/04.jpg",
+    "m": "assets/img/emily/min/04.jpg",
     "w": 900,
-    "h": 643,
-    "a": "Manos y teclado"
+    "h": 642,
+    "a": "Emily Preziosa — recital en Hinves Pianos"
    },
    {
-    "s": "assets/img/hinves/04.jpg",
-    "m": "assets/img/hinves/min/04.jpg",
+    "s": "assets/img/emily/05.jpg",
+    "m": "assets/img/emily/min/05.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Emily Preziosa — recital en Hinves Pianos"
+   },
+   {
+    "s": "assets/img/emily/06.jpg",
+    "m": "assets/img/emily/min/06.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Emily Preziosa — recital en Hinves Pianos"
+   },
+   {
+    "s": "assets/img/emily/07.jpg",
+    "m": "assets/img/emily/min/07.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Emily Preziosa — recital en Hinves Pianos"
+   },
+   {
+    "s": "assets/img/emily/08.jpg",
+    "m": "assets/img/emily/min/08.jpg",
     "w": 900,
     "h": 720,
-    "a": "Escenario de la sala"
+    "a": "Emily Preziosa — recital en Hinves Pianos"
    },
    {
-    "s": "assets/img/hinves/05.jpg",
-    "m": "assets/img/hinves/min/05.jpg",
+    "s": "assets/img/emily/09.jpg",
+    "m": "assets/img/emily/min/09.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Emily Preziosa — recital en Hinves Pianos"
+   },
+   {
+    "s": "assets/img/emily/10.jpg",
+    "m": "assets/img/emily/min/10.jpg",
+    "w": 900,
+    "h": 642,
+    "a": "Emily Preziosa — recital en Hinves Pianos"
+   },
+   {
+    "s": "assets/img/emily/11.jpg",
+    "m": "assets/img/emily/min/11.jpg",
+    "w": 900,
+    "h": 720,
+    "a": "Emily Preziosa — recital en Hinves Pianos"
+   },
+   {
+    "s": "assets/img/emily/12.jpg",
+    "m": "assets/img/emily/min/12.jpg",
     "w": 900,
     "h": 600,
-    "a": "Público del recital"
+    "a": "Emily Preziosa — recital en Hinves Pianos"
    },
    {
-    "s": "assets/img/hinves/06.jpg",
-    "m": "assets/img/hinves/min/06.jpg",
+    "s": "assets/img/emily/13.jpg",
+    "m": "assets/img/emily/min/13.jpg",
     "w": 900,
-    "h": 643,
-    "a": "Reflejos en el piano"
+    "h": 642,
+    "a": "Emily Preziosa — recital en Hinves Pianos"
    },
    {
-    "s": "assets/img/hinves/07.jpg",
-    "m": "assets/img/hinves/min/07.jpg",
+    "s": "assets/img/emily/14.jpg",
+    "m": "assets/img/emily/min/14.jpg",
     "w": 900,
-    "h": 643,
-    "a": "Retrato — Emily Preziosa"
+    "h": 642,
+    "a": "Emily Preziosa — recital en Hinves Pianos"
    }
   ],
   "n": "10"
