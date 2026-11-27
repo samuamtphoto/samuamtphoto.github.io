@@ -83,6 +83,11 @@
       var li = b.parentNode, open = li.hasAttribute('data-open');
       if(open) li.removeAttribute('data-open'); else li.setAttribute('data-open', '');
       b.setAttribute('aria-expanded', !open);
+      var v = li.querySelector('.s-media video');
+      if(v){
+        if(!open){ if(!v.src && v.dataset.lazy) v.src = v.dataset.lazy; var pr = v.play(); if(pr && pr.catch) pr.catch(function(){}); }
+        else v.pause();
+      }
     });
   });
 
